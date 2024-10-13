@@ -1866,6 +1866,18 @@
             <onclick>SetRating</onclick>
             <visible>!String.IsEmpty(MusicPlayer.DBID)</visible>
         </control>
+        <control type="button" id="999">
+            <description>PlayerProcessInfo</description>
+            <width>48</width>
+            <height>48</height>
+            <label/>
+            <font />
+            <include>DefOSDUpDown</include>
+            <texturefocus colordiffuse="$VAR[ColorHighlight]" flipx="true">osd/info.png</texturefocus>
+            <texturenofocus colordiffuse="Dark1" flipx="true">osd/info.png</texturenofocus>
+            <onclick>ActivateWindow(playerprocessinfo)</onclick>
+            <onclick>SetFocus(9000)</onclick>
+        </control>
         <control type="button" id="24">
             <description>Settings</description>
             <width>48</width>
@@ -2034,6 +2046,18 @@
             <onclick>ActivateWindow(videoplaylist)</onclick>
             <visible>Integer.IsGreater(Playlist.Length(video),1) + !Pvr.IsPlayingTv</visible>
         </control>
+        <control type="button" id="999">
+            <description>PlayerProcessInfo</description>
+            <width>48</width>
+            <height>48</height>
+            <label/>
+            <font />
+            <include>DefOSDUpDown</include>
+            <texturefocus colordiffuse="$VAR[ColorHighlight]" flipx="true">osd/info.png</texturefocus>
+            <texturenofocus colordiffuse="Dark1" flipx="true">osd/info.png</texturenofocus>
+            <onclick>ActivateWindow(playerprocessinfo)</onclick>
+            <onclick>SetFocus(9000)</onclick>
+        </control>
         <control type="button" id="19">
             <description>Settings</description>
             <width>48</width>
@@ -2200,6 +2224,18 @@
             <onclick>Dialog.Close(all,true)</onclick>
             <onclick>ActivateWindow(videoplaylist)</onclick>
             <visible>Integer.IsGreater(Playlist.Length(video),1) + !Pvr.IsPlayingTv</visible>
+        </control>
+        <control type="button" id="999">
+            <description>PlayerProcessInfo</description>
+            <width>48</width>
+            <height>48</height>
+            <label/>
+            <font />
+            <include>DefOSDUpDown</include>
+            <texturefocus colordiffuse="$VAR[ColorHighlight]" flipx="true">osd/info.png</texturefocus>
+            <texturenofocus colordiffuse="Dark1" flipx="true">osd/info.png</texturenofocus>
+            <onclick>ActivateWindow(playerprocessinfo)</onclick>
+            <onclick>SetFocus(9000)</onclick>
         </control>
         <control type="button" id="19">
             <description>Settings</description>

@@ -29,6 +29,7 @@
     
     <color name="PanelWhite100">FFdddddd</color>
     <color name="PanelWhite90">E6dddddd</color>
+    <color name="PanelWhite85">D9dddddd</color>
     <color name="PanelWhite70">B3dddddd</color>
     <color name="PanelWhite30">4Ddddddd</color>
     <color name="PanelWhite12">1Fdddddd</color>
@@ -61,4 +62,6 @@
     <color name="Fallback">FF181818</color>
     
     <color name="OSDProgressBarColor">0Dffffff</color>
+    
+    <color name="ProcessWhite100">FFFFFFFF</color>
 </colors>
