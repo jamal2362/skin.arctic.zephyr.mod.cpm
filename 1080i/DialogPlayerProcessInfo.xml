@@ -542,7 +542,7 @@
                     </control>
                     <control type="label">
                         <top>225</top>
-                        <label>[COLOR ProcessWhite100]Video Queue:[/COLOR]</label>
+                        <label>[COLOR ProcessWhite100]$LOCALIZE[32008]:[/COLOR]</label>
                         <font>Small333</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
@@ -556,7 +556,7 @@
                     </control>
                     <control type="label">
                         <top>270</top>
-                        <label>[COLOR ProcessWhite100]Video Queue Data:[/COLOR]</label>
+                        <label>[COLOR ProcessWhite100]$LOCALIZE[32009]:[/COLOR]</label>
                         <font>Small333</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
@@ -570,7 +570,7 @@
                     </control>
                     <control type="label">
                         <top>315</top>
-                        <label>[COLOR ProcessWhite100]Audio Queue:[/COLOR]</label>
+                        <label>[COLOR ProcessWhite100]$LOCALIZE[32010]:[/COLOR]</label>
                         <font>Small333</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
@@ -584,7 +584,7 @@
                     </control>
                     <control type="label">
                         <top>360</top>
-                        <label>[COLOR ProcessWhite100]Audio Queue Data:[/COLOR]</label>
+                        <label>[COLOR ProcessWhite100]$LOCALIZE[32011]:[/COLOR]</label>
                         <font>Small333</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>

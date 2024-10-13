@@ -2616,3 +2616,47 @@ msgstr ""
 msgctxt "#31718"
 msgid "Sandy yellow"
 msgstr ""
+
+msgctxt "#32000"
+msgid "Display mode"
+msgstr ""
+
+msgctxt "#32001"
+msgid "Video mode"
+msgstr ""
+
+msgctxt "#32002"
+msgid "EOTF / Gamut"
+msgstr ""
+
+msgctxt "#32003"
+msgid "Mb/s"
+msgstr ""
+
+msgctxt "#32004"
+msgid "Video bit depth"
+msgstr ""
+
+msgctxt "#32006"
+msgid "VS10"
+msgstr ""
+
+msgctxt "#32007"
+msgid "More"
+msgstr ""
+
+msgctxt "#32008"
+msgid "Video Queue"
+msgstr ""
+
+msgctxt "#32009"
+msgid "Video Queue Data"
+msgstr ""
+
+msgctxt "#32010"
+msgid "Audio Queue"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Audio Queue Data"
+msgstr ""

@@ -2617,6 +2617,50 @@ msgctxt "#31718"
 msgid "Sandy yellow"
 msgstr ""
 
+msgctxt "#32000"
+msgid "Display mode"
+msgstr "Displayauflösung"
+
+msgctxt "#32001"
+msgid "Video mode"
+msgstr "Videoauflösung"
+
+msgctxt "#32002"
+msgid "EOTF / Gamut"
+msgstr "EOTF / Gamut"
+
+msgctxt "#32003"
+msgid "Mb/s"
+msgstr "Mbit/s"
+
+msgctxt "#32004"
+msgid "Video bit depth"
+msgstr "Video-Bittiefe"
+
+msgctxt "#32006"
+msgid "VS10"
+msgstr "VS10"
+
+msgctxt "#32007"
+msgid "More"
+msgstr "Mehr"
+
+msgctxt "#32008"
+msgid "Video Queue"
+msgstr "Video Queue"
+
+msgctxt "#32009"
+msgid "Video Queue Data"
+msgstr "Video Queue-Daten"
+
+msgctxt "#32010"
+msgid "Audio Queue"
+msgstr "Audio Queue"
+
+msgctxt "#32011"
+msgid "Audio Queue Data"
+msgstr "Audio Queue-Daten"
+
 #~ msgctxt "#31179"
 #~ msgid "Show clearlogo"
 #~ msgstr "Clear-Logo anzeigen"
