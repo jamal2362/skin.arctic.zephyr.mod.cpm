@@ -418,7 +418,7 @@
                     <control type="label">
                         <left>350</left>
                         <top>135</top>
-                        <label>$INFO[Player.Process(audio.live.mibit.rate),, $LOCALIZE[32003]]</label>
+                        <label>$INFO[Player.Process(audio.live.kibit.rate),, $LOCALIZE[32003]]</label>
                         <font>Small333</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
