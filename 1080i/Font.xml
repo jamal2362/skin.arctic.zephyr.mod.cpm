@@ -479,6 +479,16 @@
             <filename>MC360.ttf</filename>
             <size>25</size>
         </font>
+        <font>
+            <name>IosevkaJetBrains</name>
+            <filename>IosevkaJetBrains-Medium.ttf</filename>
+            <size>25</size>
+        </font>
+        <font>
+            <name>IosevkaJetBrains27</name>
+            <filename>IosevkaJetBrains-Medium.ttf</filename>
+            <size>27</size>
+        </font>
     </fontset>
     <fontset id="Default bold" unicode="true">
         <font>

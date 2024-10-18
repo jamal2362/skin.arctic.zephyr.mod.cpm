@@ -2670,6 +2670,58 @@
             </control>
         </definition>
     </include>
+	
+    <include name="Video_Logo">
+        <definition>
+            <control type="image">
+                <top>$PARAM[top]</top>
+                <left>$PARAM[left]</left>
+                <width>40</width>
+                <height>40</height>
+                <colordiffuse>FFD9D9D9</colordiffuse>
+                <texture>buttons/video.png</texture>
+            </control>
+        </definition>
+    </include>
+	
+    <include name="System_Logo">
+        <definition>
+            <control type="image">
+                <top>$PARAM[top]</top>
+                <left>$PARAM[left]</left>
+                <width>40</width>
+                <height>40</height>
+                <colordiffuse>FFD9D9D9</colordiffuse>
+                <texture>buttons/system.png</texture>
+            </control>
+        </definition>
+    </include>
+	
+    <include name="More_Logo">
+        <definition>
+            <control type="image">
+                <top>$PARAM[top]</top>
+                <left>$PARAM[left]</left>
+                <width>40</width>
+                <height>40</height>
+                <colordiffuse>FFD9D9D9</colordiffuse>
+                <texture>buttons/more.png</texture>
+            </control>
+        </definition>
+    </include>
+	
+    <include name="Audio_Logo">
+        <definition>
+            <control type="image">
+                <top>$PARAM[top]</top>
+                <left>$PARAM[left]</left>
+                <width>40</width>
+                <height>40</height>
+                <colordiffuse>FFD9D9D9</colordiffuse>
+                <texture>buttons/audio.png</texture>
+            </control>
+        </definition>
+    </include>
 
     <include name="Kodi_Logo_Home">
         <param name="top" value="$PARAM[top]" default="15"/>

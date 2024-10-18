@@ -87,6 +87,42 @@
             <onclick>Close</onclick>
             <include condition="String.IsEqual(Skin.String(BackgroundBrightness),70)">Item_Selected</include>
         </item>
+        <item>
+            <label>$NUMBER[75]%</label>
+            <onclick>Skin.SetString(BackgroundBrightness,75)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightness),75)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[80]%</label>
+            <onclick>Skin.SetString(BackgroundBrightness,80)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightness),80)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[85]%</label>
+            <onclick>Skin.SetString(BackgroundBrightness,85)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightness),85)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[90]%</label>
+            <onclick>Skin.SetString(BackgroundBrightness,90)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightness),90)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[95]%</label>
+            <onclick>Skin.SetString(BackgroundBrightness,95)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightness),95)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[100]%</label>
+            <onclick>Skin.SetString(BackgroundBrightness,100)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightness),100)">Item_Selected</include>
+        </item>
     </include>
 
     <include name="CustomSettings_Items.BackgroundBrightnessBlur">
@@ -181,9 +217,66 @@
             <onclick>Close</onclick>
             <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),70)">Item_Selected</include>
         </item>
+        <item>
+            <label>$NUMBER[75]%</label>
+            <onclick>Skin.SetString(BackgroundBrightnessBlur,75)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),75)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[80]%</label>
+            <onclick>Skin.SetString(BackgroundBrightnessBlur,80)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),80)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[85]%</label>
+            <onclick>Skin.SetString(BackgroundBrightnessBlur,85)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),85)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[90]%</label>
+            <onclick>Skin.SetString(BackgroundBrightnessBlur,90)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),90)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[95]%</label>
+            <onclick>Skin.SetString(BackgroundBrightnessBlur,95)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),95)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[100]%</label>
+            <onclick>Skin.SetString(BackgroundBrightnessBlur,100)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),100)">Item_Selected</include>
+        </item>
     </include>
 
     <include name="CustomSettings_Items.FadeNetflixPreview">
+        <item>
+            <label>$NUMBER[0]%</label>
+            <property name="SettingsName">$LOCALIZE[464]</property>
+            <onclick>Skin.SetString(FadeNetflixPreview,0)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(FadeNetflixPreview),0)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[10]%</label>
+            <property name="SettingsName">$LOCALIZE[464]</property>
+            <onclick>Skin.SetString(FadeNetflixPreview,10)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(FadeNetflixPreview),10)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[20]%</label>
+            <property name="SettingsName">$LOCALIZE[464]</property>
+            <onclick>Skin.SetString(FadeNetflixPreview,20)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(FadeNetflixPreview),20)">Item_Selected</include>
+        </item>
         <item>
             <label>$NUMBER[30]%</label>
             <property name="SettingsName">$LOCALIZE[464]</property>
