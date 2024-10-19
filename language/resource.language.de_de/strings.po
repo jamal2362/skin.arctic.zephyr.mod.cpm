@@ -2665,6 +2665,14 @@ msgctxt "#32012"
 msgid "Kb/s"
 msgstr "Kbit/s"
 
+msgctxt "#32013"
+msgid "DV Metadata"
+msgstr "DV Metadaten"
+
+msgctxt "#32014"
+msgid "CPU usage"
+msgstr "CPU-Auslastung"
+
 #~ msgctxt "#31179"
 #~ msgid "Show clearlogo"
 #~ msgstr "Clear-Logo anzeigen"

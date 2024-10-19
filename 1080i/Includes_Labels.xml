@@ -2012,10 +2012,6 @@
         <value condition="String.IsEmpty(VideoPlayer.AudioCodec)">$LOCALIZE[13205]</value>
     </variable>
 	
-    <variable name="3DCodecVar">
-        <value condition="String.IsEqual(VideoPlayer.AudioCodec,eac3) + String.Contains(Player.Filename,atmos)">(Atmos)</value>
-    </variable>
-	
     <variable name="AudioChannelsVar">
         <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,1)">1.0</value>
         <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,2)">2.0</value>

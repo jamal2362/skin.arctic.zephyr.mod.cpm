@@ -41,7 +41,7 @@
                 <width>870</width>
                 <height>650</height>
                 <control type="image">
-                    <texture border="35" diffuse="diffuse/wall-fanart.png" colordiffuse="FF37474F">common/circle2.png</texture>
+                    <texture border="35" diffuse="diffuse/wall-fanart.png" colordiffuse="FF21262A">common/circle2.png</texture>
                 </control>
                 <include content="Kodi_Logo">
                     <param name="dimensions" value="30"/>
@@ -230,7 +230,7 @@
                     <control type="label">
                         <left>330</left>
                         <top>270</top>
-                        <label>$INFO[Player.Process(videodecoder)] $VAR[VideoDecoder,[COLOR PanelWhite50](,)[/COLOR]]</label>
+                        <label>$INFO[Player.Process(videodecoder)] $VAR[VideoDecoder,(,)]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
@@ -301,56 +301,78 @@
                         <textcolor>ProcessWhite100</textcolor>
                     </control>
                     <control type="label">
-                        <top>65</top>
+                        <top>45</top>
                         <label>[COLOR ProcessWhite100]$LOCALIZE[126]:[/COLOR]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
                         <left>330</left>
-                        <top>65</top>
+                        <top>45</top>
                         <label>$INFO[Player.Process(video.source.hdr.type)] $VAR[DVProfileVar][COLOR green][B]$VAR[DVELVar][/B][/COLOR]$VAR[VideoConvVar]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
-                        <top>110</top>
+                        <top>90</top>
                         <label>[COLOR ProcessWhite100]$LOCALIZE[32002]:[/COLOR]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
                         <left>330</left>
-                        <top>110</top>
+                        <top>90</top>
                         <label>$INFO[Player.Process(amlogic.eoft_gamut)]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
-                        <top>155</top>
+                        <top>135</top>
                         <label>[COLOR ProcessWhite100]$LOCALIZE[32006] $LOCALIZE[126]:[/COLOR]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
                         <left>330</left>
-                        <top>155</top>
+                        <top>135</top>
                         <label>$VAR[VS10ModeVar]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
-                        <top>200</top>
+                        <top>180</top>
                         <label>[COLOR ProcessWhite100]$LOCALIZE[10129]:[/COLOR]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
                         <left>330</left>
-                        <top>200</top>
+                        <top>180</top>
                         <label>$INFO[Player.Process(video.source.hdr.type)]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
+                    </control>
+                    <control type="label">
+                        <top>225</top>
+                        <label>[COLOR ProcessWhite100]$LOCALIZE[32013]:[/COLOR]</label>
+                        <font>IosevkaJetBrains</font>
+                        <textcolor>PanelWhite85</textcolor>
+                    </control>
+                    <control type="label">
+                        <left>330</left>
+                        <top>225</top>
+                        <label>$INFO[Player.Process(video.dovi.meta.version)]</label>
+                        <font>IosevkaJetBrains</font>
+                        <textcolor>PanelWhite85</textcolor>
+                        <visible>String.Contains(Player.Process(video.hdr.type),dolby vision)</visible>
+                    </control>
+                    <control type="label">
+                        <left>330</left>
+                        <top>225</top>
+                        <label>$LOCALIZE[10005]</label>
+                        <font>IosevkaJetBrains</font>
+                        <textcolor>PanelWhite85</textcolor>
+                        <visible>!String.Contains(Player.Process(video.hdr.type),dolby vision)</visible>
                     </control>
                 </control>
             </control>
@@ -389,7 +411,7 @@
                     <control type="label">
                         <left>330</left>
                         <top>45</top>
-                        <label>$VAR[AudioCodecVar] $VAR[AudioChannelsVar] [COLOR PanelWhite50]$VAR[3DCodecVar]$INFO[Player.Process(audio.is.dolby.atmos),(,)]$INFO[Player.Process(audio.dts.x.type),(,)][/COLOR]</label>
+                        <label>$VAR[AudioCodecVar] $VAR[AudioChannelsVar] [COLOR PanelWhite50]$INFO[Player.Process(audio.is.dolby.atmos),(,)]$INFO[Player.Process(audio.dts.x.type),(,)][/COLOR]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
@@ -428,7 +450,7 @@
                     <control type="label">
                         <left>330</left>
                         <top>180</top>
-                        <label>[UPPERCASE]$INFO[VideoPlayer.AudioLanguage][/UPPERCASE]</label>
+                        <label>$INFO[VideoPlayer.AudioLanguageEx]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                         <visible>!String.IsEmpty(VideoPlayer.AudioLanguage)</visible>
@@ -436,7 +458,7 @@
                     <control type="label">
                         <left>330</left>
                         <top>180</top>
-                        <label>[COLOR PanelWhite50]$LOCALIZE[10005][/COLOR]</label>
+                        <label>$LOCALIZE[10005]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                         <visible>String.IsEmpty(VideoPlayer.AudioLanguage)</visible>
@@ -450,7 +472,7 @@
                     <control type="label">
                         <left>330</left>
                         <top>225</top>
-                        <label>[UPPERCASE]$INFO[VideoPlayer.SubtitlesLanguage][/UPPERCASE]</label>
+                        <label>$INFO[VideoPlayer.SubtitlesName]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                         <visible>VideoPlayer.SubtitlesEnabled</visible>
@@ -466,7 +488,7 @@
                     <control type="label">
                         <left>330</left>
                         <top>225</top>
-                        <label>[COLOR PanelWhite50]$LOCALIZE[10005][/COLOR]</label>
+                        <label>$LOCALIZE[10005]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                         <visible>!VideoPlayer.HasSubtitles</visible>
@@ -526,99 +548,94 @@
                     </control>
                     <control type="label">
                         <top>135</top>
+                        <label>[COLOR ProcessWhite100]$LOCALIZE[32014]:[/COLOR]</label>
+                        <font>IosevkaJetBrains</font>
+                        <textcolor>PanelWhite85</textcolor>
+                    </control>
+                    <control type="label">
+                        <top>135</top>
+                        <left>330</left>
+                        <label>$INFO[System.CpuAltUsage]</label>
+                        <font>IosevkaJetBrains</font>
+                        <textcolor>PanelWhite85</textcolor>
+                    </control>
+                    <control type="label">
+                        <top>180</top>
                         <label>[COLOR ProcessWhite100]$LOCALIZE[31104]:[/COLOR]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
                         <left>330</left>
-                        <top>135</top>
-                        <label>$INFO[system.memory(used.percent)] [COLOR PanelWhite50]($INFO[system.memory(used)] | $INFO[system.memory(total)])[/COLOR]</label>
+                        <top>180</top>
+                        <label>$INFO[system.memory(used.percent)] ($INFO[system.memory(used)] | $INFO[system.memory(total)])</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
-                        <top>180</top>
+                        <top>225</top>
                         <label>[COLOR ProcessWhite100]$LOCALIZE[31291]:[/COLOR]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
                         <left>330</left>
-                        <top>180</top>
+                        <top>225</top>
                         <label>$INFO[Player.CacheLevel,,%]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
-                        <top>225</top>
+                        <top>270</top>
                         <label>[COLOR ProcessWhite100]$LOCALIZE[32008]:[/COLOR]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
-                        <top>225</top>
+                        <top>270</top>
                         <left>330</left>
                         <label>$INFO[Player.Process(video.queue.level)]%</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
-                        <wrapmultiline>true</wrapmultiline>
                     </control>
                     <control type="label">
-                        <top>270</top>
+                        <top>315</top>
                         <label>[COLOR ProcessWhite100]$LOCALIZE[32009]:[/COLOR]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
-                        <top>270</top>
+                        <top>315</top>
                         <left>330</left>
                         <label>$INFO[Player.Process(video.queue.data.level)]%</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
-                        <wrapmultiline>true</wrapmultiline>
                     </control>
                     <control type="label">
-                        <top>315</top>
+                        <top>360</top>
                         <label>[COLOR ProcessWhite100]$LOCALIZE[32010]:[/COLOR]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
-                        <top>315</top>
+                        <top>360</top>
                         <left>330</left>
                         <label>$INFO[Player.Process(audio.queue.level)]%</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
-                        <wrapmultiline>true</wrapmultiline>
                     </control>
                     <control type="label">
-                        <top>360</top>
+                        <top>405</top>
                         <label>[COLOR ProcessWhite100]$LOCALIZE[32011]:[/COLOR]</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
                     </control>
                     <control type="label">
-                        <top>360</top>
+                        <top>405</top>
                         <left>330</left>
                         <label>$INFO[Player.Process(audio.queue.data.level)]%</label>
                         <font>IosevkaJetBrains</font>
                         <textcolor>PanelWhite85</textcolor>
-                        <wrapmultiline>true</wrapmultiline>
-                    </control>
-                    <control type="label">
-                        <top>405</top>
-                        <label>[COLOR ProcessWhite100]$LOCALIZE[140][/COLOR]</label>
-                        <font>IosevkaJetBrains</font>
-                        <textcolor>PanelWhite85</textcolor>
-                    </control>
-                    <control type="label">
-                        <top>405</top>
-                        <label>$INFO[System.CpuUsage]</label>
-                        <font>IosevkaJetBrains</font>
-                        <align>right</align>
-                        <textcolor>PanelWhite85</textcolor>
-                        <wrapmultiline>true</wrapmultiline>
                     </control>
                 </control>
             </control>

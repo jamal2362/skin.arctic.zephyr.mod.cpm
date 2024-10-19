@@ -2664,3 +2664,11 @@ msgstr ""
 msgctxt "#32012"
 msgid "Kb/s"
 msgstr ""
+
+msgctxt "#32013"
+msgid "DV Metadata"
+msgstr ""
+
+msgctxt "#32014"
+msgid "CPU usage"
+msgstr ""
