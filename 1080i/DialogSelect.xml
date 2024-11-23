@@ -94,6 +94,7 @@
                         <visible>!Skin.HasSetting(thumbnails.white) + Skin.HasSetting(global.hidecirles)</visible>
                     </control>
                     <control type="label">
+                        <visible>!Window.IsVisible(selectvideoversion)</visible>
                         <posy>-18</posy>
                         <posx>170</posx>
                         <width>496</width>
@@ -105,6 +106,19 @@
                         <animation effect="slide" end="0,18" condition="String.IsEmpty(ListItem.Label2)">Conditional</animation>
                     </control>
                     <control type="label">
+                        <visible>Window.IsVisible(selectvideoversion)</visible>
+                        <posy>-18</posy>
+                        <posx>155</posx>
+                        <width>526</width>
+                        <height>135</height>
+                        <font>Small24</font>
+                        <textcolor>Black70</textcolor>
+                        <selectedcolor>Black70</selectedcolor>
+                        <label>$INFO[ListItem.Label]</label>
+                        <animation effect="slide" end="0,18" condition="String.IsEmpty(ListItem.Label2)">Conditional</animation>
+                    </control>
+                    <control type="label">
+                        <visible>!Window.IsVisible(selectvideoversion)</visible>
                         <posx>170</posx>
                         <posy>18</posy>
                         <width>496</width>
@@ -114,13 +128,32 @@
                         <selectedcolor>Black70</selectedcolor>
                         <label>$INFO[ListItem.Label2]</label>
                     </control>
+                    <control type="label">
+                        <visible>Window.IsVisible(selectvideoversion)</visible>
+                        <posx>155</posx>
+                        <posy>18</posy>
+                        <width>526</width>
+                        <height>135</height>
+                        <font>Small20</font>
+                        <textcolor>Black70</textcolor>
+                        <selectedcolor>Black70</selectedcolor>
+                        <label>$INFO[ListItem.VideoVersionName]$INFO[ListItem.Duration(TIME_FORMAT_HH_MM), | ]$VAR[VideoResolutionLabelVar, | ]$VAR[HDRTypeLabelVar, • ]$VAR[LabelAudioCodecs, | ] $VAR[LabelAudioChannels]</label>
+                    </control>
                     <control type="image">
                         <right>30</right>
                         <centertop>50%</centertop>
                         <width>24</width>
                         <height>24</height>
                         <texture colordiffuse="$VAR[ColorHighlight]">osd/minicheck_big.png</texture>
-                        <visible>ListItem.IsSelected</visible>
+                        <visible>!Window.IsVisible(selectvideoversion) + ListItem.IsSelected</visible>
+                    </control>
+                    <control type="image">
+                        <right>15</right>
+                        <centertop>15%</centertop>
+                        <width>24</width>
+                        <height>24</height>
+                        <texture colordiffuse="$VAR[ColorHighlight]">osd/minicheck_big.png</texture>
+                        <visible>Window.IsVisible(selectvideoversion) + ListItem.IsSelected</visible>
                     </control>
                 </itemlayout>
                 <focusedlayout height="138">
@@ -153,6 +186,7 @@
                             <visible>!Skin.HasSetting(thumbnails.white) + Skin.HasSetting(global.hidecirles)</visible>
                         </control>
                         <control type="label">
+                            <visible>!Window.IsVisible(selectvideoversion)</visible>
                             <posy>-18</posy>
                             <posx>170</posx>
                             <width>496</width>
@@ -164,6 +198,19 @@
                             <animation effect="slide" end="0,18" condition="String.IsEmpty(ListItem.Label2)">Conditional</animation>
                         </control>
                         <control type="label">
+                            <visible>Window.IsVisible(selectvideoversion)</visible>
+                            <posy>-18</posy>
+                            <posx>155</posx>
+                            <width>526</width>
+                            <height>135</height>
+                            <font>Small24</font>
+                            <textcolor>Black70</textcolor>
+                            <selectedcolor>Black70</selectedcolor>
+                            <info>ListItem.Label</info>
+                            <animation effect="slide" end="0,18" condition="String.IsEmpty(ListItem.Label2)">Conditional</animation>
+                        </control>
+                        <control type="label">
+                            <visible>!Window.IsVisible(selectvideoversion)</visible>
                             <posx>170</posx>
                             <posy>18</posy>
                             <width>496</width>
@@ -173,13 +220,32 @@
                             <selectedcolor>Black70</selectedcolor>
                             <label>$INFO[ListItem.Label2]</label>
                         </control>
+                        <control type="label">
+                            <visible>Window.IsVisible(selectvideoversion)</visible>
+                            <posx>155</posx>
+                            <posy>18</posy>
+                            <width>526</width>
+                            <height>135</height>
+                            <font>Small20</font>
+                            <textcolor>Black70</textcolor>
+                            <selectedcolor>Black70</selectedcolor>
+                            <label>$INFO[ListItem.VideoVersionName]$INFO[ListItem.Duration(TIME_FORMAT_HH_MM), | ]$VAR[VideoResolutionLabelVar, | ]$VAR[HDRTypeLabelVar, • ]$VAR[LabelAudioCodecs, | ] $VAR[LabelAudioChannels]</label>
+                        </control>
                         <control type="image">
                             <right>30</right>
                             <centertop>50%</centertop>
                             <width>24</width>
                             <height>24</height>
                             <texture colordiffuse="ffffffff">osd/minicheck_big.png</texture>
-                            <visible>ListItem.IsSelected</visible>
+                            <visible>!Window.IsVisible(selectvideoversion) + ListItem.IsSelected</visible>
+                        </control>
+                        <control type="image">
+                            <right>15</right>
+                            <centertop>15%</centertop>
+                            <width>24</width>
+                            <height>24</height>
+                            <texture colordiffuse="ffffffff">osd/minicheck_big.png</texture>
+                            <visible>Window.IsVisible(selectvideoversion) + ListItem.IsSelected</visible>
                         </control>
                     </control>
                     <control type="group">
@@ -221,6 +287,7 @@
                             <visible>!Skin.HasSetting(thumbnails.white) + Skin.HasSetting(global.hidecirles)</visible>
                         </control>
                         <control type="label">
+                            <visible>!Window.IsVisible(selectvideoversion)</visible>
                             <posy>-18</posy>
                             <posx>170</posx>
                             <width>496</width>
@@ -232,6 +299,19 @@
                             <animation effect="slide" end="0,18" condition="String.IsEmpty(ListItem.Label2)">Conditional</animation>
                         </control>
                         <control type="label">
+                            <visible>Window.IsVisible(selectvideoversion)</visible>
+                            <posy>-18</posy>
+                            <posx>155</posx>
+                            <width>526</width>
+                            <height>135</height>
+                            <font>Small24</font>
+                            <textcolor>Selected</textcolor>
+                            <selectedcolor>Selected</selectedcolor>
+                            <label>$INFO[ListItem.Label]</label>
+                            <animation effect="slide" end="0,18" condition="String.IsEmpty(ListItem.Label2)">Conditional</animation>
+                        </control>
+                        <control type="label">
+                            <visible>!Window.IsVisible(selectvideoversion)</visible>
                             <posx>170</posx>
                             <posy>18</posy>
                             <width>496</width>
@@ -241,13 +321,32 @@
                             <selectedcolor>Selected</selectedcolor>
                             <label>$INFO[ListItem.Label2]</label>
                         </control>
+                        <control type="label">
+                            <visible>Window.IsVisible(selectvideoversion)</visible>
+                            <posx>155</posx>
+                            <posy>18</posy>
+                            <width>526</width>
+                            <height>135</height>
+                            <font>Small20</font>
+                            <textcolor>Selected</textcolor>
+                            <selectedcolor>Selected</selectedcolor>
+                            <label>$INFO[ListItem.VideoVersionName]$INFO[ListItem.Duration(TIME_FORMAT_HH_MM), | ]$VAR[VideoResolutionLabelVar, | ]$VAR[HDRTypeLabelVar, • ]$VAR[LabelAudioCodecs, | ] $VAR[LabelAudioChannels]</label>
+                        </control>
                         <control type="image">
                             <right>30</right>
                             <centertop>50%</centertop>
                             <width>24</width>
                             <height>24</height>
                             <texture colordiffuse="Selected">osd/minicheck_big.png</texture>
-                            <visible>ListItem.IsSelected</visible>
+                            <visible>!Window.IsVisible(selectvideoversion) + ListItem.IsSelected</visible>
+                        </control>
+                        <control type="image">
+                            <right>15</right>
+                            <centertop>15%</centertop>
+                            <width>24</width>
+                            <height>24</height>
+                            <texture colordiffuse="Selected">osd/minicheck_big.png</texture>
+                            <visible>Window.IsVisible(selectvideoversion) + ListItem.IsSelected</visible>
                         </control>
                     </control>
                 </focusedlayout>

@@ -88,7 +88,7 @@
                         <scrollspeed>40</scrollspeed>
                         <scrollsuffix>  ••  </scrollsuffix>
                         <textcolor>Dark3</textcolor>
-                        <label>$INFO[ListItem.FileNameAndPath]</label>
+                        <label>$INFO[ListItem.FileName]</label>
                         <aligny>center</aligny>
                         <align>right</align>
                         <visible>ControlGroup(9000).HasFocus() + !Skin.HasSetting(HideFileNameAndPath)</visible>

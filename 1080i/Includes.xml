@@ -13,6 +13,7 @@
     <include file="Includes_NowPlaying.xml"/>
     <include file="Includes_Custom_Items.xml"/>
     <include file="Includes_Games.xml"/>
+    <include file="Includes_CodecLogos.xml"/>
 
     <!-- Views -->
     <include file="View_50_List.xml"/>
@@ -1009,7 +1010,7 @@
         <control type="image" description="FanartOverlay">
             <visible>[!Skin.HasSetting(homemenu.clean.flix) + !$EXP[HomeIsSpotlight] + !$EXP[HomeIsClassic] + !$EXP[HomeIsModern]] | !Window.IsVisible(Home.xml)</visible>
             <include>Dimensions_Fullscreen</include>
-            <texture colordiffuse="FloorFade">common/floor.png</texture>
+            <!-- <texture colordiffuse="FloorFade">common/floor.png</texture> -->
             <include>Animation.AutoTrailer.FadeOut.Background</include>
         </control>
         <control type="image" description="FanartOverlay">
@@ -1021,7 +1022,7 @@
             <animation type="WindowClose" reversible="false">
                 <effect type="fade" end="33" start="100" time="300"/>
             </animation>
-            <texture colordiffuse="FloorFade">common/floor2.png</texture>
+            <!-- <texture colordiffuse="FloorFade">common/floor2.png</texture> -->
         </control>
     </include>
 
@@ -1062,7 +1063,7 @@
         <control type="image" description="FanartOverlay">
             <include>Dimensions_Fullscreen</include>
             <include condition="!Skin.HasSetting(home.vertical)">Animation.FadeFromHome</include>
-            <texture colordiffuse="FloorFade">common/floor.png</texture>
+            <!-- <texture colordiffuse="FloorFade">common/floor.png</texture> -->
             <visible>![Skin.HasSetting(EnableEffects) + Skin.HasSetting(BlurOnHome)]</visible>
         </control>
     </include>
@@ -1185,6 +1186,14 @@
         <value condition="$EXP[IsVideoHDR]">hdr</value>
         <value condition="$EXP[IsVideoHLG]">hlg</value>
         <value condition="$EXP[IsVideoDolbyVision]">dolby vision</value>
+    </variable>
+	
+    <variable name="ListItemHDROSD">
+        <value condition="$EXP[IsVideoHDR10Plus]">hdr10+</value>
+        <value condition="$EXP[IsVideoHDR10]">hdr10</value>
+        <value condition="$EXP[IsVideoHDR]">hdr</value>
+        <value condition="$EXP[IsVideoHLG]">hlg</value>
+        <value condition="$EXP[IsVideoDolbyVision]">dv</value>
     </variable>
 
     <include name="weatherlist">

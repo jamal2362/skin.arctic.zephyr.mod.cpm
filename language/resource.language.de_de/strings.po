@@ -595,7 +595,7 @@ msgstr "Fanart animieren"
 
 msgctxt "#31147"
 msgid "Extra Info"
-msgstr "Zusätzliche Informationen"
+msgstr "Mehr Infos"
 
 msgctxt "#31148"
 msgid "Wrap list"
@@ -2483,27 +2483,27 @@ msgstr "Clear-Art anzeigen"
 
 msgctxt "#31674"
 msgid "Critics consensus"
-msgstr ""
+msgstr "Critics Consensus"
 
 msgctxt "#31675"
 msgid "Use artwork module for PVR artwork"
-msgstr ""
+msgstr "Artwork-Modul für PVR-Artwork verwenden"
 
 msgctxt "#31676"
 msgid "Ratings"
-msgstr ""
+msgstr "Bewertungen"
 
 msgctxt "#31677"
 msgid "Show detailed info when video starts (in seconds)"
-msgstr ""
+msgstr "Detaillierte Informationen beim Start des Videos anzeigen (in Sekunden)"
 
 msgctxt "#31678"
 msgid "Customized"
-msgstr ""
+msgstr "Customized"
 
 msgctxt "#31679"
 msgid "Color presets"
-msgstr ""
+msgstr "Farb-Voreinstellungen"
 
 msgctxt "#31680"
 msgid "Preset"
@@ -2511,47 +2511,47 @@ msgstr "Voreinstellung"
 
 msgctxt "#31681"
 msgid "Sunny pink"
-msgstr ""
+msgstr "Sonniges Rosa"
 
 msgctxt "#31682"
 msgid "Sky blue"
-msgstr ""
+msgstr "Himmelblau"
 
 msgctxt "#31683"
 msgid "Fruity orange"
-msgstr ""
+msgstr "Fruchtige Orange"
 
 msgctxt "#31684"
 msgid "Aqua blue"
-msgstr ""
+msgstr "Aquablau"
 
 msgctxt "#31685"
 msgid "Light green"
-msgstr ""
+msgstr "Hellgrün"
 
 msgctxt "#31686"
 msgid "Steel gray"
-msgstr ""
+msgstr "Stahlgrau"
 
 msgctxt "#31687"
 msgid "Save color configuration"
-msgstr ""
+msgstr "Farbkonfiguration speichern"
 
 msgctxt "#31688"
 msgid "Overwrite existing color configuration?"
-msgstr ""
+msgstr "Vorhandene Farbkonfiguration überschreiben?"
 
 msgctxt "#31689"
 msgid "Hide PVR recording dialog"
-msgstr ""
+msgstr "PVR-Aufzeichnungsdialog ausblenden"
 
 msgctxt "#31690"
 msgid "Player"
-msgstr "Player"
+msgstr "Spieler"
 
 msgctxt "#31691"
 msgid "Players"
-msgstr ""
+msgstr "Spieler"
 
 msgctxt "#31692"
 msgid "Local"
@@ -2559,63 +2559,63 @@ msgstr "Lokal"
 
 msgctxt "#31693"
 msgid "Online"
-msgstr ""
+msgstr "Online"
 
 msgctxt "#31694"
 msgid "Game studio/flag icons"
-msgstr ""
+msgstr "Spielstudio/Flaggensymbole"
 
 msgctxt "#31699"
 msgid "Pick a color..."
-msgstr ""
+msgstr "Wähle eine Farbe..."
 
 msgctxt "#31700"
 msgid "Set color"
-msgstr ""
+msgstr "Farbe setzen"
 
 msgctxt "#31701"
 msgid "Color palette"
-msgstr ""
+msgstr "Farbpalette"
 
 msgctxt "#31702"
 msgid "Use thumb for episodes background"
-msgstr ""
+msgstr "Vorschaubild für Episodenhintergrund verwenden"
 
 msgctxt "#31703"
 msgid "Small landscape"
-msgstr ""
+msgstr "Querformat in klein"
 
 msgctxt "#31704"
 msgid "Small fanart"
-msgstr ""
+msgstr "Kleines Fanart"
 
 msgctxt "#31705"
 msgid "Small poster fanart"
-msgstr ""
+msgstr "Kleines Poster Fanart"
 
 msgctxt "#31706"
 msgid "Use keyart instead of poster"
-msgstr ""
+msgstr "KeyArt anstelle eines Posters verwenden"
 
 msgctxt "#31707"
 msgid "Rating stars"
-msgstr ""
+msgstr "Bewertung (Sterne)"
 
 msgctxt "#31708"
 msgid "Auto show now playing info after 5 seconds delay if hidden"
-msgstr ""
+msgstr "Automatische Anzeige von "Gerade läuft" nach 5 Sekunden Verzögerung, wenn ausgeblendet"
 
 msgctxt "#31709"
 msgid "Only hide menu items"
-msgstr ""
+msgstr "Nur Menüpunkte ausblenden"
 
 msgctxt "#31711"
 msgid "Wikipedia"
-msgstr ""
+msgstr "Wikipedia"
 
 msgctxt "#31718"
 msgid "Sandy yellow"
-msgstr ""
+msgstr "Sandfarbenes Gelb"
 
 #~ msgctxt "#31179"
 #~ msgid "Show clearlogo"
@@ -2664,3 +2664,259 @@ msgstr ""
 #~ msgctxt "#31660"
 #~ msgid "On right, show player controls"
 #~ msgstr "Bei nach rechts, Player-Bedienelemente anzeigen"
+
+msgctxt "#32000"
+msgid "Display mode"
+msgstr "Bildauflösung"
+
+msgctxt "#32001"
+msgid "Video mode"
+msgstr "Videoauflösung"
+
+msgctxt "#32002"
+msgid "Color space"
+msgstr "Farbbereich"
+
+msgctxt "#32003"
+msgid "Mb/s"
+msgstr "Mbit/s"
+
+msgctxt "#32004"
+msgid "Bit depth"
+msgstr "Bittiefe"
+
+msgctxt "#32005"
+msgid "Decoder"
+msgstr "Decoder"
+
+msgctxt "#32006"
+msgid "VS10 engine"
+msgstr "VS10-Engine"
+
+msgctxt "#32007"
+msgid "More"
+msgstr "Mehr"
+
+msgctxt "#32008"
+msgid "Video queue"
+msgstr "Video Queue"
+
+msgctxt "#32009"
+msgid "Video queue data"
+msgstr "Video Queue-Daten"
+
+msgctxt "#32010"
+msgid "Audio queue"
+msgstr "Audio Queue"
+
+msgctxt "#32011"
+msgid "Audio queue data"
+msgstr "Audio Queue-Daten"
+
+msgctxt "#32012"
+msgid "Kb/s"
+msgstr "Kbit/s"
+
+msgctxt "#32013"
+msgid "DV metadata"
+msgstr "DV Metadaten"
+
+msgctxt "#32014"
+msgid "Processor"
+msgstr "Prozessor"
+
+msgctxt "#32015"
+msgid "Version"
+msgstr "Version"
+
+msgctxt "#32016"
+msgid "Profile"
+msgstr "Profil"
+
+msgctxt "#32017"
+msgid "Level"
+msgstr "Level"
+
+msgctxt "#32018"
+msgid "RPU"
+msgstr "RPU"
+
+msgctxt "#32019"
+msgid "Base Layer"
+msgstr "Base Layer"
+
+msgctxt "#32020"
+msgid "Enhancement Layer"
+msgstr "Enhancement Layer"
+
+msgctxt "#32021"
+msgid "Enhancement Layer Type"
+msgstr "Enhancement Layer Typ"
+
+msgctxt "#32022"
+msgid "Metadata"
+msgstr "Metadaten"
+
+msgctxt "#32023"
+msgid "Pixel format"
+msgstr "Pixelformat"
+
+msgctxt "#32024"
+msgid "Aspect ratio"
+msgstr "Verhältnis"
+
+msgctxt "#32025"
+msgid "HDR10 MDL"
+msgstr "HDR10 MDL"
+
+msgctxt "#32026"
+msgid "HDR10 MaxCLL/FALL"
+msgstr "HDR10 MaxCLL/FALL"
+
+msgctxt "#32027"
+msgid "Media source"
+msgstr "Medienquelle"
+
+msgctxt "#32028"
+msgid "Unknown"
+msgstr "Unbekannt"
+
+msgctxt "#32029"
+msgid "On"
+msgstr "An"
+
+msgctxt "#32030"
+msgid "Off"
+msgstr "Aus"
+
+msgctxt "#32031"
+msgid "Deinterlacing"
+msgstr "Verfahren"
+
+msgctxt "#32032"
+msgid "Player cache"
+msgstr "Player Cache"
+
+msgctxt "#32033"
+msgid "N/A"
+msgstr "Nicht verfügbar"
+
+msgctxt "#32034"
+msgid "Memory usage"
+msgstr "Arbeitsspeicher"
+
+msgctxt "#32035"
+msgid "Bit depth"
+msgstr "Bittiefe"
+
+msgctxt "#32036"
+msgid "AML FPS"
+msgstr "AML FPS"
+
+msgctxt "#32037"
+msgid "DV Configuration"
+msgstr "DV Konfiguration"
+
+msgctxt "#32038"
+msgid "DV Levels Metadata"
+msgstr "DV-Ebenen Metadaten"
+
+msgctxt "#32039"
+msgid "HDR Static Metadata"
+msgstr "Statische HDR-Metadaten"
+
+msgctxt "#32040"
+msgid "cd/m²"
+msgstr "cd/m²"
+
+msgctxt "#32041"
+msgid "RPU MDL"
+msgstr "RPU MDL"
+
+msgctxt "#32042"
+msgid "RPU MaxCLL/FALL"
+msgstr "RPU MaxCLL/FALL"
+
+msgctxt "#32043"
+msgid "FLL MIN / MAX / Ø"
+msgstr "FLL MIN / MAX / Ø"
+
+msgctxt "#32044"
+msgid "PQ  MIN / MAX / Ø"
+msgstr "PQ  MIN / MAX / Ø"
+
+msgctxt "#32045"
+msgid "12-bit"
+msgstr "12-bit"
+
+msgctxt "#32046"
+msgid "Codec"
+msgstr "Codec"
+
+msgctxt "#32047"
+msgid "Bitrate"
+msgstr "Bitrate"
+
+msgctxt "#32048"
+msgid "VS10 status"
+msgstr "VS10-Status"
+
+msgctxt "#32051"
+msgid "Sample rate"
+msgstr "Abtastrate"
+
+msgctxt "#32052"
+msgid "Audio language"
+msgstr "Audiosprache"
+
+msgctxt "#32053"
+msgid "Subtitle language"
+msgstr "Untertitelsprache"
+
+msgctxt "#32054"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "#32055"
+msgid "System"
+msgstr "System"
+
+msgctxt "#32056"
+msgid "Audio"
+msgstr "Ton"
+
+msgctxt "#32057"
+msgid "Top left"
+msgstr "Oben links"
+
+msgctxt "#32058"
+msgid "Top center"
+msgstr "Oben mittig"
+
+msgctxt "#32059"
+msgid "Top right"
+msgstr "Oben rechts"
+
+msgctxt "#32060"
+msgid "Position of the codec logos in the OSD"
+msgstr "Position der Codec-Logos im OSD"
+
+msgctxt "#32061"
+msgid "Position of the codec logos in the PlayerProcessInfo"
+msgstr "Position der Codec-Logos im PlayerProcessInfo"
+
+msgctxt "#32062"
+msgid "Show codec logos when video starts"
+msgstr "Codec-Logos beim Start des Videos anzeigen"
+
+msgctxt "#32063"
+msgid "Codec logos"
+msgstr "Codec-Logos"
+
+msgctxt "#32064"
+msgid "Original"
+msgstr "Original"
+
+msgctxt "#32065"
+msgid "VS10 mode"
+msgstr "VS10-Modus"

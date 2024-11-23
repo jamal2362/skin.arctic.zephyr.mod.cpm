@@ -19,59 +19,59 @@ msgstr ""
 
 msgctxt "#31000"
 msgid "Limit number of items in widget"
-msgstr ""
+msgstr "限制小工具中的項目數量"
 
 msgctxt "#31001"
 msgid "Backup / Restore"
-msgstr ""
+msgstr "備份/還原"
 
 msgctxt "#31002"
 msgid "Animated posters"
-msgstr ""
+msgstr "動畫海報"
 
 msgctxt "#31003"
 msgid "Animated fanarts"
-msgstr ""
+msgstr "動畫愛好者藝術"
 
 msgctxt "#31004"
 msgid "Show discart (fanart views)"
-msgstr ""
+msgstr "顯示光碟圖案（愛好者藝術視圖）"
 
 msgctxt "#31005"
 msgid "Alternate case (fanart views)"
-msgstr ""
+msgstr "替代外殼（愛好者藝術視圖）"
 
 msgctxt "#31006"
 msgid "Alternate status-overlays (fanart views)"
-msgstr ""
+msgstr "替代狀態覆蓋層（愛好者藝術視圖）"
 
 msgctxt "#31007"
 msgid "Title-overlays (symbols-view, deprecated)"
-msgstr ""
+msgstr "標題覆蓋層（符號視圖，已棄用）"
 
 msgctxt "#31008"
 msgid "Show progress graphic"
-msgstr ""
+msgstr "顯示進度圖形"
 
 msgctxt "#31009"
 msgid "Scroll entire page"
-msgstr ""
+msgstr "滾動整個頁面"
 
 msgctxt "#31010"
 msgid "Alternate case"
-msgstr ""
+msgstr "替代外殼"
 
 msgctxt "#31011"
 msgid "Show CD and case"
-msgstr ""
+msgstr "顯示CD和外殼"
 
 msgctxt "#31012"
 msgid "Hide border"
-msgstr ""
+msgstr "隱藏邊框"
 
 msgctxt "#31013"
 msgid "Feature ends at"
-msgstr ""
+msgstr "功能結束於"
 
 msgctxt "#31014"
 msgid "Netflix"
@@ -79,35 +79,35 @@ msgstr "Netflix"
 
 msgctxt "#31015"
 msgid "Modern Fanart"
-msgstr ""
+msgstr "現代愛好者藝術"
 
 msgctxt "#31016"
 msgid "Old view selector"
-msgstr ""
+msgstr "舊版視圖選擇器"
 
 msgctxt "#31017"
 msgid "Colored icon media flags"
-msgstr ""
+msgstr "彩色圖標媒體標誌"
 
 msgctxt "#31018"
 msgid "Arctic: Zephyr - Reloaded"
-msgstr ""
+msgstr "Arctic: Zephyr - CPMVS10"
 
 msgctxt "#31019"
 msgid "Supported Addons"
-msgstr ""
+msgstr "支援的插件"
 
 msgctxt "#31020"
 msgid "Resources"
-msgstr ""
+msgstr "資源"
 
 msgctxt "#31021"
 msgid "Hide widget title"
-msgstr ""
+msgstr "隱藏小工具標題"
 
 msgctxt "#31022"
 msgid "Video Infodialog"
-msgstr ""
+msgstr "影片資訊對話框"
 
 msgctxt "#31023"
 msgid "Awards"
@@ -115,103 +115,103 @@ msgstr "獎項"
 
 msgctxt "#31024"
 msgid "Show clearlogo left bottom position (classic view only)"
-msgstr ""
+msgstr "顯示左下角的清晰標誌（僅限經典視圖）"
 
 msgctxt "#31025"
 msgid "Show clearLogo"
-msgstr ""
+msgstr "顯示清晰標誌"
 
 msgctxt "#31026"
 msgid "Videolyrics"
-msgstr ""
+msgstr "影片歌詞"
 
 msgctxt "#31027"
 msgid "Shifted"
-msgstr ""
+msgstr "已移動"
 
 msgctxt "#31028"
 msgid "Widgets fade animation"
-msgstr ""
+msgstr "小工具淡出動畫"
 
 msgctxt "#31029"
 msgid "Autoscrolling widget plot"
-msgstr ""
+msgstr "小工具情節自動滾動"
 
 msgctxt "#31030"
 msgid "movies in the library"
-msgstr ""
+msgstr "資料庫中的電影"
 
 msgctxt "#31031"
 msgid "Use fanart instead of landscape on tvshows"
-msgstr ""
+msgstr "在電視節目中使用愛好者藝術替代橫向圖"
 
 msgctxt "#31032"
 msgid "Use fanart instead of landscape on movies"
-msgstr ""
+msgstr "在電影中使用愛好者藝術替代橫向圖"
 
 msgctxt "#31033"
 msgid "Use fanart instead of landscape on seasons"
-msgstr ""
+msgstr "在季節中使用愛好者藝術替代橫向圖"
 
 msgctxt "#31034"
 msgid "Hide bar/CD on lyrics"
-msgstr ""
+msgstr "隱藏歌詞上的條/CD"
 
 msgctxt "#31035"
 msgid "Show PVR technical info"
-msgstr ""
+msgstr "顯示PVR技術資訊"
 
 msgctxt "#31036"
 msgid "Fullscreen Fanart"
-msgstr ""
+msgstr "全螢幕愛好者藝術"
 
 msgctxt "#31037"
 msgid "Extended Info"
-msgstr ""
+msgstr "擴展資訊"
 
 msgctxt "#31038"
 msgid "Hide filename and path"
-msgstr ""
+msgstr "隱藏檔案名和路徑"
 
 msgctxt "#31039"
 msgid "IPTV Recorder"
-msgstr ""
+msgstr "IPTV錄影機"
 
 msgctxt "#31040"
 msgid "Recordings"
-msgstr ""
+msgstr "錄影"
 
 msgctxt "#31041"
 msgid "Hide actor images"
-msgstr ""
+msgstr "隱藏演員圖片"
 
 msgctxt "#31042"
 msgid "Add-On Widgets"
-msgstr ""
+msgstr "插件小工具"
 
 msgctxt "#31043"
 msgid "Last Played Channels"
-msgstr ""
+msgstr "最近播放的頻道"
 
 msgctxt "#31044"
 msgid "All Channels"
-msgstr ""
+msgstr "所有頻道"
 
 msgctxt "#31045"
 msgid "New Movies"
-msgstr ""
+msgstr "新電影"
 
 msgctxt "#31046"
 msgid "Recently Played Movies"
-msgstr ""
+msgstr "最近播放的電影"
 
 msgctxt "#31047"
 msgid "Random Movies"
-msgstr ""
+msgstr "隨機電影"
 
 msgctxt "#31048"
 msgid "In Progress Movies"
-msgstr ""
+msgstr "正在進行的電影"
 
 msgctxt "#31049"
 msgid "Top Rated Movies"
@@ -219,143 +219,143 @@ msgstr "最受好評電影"
 
 msgctxt "#31050"
 msgid "Top 250 Movies"
-msgstr ""
+msgstr "Top 250 電影"
 
 msgctxt "#31051"
 msgid "Unwatched Movies"
-msgstr ""
+msgstr "未觀看的電影"
 
 msgctxt "#31052"
 msgid "Movie Sets"
-msgstr ""
+msgstr "電影合集"
 
 msgctxt "#31053"
 msgid "New Tv Shows"
-msgstr ""
+msgstr "新電視節目"
 
 msgctxt "#31054"
 msgid "Recently Watched TV Shows"
-msgstr ""
+msgstr "最近觀看的電視節目"
 
 msgctxt "#31056"
 msgid "Random Tv Shows"
-msgstr ""
+msgstr "隨機電視節目"
 
 msgctxt "#31057"
 msgid "Top Rated Tv Shows"
-msgstr ""
+msgstr "最受好評電視節目"
 
 msgctxt "#31058"
 msgid "New Episodes"
-msgstr ""
+msgstr "新集數"
 
 msgctxt "#31059"
 msgid "Recently Played Episodes"
-msgstr ""
+msgstr "最近播放的集數"
 
 msgctxt "#31060"
 msgid "Random Episodes"
-msgstr ""
+msgstr "隨機集數"
 
 msgctxt "#31061"
 msgid "Unwatched Episodes"
-msgstr ""
+msgstr "未觀看的集數"
 
 msgctxt "#31062"
 msgid "In Progress Episodes"
-msgstr ""
+msgstr "正在進行的集數"
 
 msgctxt "#31063"
 msgid "Top Rated Episodes"
-msgstr ""
+msgstr "最受好評集數"
 
 msgctxt "#31064"
 msgid "New Albums"
-msgstr ""
+msgstr "新專輯"
 
 msgctxt "#31065"
 msgid "Recently Played Albums"
-msgstr ""
+msgstr "最近播放的專輯"
 
 msgctxt "#31066"
 msgid "Top Albums"
-msgstr ""
+msgstr "熱門專輯"
 
 msgctxt "#31067"
 msgid "Random Albums"
-msgstr ""
+msgstr "隨機專輯"
 
 msgctxt "#31068"
 msgid "Random Artists"
-msgstr ""
+msgstr "隨機藝術家"
 
 msgctxt "#31071"
 msgid "Show fanart/landscape view"
-msgstr ""
+msgstr "顯示愛好者藝術/橫向視圖"
 
 msgctxt "#31072"
 msgid "Poster Flix"
-msgstr ""
+msgstr "海報電影模式"
 
 msgctxt "#31073"
 msgid "Show clearlogo instead of title"
-msgstr ""
+msgstr "顯示清晰標誌替代標題"
 
 msgctxt "#31074"
 msgid "Enable blur"
-msgstr ""
+msgstr "啟用模糊效果"
 
 msgctxt "#31075"
 msgid "Effect also on home"
-msgstr ""
+msgstr "效果也應用於首頁"
 
 msgctxt "#31076"
 msgid "This view"
-msgstr ""
+msgstr "此視圖"
 
 msgctxt "#31077"
 msgid "Misc"
-msgstr ""
+msgstr "其他"
 
 msgctxt "#31078"
 msgid "Global options"
-msgstr ""
+msgstr "全域選項"
 
 msgctxt "#31079"
 msgid "Show discart"
-msgstr ""
+msgstr "顯示光碟圖案"
 
 msgctxt "#31080"
 msgid "Fullsize fanart"
-msgstr ""
+msgstr "全幅愛好者藝術"
 
 msgctxt "#31081"
 msgid "Double-Flix"
-msgstr ""
+msgstr "雙重電影模式"
 
 msgctxt "#31082"
 msgid "Flip poster/fanart"
-msgstr ""
+msgstr "翻轉海報/愛好者藝術"
 
 msgctxt "#31083"
 msgid "Show list instead of posters"
-msgstr ""
+msgstr "顯示清單替代海報"
 
 msgctxt "#31084"
 msgid "Show clearlogo on top instead on fanart"
-msgstr ""
+msgstr "在頂部顯示清晰標誌而非愛好者藝術"
 
 msgctxt "#31085"
 msgid "Fanart & poster 2"
-msgstr ""
+msgstr "愛好者藝術與海報2"
 
 msgctxt "#31086"
 msgid "Show extended infos on list"
-msgstr ""
+msgstr "在清單上顯示擴展資訊"
 
 msgctxt "#31087"
 msgid "episodes watched"
-msgstr ""
+msgstr "已觀看集數"
 
 msgctxt "#31088"
 msgid "h"
@@ -363,19 +363,19 @@ msgstr "時"
 
 msgctxt "#31089"
 msgid "m"
-msgstr ""
+msgstr "分"
 
 msgctxt "#31090"
 msgid "New time format"
-msgstr ""
+msgstr "新時間格式"
 
 msgctxt "#31091"
 msgid "Double-Flix Banner"
-msgstr ""
+msgstr "雙重電影橫幅"
 
 msgctxt "#31092"
 msgid "Flip fanart/banner"
-msgstr ""
+msgstr "翻轉愛好者藝術/橫幅"
 
 msgctxt "#31093"
 msgid "Hourly forecast"
@@ -383,15 +383,15 @@ msgstr "每小時預報"
 
 msgctxt "#31094"
 msgid "Next days forecast"
-msgstr ""
+msgstr "未來幾天預報"
 
 msgctxt "#31095"
 msgid "Show RSS Feed on home menu"
-msgstr ""
+msgstr "在主選單顯示RSS串流"
 
 msgctxt "#31096"
 msgid "Show RSS Feed on top instead on bottom"
-msgstr ""
+msgstr "在頂部顯示RSS串流而非底部"
 
 msgctxt "#31097"
 msgid "RSS Feed"
@@ -399,15 +399,15 @@ msgstr "RSS串流"
 
 msgctxt "#31098"
 msgid "Flip list and info"
-msgstr ""
+msgstr "翻轉清單與資訊"
 
 msgctxt "#31099"
 msgid "Vertical Shifted"
-msgstr ""
+msgstr "垂直位移"
 
 msgctxt "#31100"
 msgid "Defaults"
-msgstr ""
+msgstr "預設值"
 
 msgctxt "#31101"
 msgid "items"
@@ -423,27 +423,27 @@ msgstr "電視"
 
 msgctxt "#31104"
 msgid "Used Memory"
-msgstr ""
+msgstr "已使用記憶體"
 
 msgctxt "#31105"
 msgid "Spotlight"
-msgstr ""
+msgstr "焦點"
 
 msgctxt "#31106"
 msgid "Finishes at"
-msgstr ""
+msgstr "結束於"
 
 msgctxt "#31107"
 msgid "Video Stream"
-msgstr ""
+msgstr "影片串流"
 
 msgctxt "#31108"
 msgid "Show original"
-msgstr ""
+msgstr "顯示原始內容"
 
 msgctxt "#31109"
 msgid "Customise home menu"
-msgstr ""
+msgstr "自訂主選單"
 
 msgctxt "#31110"
 msgid "Background"
@@ -451,43 +451,43 @@ msgstr "背景"
 
 msgctxt "#31111"
 msgid "Show now playing video in background"
-msgstr ""
+msgstr "在背景中顯示正在播放的影片"
 
 msgctxt "#31112"
 msgid "Submenu"
-msgstr ""
+msgstr "子選單"
 
 msgctxt "#31113"
 msgid "No Timer"
-msgstr ""
+msgstr "無計時器"
 
 msgctxt "#31114"
 msgid "Show effect"
-msgstr ""
+msgstr "顯示效果"
 
 msgctxt "#31115"
 msgid "Show header"
-msgstr ""
+msgstr "顯示標題"
 
 msgctxt "#31116"
 msgid "DVD Menu"
-msgstr ""
+msgstr "DVD 選單"
 
 msgctxt "#31117"
 msgid "3D Mode"
-msgstr ""
+msgstr "3D 模式"
 
 msgctxt "#31118"
 msgid "Show artist slideshow"
-msgstr ""
+msgstr "顯示藝人幻燈片"
 
 msgctxt "#31119"
 msgid "Show visualisation behind slideshow"
-msgstr ""
+msgstr "在幻燈片後顯示視覺化效果"
 
 msgctxt "#31120"
 msgid "Animate artist slideshow"
-msgstr ""
+msgstr "動畫化藝人幻燈片"
 
 msgctxt "#31121"
 msgid "Show fanart"
@@ -495,79 +495,79 @@ msgstr "顯示劇照"
 
 msgctxt "#31122"
 msgid "     Settings"
-msgstr ""
+msgstr "     設定"
 
 msgctxt "#31123"
 msgid "Change image"
-msgstr ""
+msgstr "更改圖片"
 
 msgctxt "#31124"
 msgid "Blur radius"
-msgstr ""
+msgstr "模糊半徑"
 
 msgctxt "#31125"
 msgid "Set your favourite settings"
-msgstr ""
+msgstr "設定您偏好的選項"
 
 msgctxt "#31126"
 msgid "Accent colors"
-msgstr ""
+msgstr "重點顏色"
 
 msgctxt "#31127"
 msgid "default"
-msgstr ""
+msgstr "預設"
 
 msgctxt "#31128"
 msgid "Rating stars (media flags section)"
-msgstr ""
+msgstr "評級星標（媒體標籤區）"
 
 msgctxt "#31129"
 msgid "MPAA rating (media flags section)"
-msgstr ""
+msgstr "MPAA 評級（媒體標籤區）"
 
 msgctxt "#31130"
 msgid "Focus squares"
-msgstr ""
+msgstr "焦點方框"
 
 msgctxt "#31131"
 msgid "Accents, highlights, focusbuttons"
-msgstr ""
+msgstr "重點、亮點、焦點按鈕"
 
 msgctxt "#31132"
 msgid "Userrating (media flags section)"
-msgstr ""
+msgstr "用戶評分（媒體標籤區）"
 
 msgctxt "#31133"
 msgid "Hide watched"
-msgstr ""
+msgstr "隱藏已觀看"
 
 msgctxt "#31134"
 msgid "reset colors?"
-msgstr ""
+msgstr "重設顏色？"
 
 msgctxt "#31135"
 msgid "Hide scrolling text"
-msgstr ""
+msgstr "隱藏滾動文字"
 
 msgctxt "#31136"
 msgid "All colors are reset to their default values"
-msgstr ""
+msgstr "所有顏色已重設為預設值"
 
 msgctxt "#31137"
 msgid "[CR]Arctic: Zephyr - Reloaded is based on the third iteration of the Arctic skin created by jurialmunkey. [CR]Arctic focuses on being simple, clean and minimalistic with a light spin.[CR]If you have any thoughts on this Skin, feel free to let me know at [CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
-msgstr ""
+msgstr "[CR]Arctic: Zephyr - Reloaded 基於由 jurialmunkey 創建的第三代 Arctic 皮膚。[CR]Arctic 著重於簡潔、乾淨及極簡風格。[CR]如有任何意見，請至以下網址分享：[CR][CR]https://forum.kodi.tv/showthread.php?tid=337862"
 
 msgctxt "#31138"
 msgid "Content Loading"
-msgstr ""
+msgstr "內容加載中"
 
 msgctxt "#31139"
 msgid "Play trailer in windowed mode"
-msgstr ""
+msgstr "以視窗模式播放預告片"
 
 msgctxt "#31140"
 msgid "Kodi logo"
-msgstr ""
+msgstr "Kodi 標誌"
 
 msgctxt "#31141"
 msgid "Youtube"
@@ -575,11 +575,11 @@ msgstr "Youtube"
 
 msgctxt "#31142"
 msgid "Use low list"
-msgstr ""
+msgstr "使用低列表"
 
 msgctxt "#31143"
 msgid "Set weather fanart"
-msgstr ""
+msgstr "設定天氣劇照"
 
 msgctxt "#31144"
 msgid "Widgets"
@@ -587,11 +587,11 @@ msgstr "小工具"
 
 msgctxt "#31145"
 msgid "Show weather"
-msgstr ""
+msgstr "顯示天氣"
 
 msgctxt "#31146"
 msgid "Animate fanart"
-msgstr ""
+msgstr "動畫化劇照"
 
 msgctxt "#31147"
 msgid "Extra Info"
@@ -599,27 +599,27 @@ msgstr "追加資訊"
 
 msgctxt "#31148"
 msgid "Wrap list"
-msgstr ""
+msgstr "環繞列表"
 
 msgctxt "#31149"
 msgid "Replace widget fanart with background"
-msgstr ""
+msgstr "用背景取代小工具劇照"
 
 msgctxt "#31150"
 msgid "Set fallback image"
-msgstr ""
+msgstr "設定後備圖片"
 
 msgctxt "#31151"
 msgid "Power Menu"
-msgstr ""
+msgstr "電源選單"
 
 msgctxt "#31152"
 msgid "Furniture"
-msgstr ""
+msgstr "佈景"
 
 msgctxt "#31153"
 msgid "Show clock"
-msgstr ""
+msgstr "顯示時鐘"
 
 msgctxt "#31154"
 msgid "Show media flags"
@@ -627,59 +627,59 @@ msgstr "顯示媒體內容標籤"
 
 msgctxt "#31155"
 msgid "Show now playing info"
-msgstr ""
+msgstr "顯示正在播放資訊"
 
 msgctxt "#31156"
 msgid "[COLOR=$VAR[ColorHighlight]]Reloaded[/COLOR] Skin-Settings"
-msgstr ""
+msgstr "[COLOR=$VAR[ColorHighlight]]重新載入[/COLOR] 介面設定"
 
 msgctxt "#31157"
 msgid "Extended info of"
-msgstr ""
+msgstr "擴展資訊"
 
 msgctxt "#31158"
 msgid "Trailer of"
-msgstr ""
+msgstr "預告片"
 
 msgctxt "#31159"
 msgid "Movies by"
-msgstr ""
+msgstr "電影製作："
 
 msgctxt "#31160"
 msgid "Tv Shows by"
-msgstr ""
+msgstr "影集製作："
 
 msgctxt "#31161"
 msgid "[B]Configure System Settings[/B][CR][CR] •     Setup and calibrate displays[CR] •     Configure audio output[CR] •     Setup remote controls[CR] •     Set power saving options[CR] •     Enable debugging[CR] •     Setup master lock"
-msgstr ""
+msgstr "[B]設定系統配置[/B][CR][CR] •     設置並校準顯示[CR] •     配置音訊輸出[CR] •     設定遙控器[CR] •     設置省電選項[CR] •     啟用除錯[CR] •     設定主鎖"
 
 msgctxt "#31162"
 msgid "[B]Configure Add-Ons[/B][CR][CR] •     Manage your installed Add-ons[CR] •     Install Add-ons from kodi.tv[CR] •     Modify Add-on settings"
-msgstr ""
+msgstr "[B]設定附加元件[/B][CR][CR] •     管理已安裝的附加元件[CR] •     從 kodi.tv 安裝附加元件[CR] •     修改附加元件設置"
 
 msgctxt "#31163"
 msgid "[B]Configure TV Settings[/B][CR][CR] •     Change full screen info[CR] •     Manage EPG data settings"
-msgstr ""
+msgstr "[B]設定電視設置[/B][CR][CR] •     更改全螢幕資訊[CR] •     管理EPG數據設置"
 
 msgctxt "#31164"
 msgid "[B]Configure Service Settings[/B][CR][CR] •     Control via UPnP and HTTP[CR] •     Configure file sharing[CR] •     Enable Zeroconf[CR] •     Configure AirPlay"
-msgstr ""
+msgstr "[B]設定服務配置[/B][CR][CR] •     通過 UPnP 和 HTTP 控制[CR] •     配置檔案共享[CR] •     啟用 Zeroconf[CR] •     設置 AirPlay"
 
 msgctxt "#31165"
 msgid "[B]Configure Profile Settings[/B][CR][CR] •     Setup user profiles[CR] •     Enable login screen[CR] •     Set master locks[CR] •     Control access to content"
-msgstr ""
+msgstr "[B]設定用戶配置[/B][CR][CR] •     設置用戶資料[CR] •     啟用登入畫面[CR] •     設定主鎖[CR] •     控制內容訪問權限"
 
 msgctxt "#31166"
 msgid "[B]Configure Skin Settings[/B][CR][CR] •     Customise the home screen[CR] •     Set background options[CR] •     Configure OSD options[CR] •     Enable add-on support[CR] •     Disable screen elements"
-msgstr ""
+msgstr "[B]設定介面設置[/B][CR][CR] •     自訂主畫面[CR] •     設定背景選項[CR] •     配置OSD選項[CR] •     啟用附加元件支援[CR] •     關閉畫面元素"
 
 msgctxt "#31167"
 msgid "[B]View System Information[/B][CR][CR] •     Summary[CR] •     Storage[CR] •     Network[CR] •     Video[CR] •     Hardware[CR] •     PVR Backend"
-msgstr ""
+msgstr "[B]檢視系統資訊[/B][CR][CR] •     概覽[CR] •     儲存空間[CR] •     網絡[CR] •     視訊[CR] •     硬體[CR] •     PVR 後端"
 
 msgctxt "#31168"
 msgid "Startup video or music playlist"
-msgstr ""
+msgstr "啟動畫面或音樂播放列表"
 
 msgctxt "#31169"
 msgid "Extras"
@@ -687,15 +687,15 @@ msgstr "額外資訊"
 
 msgctxt "#31170"
 msgid "Cinema Experience"
-msgstr ""
+msgstr "影院體驗"
 
 msgctxt "#31171"
 msgid "Movies by"
-msgstr ""
+msgstr "電影製作："
 
 msgctxt "#31172"
 msgid "Show music visualisation in background"
-msgstr ""
+msgstr "在背景顯示音樂視覺效果"
 
 msgctxt "#31173"
 msgid "Recently added"
@@ -703,63 +703,63 @@ msgstr "最近加入的"
 
 msgctxt "#31174"
 msgid "Recently played"
-msgstr ""
+msgstr "最近播放的"
 
 msgctxt "#31175"
 msgid "Play random"
-msgstr ""
+msgstr "隨機播放"
 
 msgctxt "#31176"
 msgid "Delete Settings Shortcut"
-msgstr ""
+msgstr "刪除設定捷徑"
 
 msgctxt "#31177"
 msgid "Are you sure you want to remove the settings shortcut?[CR]Please ensure that you have an alternative method of accessing settings before you remove this shortcut."
-msgstr ""
+msgstr "確定要移除設定捷徑嗎？[CR]請確保您有其他方法可以訪問設定，才移除此捷徑。"
 
 msgctxt "#31178"
 msgid "Hub items"
-msgstr ""
+msgstr "中心項目"
 
 msgctxt "#31180"
 msgid "Cast of"
-msgstr ""
+msgstr "演員："
 
 msgctxt "#31181"
 msgid "Similar to"
-msgstr ""
+msgstr "相似於"
 
 msgctxt "#31182"
 msgid "Fanart of"
-msgstr ""
+msgstr "愛好者藝術："
 
 msgctxt "#31183"
 msgid "Youtube videos of"
-msgstr ""
+msgstr "相關的 YouTube 影片："
 
 msgctxt "#31184"
 msgid "Crew of"
-msgstr ""
+msgstr "製作團隊："
 
 msgctxt "#31185"
 msgid "Big poster"
-msgstr ""
+msgstr "大型海報"
 
 msgctxt "#31186"
 msgid "Use circular icons in dialogs"
-msgstr ""
+msgstr "在對話框中使用圓形圖標"
 
 msgctxt "#31187"
 msgid "Filmography of"
-msgstr ""
+msgstr "作品列表："
 
 msgctxt "#31188"
 msgid "TV Show appearances of"
-msgstr ""
+msgstr "影集出現："
 
 msgctxt "#31189"
 msgid "Discography of"
-msgstr ""
+msgstr "音樂作品集："
 
 msgctxt "#31190"
 msgid "Show icons"
@@ -767,15 +767,15 @@ msgstr "顯示圖示"
 
 msgctxt "#31191"
 msgid "Directed by"
-msgstr "導演"
+msgstr "導演："
 
 msgctxt "#31192"
 msgid "Movie Hub"
-msgstr ""
+msgstr "電影中心"
 
 msgctxt "#31193"
 msgid "TV Hub"
-msgstr ""
+msgstr "電視中心"
 
 msgctxt "#31194"
 msgid "View Options"
@@ -783,55 +783,55 @@ msgstr "檢視選項"
 
 msgctxt "#31195"
 msgid "Reload Skin"
-msgstr ""
+msgstr "重新載入外觀"
 
 msgctxt "#31196"
 msgid "Content of"
-msgstr ""
+msgstr "內容："
 
 msgctxt "#31197"
 msgid "Show weather with clock"
-msgstr ""
+msgstr "與時鐘一同顯示天氣"
 
 msgctxt "#31198"
 msgid "Cards"
-msgstr ""
+msgstr "卡片"
 
 msgctxt "#31199"
 msgid "Kiosk mode"
-msgstr "Kiosk模式"
+msgstr "Kiosk 模式"
 
 msgctxt "#31200"
 msgid "Only display widgets when pressing up"
-msgstr ""
+msgstr "僅在按上鍵時顯示小工具"
 
 msgctxt "#31201"
 msgid "Show detailed info when video is paused"
-msgstr ""
+msgstr "影片暫停時顯示詳細資訊"
 
 msgctxt "#31202"
 msgid "Use horizontal submenu"
-msgstr ""
+msgstr "使用水平子選單"
 
 msgctxt "#31203"
 msgid "Artwork Beef"
-msgstr ""
+msgstr "Artwork Beef"
 
 msgctxt "#31204"
 msgid "Similar to"
-msgstr ""
+msgstr "相似於"
 
 msgctxt "#31205"
 msgid "Released by"
-msgstr ""
+msgstr "發行者："
 
 msgctxt "#31206"
 msgid "Similar"
-msgstr ""
+msgstr "類似"
 
 msgctxt "#31207"
 msgid "Movies by"
-msgstr ""
+msgstr "電影製作："
 
 msgctxt "#31208"
 msgid "In Cinemas"
@@ -843,63 +843,63 @@ msgstr "接檔上映"
 
 msgctxt "#31210"
 msgid "Popular"
-msgstr ""
+msgstr "熱門"
 
 msgctxt "#31211"
 msgid "Top Rated"
-msgstr ""
+msgstr "最高評價"
 
 msgctxt "#31212"
 msgid "Airing"
-msgstr ""
+msgstr "播出中"
 
 msgctxt "#31213"
 msgid "Today"
-msgstr ""
+msgstr "今天"
 
 msgctxt "#31214"
 msgid "Show plot"
-msgstr ""
+msgstr "顯示劇情"
 
 msgctxt "#31215"
 msgid "Unwatched"
-msgstr ""
+msgstr "未觀看"
 
 msgctxt "#31216"
 msgid "Tracklist of"
-msgstr ""
+msgstr "曲目列表"
 
 msgctxt "#31217"
 msgid "Show clearart with video information"
-msgstr ""
+msgstr "顯示帶有視頻資訊的清晰圖片"
 
 msgctxt "#31218"
 msgid "Show numeric rating"
-msgstr ""
+msgstr "顯示數字評分"
 
 msgctxt "#31219"
 msgid "Show reflections"
-msgstr ""
+msgstr "顯示反射"
 
 msgctxt "#31220"
 msgid "Next Aired"
-msgstr ""
+msgstr "下次播出"
 
 msgctxt "#31221"
 msgid "Studio"
-msgstr ""
+msgstr "工作室"
 
 msgctxt "#31222"
 msgid "Sorry, we don't have any data for that."
-msgstr ""
+msgstr "抱歉，我們沒有這方面的資料。"
 
 msgctxt "#31223"
 msgid "Cast"
-msgstr ""
+msgstr "演員"
 
 msgctxt "#31224"
 msgid "Similar"
-msgstr ""
+msgstr "相似"
 
 msgctxt "#31225"
 msgid "Fanart"
@@ -911,87 +911,87 @@ msgstr "Youtube"
 
 msgctxt "#31227"
 msgid "Crew"
-msgstr ""
+msgstr "工作人員"
 
 msgctxt "#31228"
 msgid "TV Show appearances"
-msgstr ""
+msgstr "電視節目出現"
 
 msgctxt "#31229"
 msgid "Discography"
-msgstr ""
+msgstr "唱片目錄"
 
 msgctxt "#31230"
 msgid "Tracklist"
-msgstr ""
+msgstr "曲目列表"
 
 msgctxt "#31231"
 msgid "Screenshots of"
-msgstr ""
+msgstr "截圖"
 
 msgctxt "#31232"
 msgid "Reboot to eMMC/NAND"
-msgstr ""
+msgstr "重新啟動至 eMMC/NAND"
 
 msgctxt "#31233"
 msgid "died on"
-msgstr ""
+msgstr "終止於"
 
 msgctxt "#31234"
 msgid "Fanart overlay"
-msgstr ""
+msgstr "劇照疊加"
 
 msgctxt "#31235"
 msgid "Show banner?"
-msgstr ""
+msgstr "顯示橫幅嗎？"
 
 msgctxt "#31236"
 msgid "Now playing..."
-msgstr ""
+msgstr "正在播放..."
 
 msgctxt "#31237"
 msgid "Use minimal busy loader in header"
-msgstr ""
+msgstr "在標頭中使用簡化的加載動畫"
 
 msgctxt "#31238"
 msgid "Select highlight color"
-msgstr ""
+msgstr "選擇高亮顏色"
 
 msgctxt "#31239"
 msgid "Current Color"
-msgstr ""
+msgstr "當前顏色"
 
 msgctxt "#31240"
 msgid "Square Light"
-msgstr ""
+msgstr "方形光"
 
 msgctxt "#31241"
 msgid "Icons Info"
-msgstr ""
+msgstr "圖示資訊"
 
 msgctxt "#31242"
 msgid "Provided by themoviedb.org"
-msgstr ""
+msgstr "由 themoviedb.org 提供"
 
 msgctxt "#31243"
 msgid "Hide OSD on lyrics"
-msgstr ""
+msgstr "隱藏歌詞上的 OSD"
 
 msgctxt "#31244"
 msgid "Banner Wall"
-msgstr ""
+msgstr "橫幅牆"
 
 msgctxt "#31245"
 msgid "Startup image"
-msgstr ""
+msgstr "啟動畫面"
 
 msgctxt "#31246"
 msgid "Show icon media flags"
-msgstr ""
+msgstr "顯示圖示媒體標誌"
 
 msgctxt "#31247"
 msgid "Home menu style"
-msgstr ""
+msgstr "首頁菜單樣式"
 
 msgctxt "#31248"
 msgid "Featured"
@@ -999,7 +999,7 @@ msgstr "推薦觀賞"
 
 msgctxt "#31249"
 msgid "Classic"
-msgstr ""
+msgstr "經典"
 
 msgctxt "#31250"
 msgid "Vertical"
@@ -1007,19 +1007,19 @@ msgstr "垂直"
 
 msgctxt "#31251"
 msgid "Seasons of"
-msgstr ""
+msgstr "季節"
 
 msgctxt "#31252"
 msgid "Collections of"
-msgstr ""
+msgstr "收藏集"
 
 msgctxt "#31253"
 msgid "Always display info and osd controls on music visualisation"
-msgstr ""
+msgstr "始終顯示資訊和 OSD 控制在音樂視覺化中"
 
 msgctxt "#31254"
 msgid "Show plot overlay after 3 second delay"
-msgstr ""
+msgstr "延遲 3 秒後顯示劇情疊加"
 
 msgctxt "#31255"
 msgid "Collections"
@@ -1027,27 +1027,27 @@ msgstr "收藏集"
 
 msgctxt "#31256"
 msgid "Homepage"
-msgstr ""
+msgstr "首頁"
 
 msgctxt "#31257"
 msgid "Extended Song Info"
-msgstr ""
+msgstr "擴展歌曲資訊"
 
 msgctxt "#31258"
 msgid "Fanart Thumbs"
-msgstr ""
+msgstr "劇照縮圖"
 
 msgctxt "#31259"
 msgid "Extra fanart"
-msgstr ""
+msgstr "額外劇照"
 
 msgctxt "#31260"
 msgid "Set weather icons"
-msgstr ""
+msgstr "設定天氣圖示"
 
 msgctxt "#31261"
 msgid "Widget aspect"
-msgstr ""
+msgstr "小工具比例"
 
 msgctxt "#31262"
 msgid "Poster"
@@ -1071,7 +1071,7 @@ msgstr "小工具"
 
 msgctxt "#31267"
 msgid "Action"
-msgstr ""
+msgstr "動作"
 
 msgctxt "#31268"
 msgid "Label"
@@ -1079,11 +1079,11 @@ msgstr "標籤"
 
 msgctxt "#31269"
 msgid "Fallback widget"
-msgstr ""
+msgstr "備用小工具"
 
 msgctxt "#31270"
 msgid "Video / Music OSD"
-msgstr ""
+msgstr "視頻 / 音樂 OSD"
 
 msgctxt "#31271"
 msgid "Single Image"
@@ -1095,27 +1095,27 @@ msgstr "多張圖片"
 
 msgctxt "#31273"
 msgid "Hub widget"
-msgstr ""
+msgstr "集線器小工具"
 
 msgctxt "#31274"
 msgid "Most played Song"
-msgstr ""
+msgstr "播放次數最多的歌曲"
 
 msgctxt "#31275"
 msgid "[B]Configure Interface Settings[/B][CR][CR] •     Skin[CR] •     Region[CR] •     Control[CR] •     Screensaver[CR] •     Master Lock[CR]"
-msgstr ""
+msgstr "[B]配置介面設置[/B][CR][CR] •     主題[CR] •     區域[CR] •     控制[CR] •     螢幕保護程式[CR] •     主鎖[CR]"
 
 msgctxt "#31276"
 msgid "[B]Configure Library Settings[/B][CR][CR] •     Display[CR] •     Navigation[CR] •     Media Database[CR]"
-msgstr ""
+msgstr "[B]配置資料庫設置[/B][CR][CR] •     顯示[CR] •     導航[CR] •     媒體資料庫[CR]"
 
 msgctxt "#31277"
 msgid "[B]Configure Player Settings[/B][CR][CR] •     Playback Actions[CR] •     How Content is Played[CR]"
-msgstr ""
+msgstr "[B]配置播放器設置[/B][CR][CR] •     播放操作[CR] •     內容播放方式[CR]"
 
 msgctxt "#31278"
 msgid "Download all artwork"
-msgstr ""
+msgstr "下載所有藝術作品"
 
 msgctxt "#31279"
 msgid "Video decoder"
@@ -1127,83 +1127,83 @@ msgstr "畫面格式"
 
 msgctxt "#31281"
 msgid "Play Speed"
-msgstr ""
+msgstr "播放速度"
 
 msgctxt "#31282"
 msgid "Special Features"
-msgstr ""
+msgstr "特色功能"
 
 msgctxt "#31283"
 msgid "Select artwork"
-msgstr ""
+msgstr "選擇藝術作品"
 
 msgctxt "#31284"
 msgid "Download artwork"
-msgstr ""
+msgstr "下載藝術作品"
 
 msgctxt "#31285"
 msgid "Top Songs"
-msgstr ""
+msgstr "熱門歌曲"
 
 msgctxt "#31286"
 msgid "Random Songs"
-msgstr ""
+msgstr "隨機歌曲"
 
 msgctxt "#31287"
 msgid "Modern"
-msgstr ""
+msgstr "現代"
 
 msgctxt "#31288"
 msgid "Weather - daily"
-msgstr ""
+msgstr "天氣 - 每日"
 
 msgctxt "#31289"
 msgid "Weather - hourly"
-msgstr ""
+msgstr "天氣 - 每小時"
 
 msgctxt "#31290"
 msgid "Open Player Process Information"
-msgstr ""
+msgstr "開啟播放器進程資訊"
 
 msgctxt "#31291"
 msgid "Player-Cache"
-msgstr ""
+msgstr "播放器快取"
 
 msgctxt "#31292"
 msgid "Channel List"
-msgstr ""
+msgstr "頻道列表"
 
 msgctxt "#31293"
 msgid "Reloaded"
-msgstr ""
+msgstr "已重新加載"
 
 msgctxt "#31294"
 msgid "Side"
-msgstr ""
+msgstr "側邊"
 
 msgctxt "#31295"
 msgid "OSD view mode:"
-msgstr ""
+msgstr "OSD 顯示模式："
 
 msgctxt "#31296"
 msgid "This is your personal rating and will not be published."
-msgstr ""
+msgstr "這是您的個人評分，將不會公開發佈。"
 
 msgctxt "#31297"
 msgid "       "
-msgstr ""
+msgstr "       "
 
 msgctxt "#31298"
 msgid "Video / Music Infodialog"
-msgstr ""
+msgstr "視頻 / 音樂資訊對話框"
 
 msgctxt "#31299"
 msgid "Show plot on HUB"
-msgstr ""
+msgstr "在 HUB 顯示劇情"
 
 msgctxt "#31300"
 msgid "Colors"
-msgstr ""
+msgstr "色彩"
 
 msgctxt "#31301"
 msgid "Video OSD"
@@ -1223,143 +1223,143 @@ msgstr "檢視"
 
 msgctxt "#31305"
 msgid "HUBs"
-msgstr ""
+msgstr "HUB"
 
 msgctxt "#31307"
 msgid "ClearArt"
-msgstr ""
+msgstr "清晰圖片"
 
 msgctxt "#31308"
 msgid "Blur-Settings"
-msgstr ""
+msgstr "模糊設置"
 
 msgctxt "#31309"
 msgid "Media-Flags"
-msgstr ""
+msgstr "媒體標誌"
 
 msgctxt "#31310"
 msgid "Enable grid"
-msgstr ""
+msgstr "啟用網格"
 
 msgctxt "#31311"
 msgid "Hide play/pause info"
-msgstr ""
+msgstr "隱藏播放/暫停資訊"
 
 msgctxt "#31312"
 msgid "Auto close OSD after delay (in seconds)"
-msgstr ""
+msgstr "延遲後自動關閉 OSD（以秒為單位）"
 
 msgctxt "#31313"
 msgid "Random Artists with biography only"
-msgstr ""
+msgstr "隨機藝人（僅有傳記）"
 
 msgctxt "#31314"
 msgid "People"
-msgstr ""
+msgstr "人物"
 
 msgctxt "#31315"
 msgid "Recently added Artists"
-msgstr ""
+msgstr "最近新增的藝人"
 
 msgctxt "#31316"
 msgid "Recently added Artists with biography only"
-msgstr ""
+msgstr "最近新增的藝人（僅有傳記）"
 
 msgctxt "#31317"
 msgid "Top 20 User Rated Movies"
-msgstr ""
+msgstr "用戶評分前 20 名電影"
 
 msgctxt "#31318"
 msgid "Reset skin settings to defaults?"
-msgstr ""
+msgstr "重設皮膚設置為預設值？"
 
 msgctxt "#31319"
 msgid "Reset skin settings to defaults? WARNING: This will also reset your home menu to skin defaults!"
-msgstr ""
+msgstr "重設皮膚設置為預設值？警告：這也會將您的首頁菜單重設為皮膚預設！"
 
 msgctxt "#31320"
 msgid "Random Actors ordered by movies"
-msgstr ""
+msgstr "隨機演員（按電影排序）"
 
 msgctxt "#31321"
 msgid "New Unwatched Movies"
-msgstr ""
+msgstr "新未觀看電影"
 
 msgctxt "#31322"
 msgid "New Unwatched Episodes"
-msgstr ""
+msgstr "新未觀看劇集"
 
 msgctxt "#31323"
 msgid "New Unwatched Tv Shows"
-msgstr ""
+msgstr "新未觀看電視節目"
 
 msgctxt "#31324"
 msgid "Search results for"
-msgstr ""
+msgstr "搜尋結果"
 
 msgctxt "#31325"
 msgid "Side Cards"
-msgstr ""
+msgstr "側邊卡片"
 
 msgctxt "#31326"
 msgid "Show temperature and icon"
-msgstr ""
+msgstr "顯示溫度和圖示"
 
 msgctxt "#31327"
 msgid "Seasons Info"
-msgstr ""
+msgstr "季節資訊"
 
 msgctxt "#31328"
 msgid "Deeper shadows"
-msgstr ""
+msgstr "更深的陰影"
 
 msgctxt "#31330"
 msgid "ClearLogo"
-msgstr ""
+msgstr "清晰標誌"
 
 msgctxt "#31331"
 msgid "Show ClearLogo/Art"
-msgstr ""
+msgstr "顯示清晰標誌/藝術作品"
 
 msgctxt "#31332"
 msgid "More of"
-msgstr ""
+msgstr "更多的"
 
 msgctxt "#31333"
 msgid "Poster Wall Small"
-msgstr ""
+msgstr "海報牆 (小)"
 
 msgctxt "#31334"
 msgid "5"
-msgstr ""
+msgstr "5"
 
 msgctxt "#31335"
 msgid "10"
-msgstr ""
+msgstr "10"
 
 msgctxt "#31336"
 msgid "15"
-msgstr ""
+msgstr "15"
 
 msgctxt "#31337"
 msgid "20"
-msgstr ""
+msgstr "20"
 
 msgctxt "#31338"
 msgid "25"
-msgstr ""
+msgstr "25"
 
 msgctxt "#31339"
 msgid "Auto-scrolling widgets (seconds)"
-msgstr ""
+msgstr "自動滾動小工具（秒數）"
 
 msgctxt "#31340"
 msgid "Auto-scrolling"
-msgstr ""
+msgstr "自動滾動"
 
 msgctxt "#31341"
 msgid "Widget-listtype"
-msgstr ""
+msgstr "小工具列表類型"
 
 msgctxt "#31342"
 msgid "List"
@@ -1367,39 +1367,39 @@ msgstr "列表"
 
 msgctxt "#31343"
 msgid "Fixed list"
-msgstr ""
+msgstr "固定列表"
 
 msgctxt "#31345"
 msgid "Texture/Icon on infopage"
-msgstr ""
+msgstr "資訊頁面上的紋理/圖示"
 
 msgctxt "#31346"
 msgid "Studio logo"
-msgstr ""
+msgstr "工作室標誌"
 
 msgctxt "#31347"
 msgid "Rating flag"
-msgstr ""
+msgstr "評分標誌"
 
 msgctxt "#31348"
 msgid "Movie Genre Icons"
-msgstr ""
+msgstr "電影類型圖示"
 
 msgctxt "#31349"
 msgid "Studio Icons"
-msgstr ""
+msgstr "工作室圖示"
 
 msgctxt "#31350"
 msgid "Record Label Icons"
-msgstr ""
+msgstr "唱片公司圖示"
 
 msgctxt "#31352"
 msgid "Switch to full screen mode when music starts playing"
-msgstr ""
+msgstr "音樂開始播放時切換至全螢幕模式"
 
 msgctxt "#31354"
 msgid "Animate fanart/slideshow"
-msgstr ""
+msgstr "動畫效果：愛好者藝術/幻燈片播放"
 
 msgctxt "#31355"
 msgid "Normal"
@@ -1407,279 +1407,279 @@ msgstr "正常"
 
 msgctxt "#31356"
 msgid "Slow"
-msgstr ""
+msgstr "慢速"
 
 msgctxt "#31357"
 msgid "Very slow"
-msgstr ""
+msgstr "非常慢"
 
 msgctxt "#31358"
 msgid "Fadetime"
-msgstr ""
+msgstr "淡入淡出時間"
 
 msgctxt "#31359"
 msgid "Customise power menu"
-msgstr ""
+msgstr "自訂電源選單"
 
 msgctxt "#31360"
 msgid "Log off: $INFO[system.profilename]"
-msgstr ""
+msgstr "登出：$INFO[system.profilename]"
 
 msgctxt "#31361"
 msgid "Delete/Disable Settings Menu Item?"
-msgstr ""
+msgstr "刪除/禁用設定選單項目？"
 
 msgctxt "#31362"
 msgid "Are you sure you want to remove the Settings menu item?[CR]Please ensure that you have an alternative method of accessing Settings before you remove this menu item."
-msgstr ""
+msgstr "您確定要移除設定選單項目嗎？[CR]請確保在移除此選單項目之前，您有其他方式進入設定。"
 
 msgctxt "#31363"
 msgid "Power menu"
-msgstr ""
+msgstr "電源選單"
 
 msgctxt "#31364"
 msgid "Shutdown in: [B]$INFO[System.Alarmpos][/B]"
-msgstr ""
+msgstr "關機倒數：[B]$INFO[System.Alarmpos][/B]"
 
 msgctxt "#31365"
 msgid "Use IMDB trailers (requires plugin.video.imdb.trailers)"
-msgstr ""
+msgstr "使用 IMDB 預告片（需要 plugin.video.imdb.trailers 插件）"
 
 msgctxt "#31366"
 msgid "Show Filenames"
-msgstr ""
+msgstr "顯示檔案名"
 
 msgctxt "#31367"
 msgid "Focus Bars (List Views)"
-msgstr ""
+msgstr "焦點條（列表檢視）"
 
 msgctxt "#31368"
 msgid "Show unwatched episodes count"
-msgstr ""
+msgstr "顯示未觀看劇集數量"
 
 msgctxt "#31369"
 msgid "Shifted ClearArt"
-msgstr ""
+msgstr "偏移清晰圖像"
 
 msgctxt "#31370"
 msgid "Year of release"
-msgstr ""
+msgstr "發行年份"
 
 msgctxt "#31371"
 msgid "total"
-msgstr ""
+msgstr "總計"
 
 msgctxt "#31372"
 msgid "last on"
-msgstr ""
+msgstr "最後播放於"
 
 msgctxt "#31373"
 msgid "[B]Configure LibreELEC Settings[/B][CR][CR] •     Setup system settings[CR] •     Configure system updatesSetup and calibrate network[CR] •     Setup and calibrate network[CR] •     Configure connections [CR]"
-msgstr ""
+msgstr "[B]設定 LibreELEC 設定[/B][CR][CR] •     設定系統設定[CR] •     設定系統更新與網路校準[CR] •     設定與校準網路[CR] •     設定連接[CR]"
 
 msgctxt "#31374"
 msgid "[B]Configure CoreELEC Settings[/B][CR][CR] •     Setup system settings[CR] •     Configure system updatesSetup and calibrate network[CR] •     Setup and calibrate network[CR] •     Configure connections [CR]"
-msgstr ""
+msgstr "[B]設定 CoreELEC 設定[/B][CR][CR] •     設定系統設定[CR] •     設定系統更新與網路校準[CR] •     設定與校準網路[CR] •     設定連接[CR]"
 
 msgctxt "#31375"
 msgid "-"
-msgstr ""
+msgstr "-"
 
 msgctxt "#31376"
 msgid "n/a"
-msgstr ""
+msgstr "無"
 
 msgctxt "#31377"
 msgid "TBD"
-msgstr ""
+msgstr "待定"
 
 msgctxt "#31378"
 msgid "Fallback label for ratings in list views"
-msgstr ""
+msgstr "列表檢視中評分的替代標籤"
 
 msgctxt "#31379"
 msgid "Size of Icons"
-msgstr ""
+msgstr "圖示大小"
 
 msgctxt "#31380"
 msgid "Align"
-msgstr ""
+msgstr "對齊"
 
 msgctxt "#31381"
 msgid "left"
-msgstr ""
+msgstr "左邊"
 
 msgctxt "#31382"
 msgid "center"
-msgstr ""
+msgstr "中間"
 
 msgctxt "#31383"
 msgid "Fanart with ClearLogo"
-msgstr ""
+msgstr "帶有清晰標誌的愛好者藝術"
 
 msgctxt "#31384"
 msgid "Fullsize EPG"
-msgstr ""
+msgstr "全螢幕 EPG"
 
 msgctxt "#31385"
 msgid "Also use for widgets"
-msgstr ""
+msgstr "也用於小工具"
 
 msgctxt "#31386"
 msgid "Also use for system-icons"
-msgstr ""
+msgstr "也用於系統圖示"
 
 msgctxt "#31387"
 msgid "DiscArt Fallback-Type"
-msgstr ""
+msgstr "唱片藝術替代類型"
 
 msgctxt "#31388"
 msgid "CD"
-msgstr ""
+msgstr "CD"
 
 msgctxt "#31389"
 msgid "Fake CD"
-msgstr ""
+msgstr "假 CD"
 
 msgctxt "#31390"
 msgid "Vinyl"
-msgstr ""
+msgstr "黑膠唱片"
 
 msgctxt "#31391"
 msgid "Prefer tags instead of rating"
-msgstr ""
+msgstr "偏好標籤而非評分"
 
 msgctxt "#31392"
 msgid "Limit number of items in hub"
-msgstr ""
+msgstr "限制 HUB 中的項目數量"
 
 msgctxt "#31393"
 msgid "Show icons only"
-msgstr ""
+msgstr "僅顯示圖示"
 
 msgctxt "#31394"
 msgid "Multi-Widgets"
-msgstr ""
+msgstr "多個小工具"
 
 msgctxt "#31395"
 msgid "Gradient color for "
-msgstr ""
+msgstr "漸變色"
 
 msgctxt "#31396"
 msgid "Gradient"
-msgstr ""
+msgstr "漸變"
 
 msgctxt "#31397"
 msgid "Focus Bars (Settings, Homemenu Shortcuts)"
-msgstr ""
+msgstr "焦點條（設定、首頁快捷方式）"
 
 msgctxt "#31398"
 msgid "RAM"
-msgstr ""
+msgstr "RAM"
 
 msgctxt "#31399"
 msgid "Skin-Version:"
-msgstr ""
+msgstr "皮膚版本："
 
 msgctxt "#31400"
 msgid "Scroll behavior"
-msgstr ""
+msgstr "滾動行為"
 
 msgctxt "#31401"
 msgid "Aspect ratio"
-msgstr ""
+msgstr "縱橫比"
 
 msgctxt "#31402"
 msgid "Select aspect ratio for square widget"
-msgstr ""
+msgstr "選擇方形小工具的縱橫比"
 
 msgctxt "#31403"
 msgid "Scale"
-msgstr ""
+msgstr "縮放"
 
 msgctxt "#31404"
 msgid "Sunrise at"
-msgstr ""
+msgstr "日出時間"
 
 msgctxt "#31405"
 msgid "Sunset at"
-msgstr ""
+msgstr "日落時間"
 
 msgctxt "#31406"
 msgid "Square small"
-msgstr ""
+msgstr "小方形"
 
 msgctxt "#31407"
 msgid "Square medium"
-msgstr ""
+msgstr "中型方形"
 
 msgctxt "#31408"
 msgid "Alternative"
-msgstr ""
+msgstr "替代方案"
 
 msgctxt "#31409"
 msgid "Bigger"
-msgstr ""
+msgstr "更大"
 
 msgctxt "#31410"
 msgid "Home menu bar"
-msgstr ""
+msgstr "主選單列"
 
 msgctxt "#31411"
 msgid "Fullscreen widget"
-msgstr ""
+msgstr "全螢幕小工具"
 
 msgctxt "#31412"
 msgid " - Fullscreen"
-msgstr ""
+msgstr " - 全螢幕"
 
 msgctxt "#31413"
 msgid "Weather location"
-msgstr ""
+msgstr "天氣位置"
 
 msgctxt "#31414"
 msgid "Widget 1"
-msgstr ""
+msgstr "小工具 1"
 
 msgctxt "#31415"
 msgid "Widget 2"
-msgstr ""
+msgstr "小工具 2"
 
 msgctxt "#31416"
 msgid "Widget 3"
-msgstr ""
+msgstr "小工具 3"
 
 msgctxt "#31417"
 msgid "Widget 4"
-msgstr ""
+msgstr "小工具 4"
 
 msgctxt "#31418"
 msgid "Widget 5"
-msgstr ""
+msgstr "小工具 5"
 
 msgctxt "#31419"
 msgid "Big Poster"
-msgstr ""
+msgstr "大海報"
 
 msgctxt "#31420"
 msgid "Lock view for"
-msgstr ""
+msgstr "鎖定檢視"
 
 msgctxt "#31421"
 msgid "Images"
-msgstr ""
+msgstr "圖片"
 
 msgctxt "#31422"
 msgid "Big wide"
-msgstr ""
+msgstr "大寬幅"
 
 msgctxt "#31423"
 msgid "Big list"
-msgstr ""
+msgstr "大列表"
 
 msgctxt "#31424"
 msgid "Enable forced views (experimental)"
-msgstr ""
+msgstr "啟用強制檢視（實驗性）"
 
 msgctxt "#31425"
 msgid "Seconds"
@@ -1687,103 +1687,103 @@ msgstr "秒"
 
 msgctxt "#31426"
 msgid "Reset forced views"
-msgstr ""
+msgstr "重置強制檢視"
 
 msgctxt "#31427"
 msgid "Forced views"
-msgstr ""
+msgstr "強制檢視"
 
 msgctxt "#31428"
 msgid "Big icons"
-msgstr ""
+msgstr "大圖示"
 
 msgctxt "#31429"
 msgid "more..."
-msgstr ""
+msgstr "更多..."
 
 msgctxt "#31430"
 msgid "item"
-msgstr ""
+msgstr "項目"
 
 msgctxt "#31431"
 msgid "Use old Arctic Zephyr window animation"
-msgstr ""
+msgstr "使用舊版 Arctic Zephyr 視窗動畫"
 
 msgctxt "#31432"
 msgid "Alternative layout"
-msgstr ""
+msgstr "替代佈局"
 
 msgctxt "#31433"
 msgid "Smart Shortcuts"
-msgstr ""
+msgstr "智慧快捷方式"
 
 msgctxt "#31434"
 msgid "Movies and TV shows"
-msgstr ""
+msgstr "電影與電視節目"
 
 msgctxt "#31435"
 msgid "Recently added Songs"
-msgstr ""
+msgstr "最近新增的歌曲"
 
 msgctxt "#31436"
 msgid "Most played Songs"
-msgstr ""
+msgstr "最多播放的歌曲"
 
 msgctxt "#31437"
 msgid "Use old jumpbar"
-msgstr ""
+msgstr "使用舊版跳躍欄"
 
 msgctxt "#31438"
 msgid "Genre Poster"
-msgstr ""
+msgstr "類型海報"
 
 msgctxt "#31439"
 msgid "Chapter markers"
-msgstr ""
+msgstr "章節標記"
 
 msgctxt "#31441"
 msgid "RottenTomatoes & Metacritic"
-msgstr ""
+msgstr "RottenTomatoes & Metacritic"
 
 msgctxt "#31442"
 msgid "Select media flags"
-msgstr ""
+msgstr "選擇媒體標籤"
 
 msgctxt "#31443"
 msgid "Subtitle icon"
-msgstr ""
+msgstr "字幕圖示"
 
 msgctxt "#31444"
 msgid "Subtitle extended info"
-msgstr ""
+msgstr "字幕擴展資訊"
 
 msgctxt "#31445"
 msgid "Reminder enabled"
-msgstr ""
+msgstr "啟用提醒"
 
 msgctxt "#31446"
 msgid "Reminder Rule enabled"
-msgstr ""
+msgstr "啟用提醒規則"
 
 msgctxt "#31447"
 msgid "German Telecast Offers"
-msgstr ""
+msgstr "德國電視播放優惠"
 
 msgctxt "#31448"
 msgid "Debugging"
-msgstr ""
+msgstr "除錯"
 
 msgctxt "#31449"
 msgid "Extended debugging information"
-msgstr ""
+msgstr "擴展除錯資訊"
 
 msgctxt "#31450"
 msgid "Extended grid"
-msgstr ""
+msgstr "擴展網格"
 
 msgctxt "#31451"
 msgid "Play next episode"
-msgstr ""
+msgstr "播放下一集"
 
 msgctxt "#31452"
 msgid "Widget"
@@ -1791,39 +1791,39 @@ msgstr "小工具"
 
 msgctxt "#31453"
 msgid "Edge distance"
-msgstr ""
+msgstr "邊距"
 
 msgctxt "#31454"
 msgid "30px"
-msgstr ""
+msgstr "30像素"
 
 msgctxt "#31455"
 msgid "Path intros"
-msgstr ""
+msgstr "路徑介紹"
 
 msgctxt "#31456"
 msgid "Trailer count"
-msgstr ""
+msgstr "預告片數量"
 
 msgctxt "#31457"
 msgid "Some other"
-msgstr ""
+msgstr "其他"
 
 msgctxt "#31458"
 msgid "Video preview"
-msgstr ""
+msgstr "視頻預覽"
 
 msgctxt "#31459"
 msgid "DiscArt"
-msgstr ""
+msgstr "唱片藝術"
 
 msgctxt "#31460"
 msgid "Fake Blu-ray"
-msgstr ""
+msgstr "假藍光"
 
 msgctxt "#31461"
 msgid "Artwork section"
-msgstr ""
+msgstr "藝術區域"
 
 msgctxt "#31462"
 msgid "Landscape"
@@ -1831,91 +1831,91 @@ msgstr "橫向"
 
 msgctxt "#31463"
 msgid "Artwork of"
-msgstr ""
+msgstr "藝術作品"
 
 msgctxt "#31464"
 msgid "Movies and episodes"
-msgstr ""
+msgstr "電影和劇集"
 
 msgctxt "#31465"
 msgid "Random movies and episodes"
-msgstr ""
+msgstr "隨機電影和劇集"
 
 msgctxt "#31466"
 msgid "Recent movies and episodes"
-msgstr ""
+msgstr "最近的電影和劇集"
 
 msgctxt "#31467"
 msgid "disabled"
-msgstr ""
+msgstr "已禁用"
 
 msgctxt "#31468"
 msgid "Required addons"
-msgstr ""
+msgstr "所需插件"
 
 msgctxt "#31469"
 msgid "Recommended addons"
-msgstr ""
+msgstr "推薦插件"
 
 msgctxt "#31470"
 msgid "Fixes"
-msgstr ""
+msgstr "修復"
 
 msgctxt "#31471"
 msgid "Hidden video window to prevent audio errors"
-msgstr ""
+msgstr "隱藏視頻視窗以防止音訊錯誤"
 
 msgctxt "#31472"
 msgid "CoreELEC Settings"
-msgstr "CoreELEC設定"
+msgstr "CoreELEC 設定"
 
 msgctxt "#31473"
 msgid "Custom widget"
-msgstr ""
+msgstr "自訂小工具"
 
 msgctxt "#31474"
 msgid "Configure custom widget"
-msgstr ""
+msgstr "設定自訂小工具"
 
 msgctxt "#31475"
 msgid "Netflix fanart window"
-msgstr ""
+msgstr "Netflix 愛好者藝術視窗"
 
 msgctxt "#31476"
 msgid "Boxed Set"
-msgstr ""
+msgstr "盒裝套裝"
 
 msgctxt "#31477"
 msgid "Widget 6"
-msgstr ""
+msgstr "小工具 6"
 
 msgctxt "#31478"
 msgid "Indicators"
-msgstr ""
+msgstr "指示器"
 
 msgctxt "#31479"
 msgid "Clear home menu bar"
-msgstr ""
+msgstr "清除主選單列"
 
 msgctxt "#31480"
 msgid "HDR"
-msgstr ""
+msgstr "HDR"
 
 msgctxt "#31481"
 msgid "Blu-ray / HD DVD / DVD / WEB-DL"
-msgstr ""
+msgstr "藍光 / HD DVD / DVD / WEB-DL"
 
 msgctxt "#31482"
 msgid "IMDB Top 250"
-msgstr ""
+msgstr "IMDB Top 250"
 
 msgctxt "#31483"
 msgid "Audio Channels"
-msgstr ""
+msgstr "音訊通道"
 
 msgctxt "#31484"
 msgid "Spotlight widget path"
-msgstr ""
+msgstr "聚光燈小工具路徑"
 
 msgctxt "#31485"
 msgid "Origin"
@@ -1923,7 +1923,7 @@ msgstr "原始"
 
 msgctxt "#31486"
 msgid "Trakt"
-msgstr ""
+msgstr "Trakt"
 
 msgctxt "#31487"
 msgid "CPU"
@@ -1931,35 +1931,35 @@ msgstr "CPU"
 
 msgctxt "#31488"
 msgid "On focus don't slide left"
-msgstr ""
+msgstr "獲得焦點時不向左滑動"
 
 msgctxt "#31489"
 msgid "Underlined homemenu items"
-msgstr ""
+msgstr "帶下劃線的主選單項目"
 
 msgctxt "#31490"
 msgid "Auto scrolling widget title"
-msgstr ""
+msgstr "自動滾動的小工具標題"
 
 msgctxt "#31491"
 msgid "Poster Flix v2"
-msgstr ""
+msgstr "Poster Flix v2"
 
 msgctxt "#31492"
 msgid "Paused"
-msgstr ""
+msgstr "暫停"
 
 msgctxt "#31493"
 msgid "Watched"
-msgstr ""
+msgstr "已觀看"
 
 msgctxt "#31494"
 msgid "New!"
-msgstr ""
+msgstr "新！"
 
 msgctxt "#31495"
 msgid "Alternative indicators"
-msgstr ""
+msgstr "替代指示器"
 
 msgctxt "#31496"
 msgid "Label"
@@ -1967,75 +1967,75 @@ msgstr "標籤"
 
 msgctxt "#31497"
 msgid "Movies by this director"
-msgstr ""
+msgstr "此導演的電影"
 
 msgctxt "#31498"
 msgid "Collection"
-msgstr ""
+msgstr "合集"
 
 msgctxt "#31499"
 msgid "Auto scrolling titles"
-msgstr ""
+msgstr "自動滾動標題"
 
 msgctxt "#31500"
 msgid "Prefer percentage"
-msgstr ""
+msgstr "偏好百分比"
 
 msgctxt "#31501"
 msgid "Prefer local list information"
-msgstr ""
+msgstr "偏好本地列表資訊"
 
 msgctxt "#31502"
 msgid "On back, widgets do not return to initial position"
-msgstr ""
+msgstr "按返回時，小工具不會返回初始位置"
 
 msgctxt "#31503"
 msgid "On up, when at first widget, do not jump back to last widget"
-msgstr ""
+msgstr "在第一個小工具時，按上鍵不跳回上一個小工具"
 
 msgctxt "#31504"
 msgid "On down, when at last widget, widgets do not return to initial position"
-msgstr ""
+msgstr "在最後一個小工具時，按下鍵，小工具不會返回初始位置"
 
 msgctxt "#31505"
 msgid "On up/down at first/last widget, go to last/first widget"
-msgstr ""
+msgstr "在第一個/最後一個小工具時，上/下鍵跳到最後/第一個小工具"
 
 msgctxt "#31506"
 msgid "More clean & minimal"
-msgstr ""
+msgstr "更簡潔與極簡"
 
 msgctxt "#31507"
 msgid "Layout options"
-msgstr ""
+msgstr "佈局選項"
 
 msgctxt "#31508"
 msgid "Global"
-msgstr "整體"
+msgstr "全域"
 
 msgctxt "#31509"
 msgid "4K Movies"
-msgstr ""
+msgstr "4K電影"
 
 msgctxt "#31510"
 msgid "Recent recordings"
-msgstr "最近的錄影"
+msgstr "最近錄製"
 
 msgctxt "#31511"
 msgid "Grouped recent recordings"
-msgstr ""
+msgstr "分組的最近錄製"
 
 msgctxt "#31512"
 msgid "Grouped deleted recordings"
-msgstr ""
+msgstr "分組的已刪除錄製"
 
 msgctxt "#31513"
 msgid "Override play function with TMDB helper play function"
-msgstr ""
+msgstr "用 TMDB 助手播放功能覆蓋播放功能"
 
 msgctxt "#31514"
 msgid "Show, if not empty"
-msgstr ""
+msgstr "如果不為空則顯示"
 
 msgctxt "#31515"
 msgid "Hide"
@@ -2043,375 +2043,375 @@ msgstr "隱藏"
 
 msgctxt "#31516"
 msgid "Last Played Radio Channels"
-msgstr ""
+msgstr "最後播放的廣播頻道"
 
 msgctxt "#31517"
-msgid "Mini-EPG (vertical, only 5 Items)"
-msgstr ""
+msgid "ChannelTiny-EPG (vertical, only 5 Items)"
+msgstr "迷你 EPG（垂直，僅顯示 5 項）"
 
 msgctxt "#31518"
 msgid "Unwatched Tv Shows"
-msgstr ""
+msgstr "未觀看的電視劇"
 
 msgctxt "#31519"
 msgid "Hide background of channel icon"
-msgstr ""
+msgstr "隱藏頻道圖標背景"
 
 msgctxt "#31520"
 msgid "for"
-msgstr ""
+msgstr "為"
 
 msgctxt "#31521"
 msgid "Poster Wall"
-msgstr ""
+msgstr "海報牆"
 
 msgctxt "#31522"
 msgid "Fanart Flix v2"
-msgstr ""
+msgstr "Fanart Flix v2"
 
 msgctxt "#31523"
 msgid "Fanart Flix"
-msgstr ""
+msgstr "Fanart Flix"
 
 msgctxt "#31524"
 msgid "IMDB Position"
-msgstr ""
+msgstr "IMDB 排名"
 
 msgctxt "#31525"
 msgid "Use default MPAA rating icons"
-msgstr ""
+msgstr "使用預設的 MPAA 分級圖示"
 
 msgctxt "#31526"
 msgid "Use default selectbox"
-msgstr ""
+msgstr "使用預設選擇框"
 
 msgctxt "#31527"
 msgid "Small Fanart"
-msgstr ""
+msgstr "小型愛好者藝術"
 
 msgctxt "#31528"
 msgid "Small Thumbnail"
-msgstr ""
+msgstr "小型縮略圖"
 
 msgctxt "#31529"
 msgid "Small Poster Thumbnail"
-msgstr ""
+msgstr "小型海報縮略圖"
 
 msgctxt "#31530"
 msgid "Seasons Info v2"
-msgstr ""
+msgstr "季節資訊 v2"
 
 msgctxt "#31531"
 msgid "Up Next Addon"
-msgstr ""
+msgstr "下一個附加元件"
 
 msgctxt "#31532"
 msgid "Use thumbnail instead of fanart"
-msgstr ""
+msgstr "使用縮略圖代替愛好者藝術"
 
 msgctxt "#31533"
 msgid "Clean and minimal"
-msgstr ""
+msgstr "簡潔與極簡"
 
 msgctxt "#31535"
 msgid "Hide plot, when widget is not focused"
-msgstr ""
+msgstr "當小工具未獲得焦點時隱藏劇情"
 
 msgctxt "#31536"
 msgid "Audio streams"
-msgstr ""
+msgstr "音訊串流"
 
 msgctxt "#31537"
 msgid "Info slider"
-msgstr ""
+msgstr "資訊滑塊"
 
 msgctxt "#31538"
 msgid "Blur radius"
-msgstr ""
+msgstr "模糊半徑"
 
 msgctxt "#31539"
 msgid "Blend (0-100%)"
-msgstr ""
+msgstr "混合（0-100%）"
 
 msgctxt "#31540"
 msgid "Image quality"
-msgstr ""
+msgstr "圖片質量"
 
 msgctxt "#31541"
 msgid "Bitsize"
-msgstr ""
+msgstr "位元大小"
 
 msgctxt "#31542"
 msgid "Blur quality"
-msgstr ""
+msgstr "模糊質量"
 
 msgctxt "#31543"
 msgid "Use colorbox script"
-msgstr ""
+msgstr "使用色塊腳本"
 
 msgctxt "#31550"
 msgid "Additional fanart"
-msgstr ""
+msgstr "附加愛好者藝術"
 
 msgctxt "#31551"
 msgid "Try to lock skin colors/theme/fonts"
-msgstr ""
+msgstr "嘗試鎖定介面顏色/主題/字體"
 
 msgctxt "#31553"
 msgid "Show logo AZR in settings"
-msgstr ""
+msgstr "在設定中顯示 AZR 標誌"
 
 msgctxt "#31554"
 msgid "HD Movies"
-msgstr ""
+msgstr "高清電影"
 
 msgctxt "#31555"
 msgid "Hide, when not focused"
-msgstr ""
+msgstr "當未獲得焦點時隱藏"
 
 msgctxt "#31556"
 msgid "Hide, when not focused/used"
-msgstr ""
+msgstr "當未獲得焦點或未使用時隱藏"
 
 msgctxt "#31557"
 msgid "Hide seekbar"
-msgstr ""
+msgstr "隱藏進度條"
 
 msgctxt "#31558"
 msgid "Hide OSD"
-msgstr ""
+msgstr "隱藏 OSD"
 
 msgctxt "#31559"
 msgid "Scrolling text"
-msgstr ""
+msgstr "滾動文字"
 
 msgctxt "#31560"
 msgid "Numeric rating"
-msgstr ""
+msgstr "數字評分"
 
 msgctxt "#31561"
 msgid "Artist slideshow"
-msgstr ""
+msgstr "藝術家幻燈片"
 
 msgctxt "#31562"
 msgid "Reflections"
-msgstr ""
+msgstr "反射"
 
 msgctxt "#31563"
 msgid "Borders"
-msgstr ""
+msgstr "邊框"
 
 msgctxt "#31564"
 msgid "Low list"
-msgstr ""
+msgstr "低清單"
 
 msgctxt "#31565"
 msgid "Filenames"
-msgstr ""
+msgstr "檔案名稱"
 
 msgctxt "#31566"
 msgid "CD and case"
-msgstr ""
+msgstr "CD與盒子"
 
 msgctxt "#31567"
 msgid "Fallback image"
-msgstr ""
+msgstr "後備圖片"
 
 msgctxt "#31568"
 msgid "ClearLogo/Art"
-msgstr ""
+msgstr "清晰標誌/藝術"
 
 msgctxt "#31569"
 msgid "Clearlogo instead of title"
-msgstr ""
+msgstr "使用清晰標誌代替標題"
 
 msgctxt "#31570"
 msgid "Icon media flags"
-msgstr ""
+msgstr "圖示媒體標誌"
 
 msgctxt "#31571"
 msgid "Media flags"
-msgstr ""
+msgstr "媒體標誌"
 
 msgctxt "#31572"
 msgid "Play/pause info"
-msgstr ""
+msgstr "播放/暫停資訊"
 
 msgctxt "#31573"
 msgid "Clock"
-msgstr ""
+msgstr "時鐘"
 
 msgctxt "#31574"
 msgid "PVR technical info"
-msgstr ""
+msgstr "PVR 技術資訊"
 
 msgctxt "#31575"
 msgid "Default selectbox"
-msgstr ""
+msgstr "預設選擇框"
 
 msgctxt "#31576"
 msgid "Scrollbar"
-msgstr ""
+msgstr "滾動條"
 
 msgctxt "#31577"
 msgid "Progress graphic"
-msgstr ""
+msgstr "進度圖形"
 
 msgctxt "#31578"
 msgid "Hide widget label"
-msgstr ""
+msgstr "隱藏小工具標籤"
 
 msgctxt "#31579"
 msgid "Pixelsize"
-msgstr ""
+msgstr "像素大小"
 
 msgctxt "#31580"
 msgid "Effect settings"
-msgstr ""
+msgstr "效果設定"
 
 msgctxt "#31581"
 msgid "Enable blur / twotone / pixelate"
-msgstr ""
+msgstr "啟用模糊/雙色/像素化效果"
 
 msgctxt "#31582"
 msgid "Effect"
-msgstr ""
+msgstr "效果"
 
 msgctxt "#31583"
 msgid "Show behind slideshow"
-msgstr ""
+msgstr "顯示於幻燈片後"
 
 msgctxt "#31584"
 msgid "Make focused items glow"
-msgstr ""
+msgstr "讓獲得焦點的項目發光"
 
 msgctxt "#31585"
 msgid "Zoom focused items"
-msgstr ""
+msgstr "縮放獲得焦點的項目"
 
 msgctxt "#31586"
 msgid "low"
-msgstr ""
+msgstr "低"
 
 msgctxt "#31587"
 msgid "medium"
-msgstr ""
+msgstr "中"
 
 msgctxt "#31588"
 msgid "high"
-msgstr ""
+msgstr "高"
 
 msgctxt "#31589"
 msgid "Enable auto scrolling for titles"
-msgstr ""
+msgstr "啟用標題自動滾動"
 
 msgctxt "#31590"
 msgid "Glow intensity of focused items"
-msgstr ""
+msgstr "獲得焦點項目的發光強度"
 
 msgctxt "#31591"
 msgid "V2"
-msgstr ""
+msgstr "V2"
 
 msgctxt "#31592"
 msgid "List type"
-msgstr ""
+msgstr "清單類型"
 
 msgctxt "#31593"
 msgid "Enable auto playing trailers in flix views"
-msgstr ""
+msgstr "啟用在 Flix 視圖中自動播放預告片"
 
 msgctxt "#31594"
 msgid "Stop playback on next"
-msgstr ""
+msgstr "在播放下一個時停止播放"
 
 msgctxt "#31595"
 msgid "Try to hide black bars"
-msgstr ""
+msgstr "嘗試隱藏黑邊"
 
 msgctxt "#31596"
 msgid "playing"
-msgstr ""
+msgstr "播放中"
 
 msgctxt "#31597"
 msgid "paused"
-msgstr ""
+msgstr "暫停"
 
 msgctxt "#31598"
 msgid "caching"
-msgstr ""
+msgstr "緩衝中"
 
 msgctxt "#31599"
 msgid "Auto start delay"
-msgstr ""
+msgstr "自動啟動延遲"
 
 msgctxt "#31600"
 msgid "Use old widget movement"
-msgstr ""
+msgstr "使用舊版小工具移動方式"
 
 msgctxt "#31603"
 msgid "Auto playing trailers"
-msgstr ""
+msgstr "自動播放預告片"
 
 msgctxt "#31604"
 msgid "None"
-msgstr ""
+msgstr "無"
 
 msgctxt "#31605"
 msgid "Medium"
-msgstr ""
+msgstr "中"
 
 msgctxt "#31606"
 msgid "Maximal"
-msgstr ""
+msgstr "最大"
 
 msgctxt "#31607"
 msgid "On back, jump to first item in widget list"
-msgstr ""
+msgstr "按返回時，跳到小工具清單的第一項"
 
 msgctxt "#31608"
 msgid "After that, focus home menu"
-msgstr ""
+msgstr "之後，將焦點設定為主選單"
 
 msgctxt "#31623"
 msgid "If home menu is focused, jump to widgets on back"
-msgstr ""
+msgstr "如果主選單被選中，返回時跳至小工具"
 
 msgctxt "#31625"
 msgid "Disable addons fanart"
-msgstr ""
+msgstr "禁用附加元件的愛好者藝術"
 
 msgctxt "#31626"
 msgid "Only, when widget is focused"
-msgstr ""
+msgstr "僅當小工具獲得焦點時"
 
 msgctxt "#31628"
 msgid "Hide mouse warning"
-msgstr ""
+msgstr "隱藏滑鼠警告"
 
 msgctxt "#31629"
 msgid "EDL markers"
-msgstr ""
+msgstr "EDL 標記"
 
 msgctxt "#31630"
 msgid "Hub widget content type"
-msgstr ""
+msgstr "Hub 小工具內容類型"
 
 msgctxt "#31631"
 msgid "Playback action when video info dialog is shown"
-msgstr ""
+msgstr "顯示影片資訊對話框時的播放操作"
 
 msgctxt "#31632"
 msgid "Stop playback when item is no longer focused"
-msgstr ""
+msgstr "當項目不再獲得焦點時停止播放"
 
 msgctxt "#31643"
 msgid "LibreELEC Settings"
-msgstr "LibreELEC設定"
+msgstr "LibreELEC 設定"
 
 msgctxt "#31650"
 msgid "Is playing"
-msgstr ""
+msgstr "正在播放"
 
 msgctxt "#31651"
 msgid "Icon"
@@ -2419,91 +2419,91 @@ msgstr "圖示"
 
 msgctxt "#31652"
 msgid "Use embuary helper instead of litebox"
-msgstr ""
+msgstr "使用 Emby 優化助手代替 Litebox"
 
 msgctxt "#31653"
 msgid "blur"
-msgstr ""
+msgstr "模糊"
 
 msgctxt "#31654"
 msgid "Disable reflections"
-msgstr ""
+msgstr "禁用反射"
 
 msgctxt "#31655"
 msgid "For lower cpu's"
-msgstr ""
+msgstr "適用於較低效能的 CPU"
 
 msgctxt "#31656"
 msgid "Disable borders"
-msgstr ""
+msgstr "禁用邊框"
 
 msgctxt "#31657"
 msgid "Theme background image"
-msgstr ""
+msgstr "主題背景圖片"
 
 msgctxt "#31658"
 msgid "Now playing"
-msgstr "現正播放"
+msgstr "當播放中"
 
 msgctxt "#31663"
 msgid "Now playing..."
-msgstr ""
+msgstr "現在播放中..."
 
 msgctxt "#31664"
 msgid "User rating overrides"
-msgstr ""
+msgstr "用戶評分覆蓋"
 
 msgctxt "#31666"
 msgid "Star rating and value"
-msgstr ""
+msgstr "星級評分和數值"
 
 msgctxt "#31667"
 msgid "Animated artwork"
-msgstr ""
+msgstr "動畫藝術"
 
 msgctxt "#31668"
 msgid "Path to additional animated posters"
-msgstr ""
+msgstr "額外動畫海報的路徑"
 
 msgctxt "#31670"
 msgid "Show player controls"
-msgstr ""
+msgstr "顯示播放器控制"
 
 msgctxt "#31671"
 msgid "On right"
-msgstr ""
+msgstr "右邊"
 
 msgctxt "#31672"
 msgid "On up"
-msgstr ""
+msgstr "向上"
 
 msgctxt "#31673"
 msgid "Show clearart"
-msgstr ""
+msgstr "顯示清晰藝術"
 
 msgctxt "#31674"
 msgid "Critics consensus"
-msgstr ""
+msgstr "影評共識"
 
 msgctxt "#31675"
 msgid "Use artwork module for PVR artwork"
-msgstr ""
+msgstr "使用藝術模組作為PVR藝術"
 
 msgctxt "#31676"
 msgid "Ratings"
-msgstr ""
+msgstr "評分"
 
 msgctxt "#31677"
 msgid "Show detailed info when video starts (in seconds)"
-msgstr ""
+msgstr "當視頻開始時顯示詳細信息（以秒為單位）"
 
 msgctxt "#31678"
 msgid "Customized"
-msgstr ""
+msgstr "自定義"
 
 msgctxt "#31679"
 msgid "Color presets"
-msgstr ""
+msgstr "顏色預設"
 
 msgctxt "#31680"
 msgid "Preset"
@@ -2511,39 +2511,39 @@ msgstr "預設"
 
 msgctxt "#31681"
 msgid "Sunny pink"
-msgstr ""
+msgstr "陽光粉紅"
 
 msgctxt "#31682"
 msgid "Sky blue"
-msgstr ""
+msgstr "天空藍"
 
 msgctxt "#31683"
 msgid "Fruity orange"
-msgstr ""
+msgstr "果香橙"
 
 msgctxt "#31684"
 msgid "Aqua blue"
-msgstr ""
+msgstr "水藍"
 
 msgctxt "#31685"
 msgid "Light green"
-msgstr ""
+msgstr "淡綠"
 
 msgctxt "#31686"
 msgid "Steel gray"
-msgstr ""
+msgstr "鋼灰"
 
 msgctxt "#31687"
 msgid "Save color configuration"
-msgstr ""
+msgstr "保存顏色配置"
 
 msgctxt "#31688"
 msgid "Overwrite existing color configuration?"
-msgstr ""
+msgstr "覆蓋現有的顏色配置嗎？"
 
 msgctxt "#31689"
 msgid "Hide PVR recording dialog"
-msgstr ""
+msgstr "隱藏PVR錄製對話框"
 
 msgctxt "#31690"
 msgid "Player"
@@ -2551,7 +2551,7 @@ msgstr "播放設定"
 
 msgctxt "#31691"
 msgid "Players"
-msgstr ""
+msgstr "播放器"
 
 msgctxt "#31692"
 msgid "Local"
@@ -2559,64 +2559,316 @@ msgstr "本機"
 
 msgctxt "#31693"
 msgid "Online"
-msgstr ""
+msgstr "線上"
 
 msgctxt "#31694"
 msgid "Game studio/flag icons"
-msgstr ""
+msgstr "遊戲工作室/旗幟圖示"
 
 msgctxt "#31699"
 msgid "Pick a color..."
-msgstr ""
+msgstr "選擇顏色..."
 
 msgctxt "#31700"
 msgid "Set color"
-msgstr ""
+msgstr "設定顏色"
 
 msgctxt "#31701"
 msgid "Color palette"
-msgstr ""
+msgstr "顏色調色板"
 
 msgctxt "#31702"
 msgid "Use thumb for episodes background"
-msgstr ""
+msgstr "使用縮略圖作為集數背景"
 
 msgctxt "#31703"
 msgid "Small landscape"
-msgstr ""
+msgstr "小型橫圖"
 
 msgctxt "#31704"
 msgid "Small fanart"
-msgstr ""
+msgstr "小型愛好者藝術"
 
 msgctxt "#31705"
 msgid "Small poster fanart"
-msgstr ""
+msgstr "小型海報愛好者藝術"
 
 msgctxt "#31706"
 msgid "Use keyart instead of poster"
-msgstr ""
+msgstr "使用關鍵藝術而非海報"
 
 msgctxt "#31707"
 msgid "Rating stars"
-msgstr ""
+msgstr "評分星星"
 
 msgctxt "#31708"
 msgid "Auto show now playing info after 5 seconds delay if hidden"
-msgstr ""
+msgstr "如果隱藏，5秒後自動顯示現在播放信息"
 
 msgctxt "#31709"
 msgid "Only hide menu items"
-msgstr ""
+msgstr "僅隱藏菜單項目"
 
 msgctxt "#31711"
 msgid "Wikipedia"
-msgstr ""
+msgstr "維基百科"
 
 msgctxt "#31718"
 msgid "Sandy yellow"
+msgstr "沙黃色"
+
+msgctxt "#32000"
+msgid "Display mode"
+msgstr "顯示模式"
+
+msgctxt "#32001"
+msgid "Video mode"
+msgstr "視頻模式"
+
+msgctxt "#32002"
+msgid "Color space"
+msgstr "色彩空間"
+
+msgctxt "#32003"
+msgid "Mb/s"
+msgstr "Mb/s"
+
+msgctxt "#32004"
+msgid "Bit depth"
+msgstr "色深"
+
+msgctxt "#32005"
+msgid "Decoder"
+msgstr "解碼器"
+
+msgctxt "#32006"
+msgid "VS10 engine"
+msgstr "VS10引擎"
+
+msgctxt "#32007"
+msgid "More"
+msgstr "更多"
+
+msgctxt "#32008"
+msgid "Video queue"
+msgstr "視頻佇列"
+
+msgctxt "#32009"
+msgid "Video queue data"
+msgstr "視頻佇列數據"
+
+msgctxt "#32010"
+msgid "Audio queue"
+msgstr "音頻佇列"
+
+msgctxt "#32011"
+msgid "Audio queue data"
+msgstr "音頻佇列數據"
+
+msgctxt "#32012"
+msgid "Kb/s"
+msgstr "Kb/s"
+
+msgctxt "#32013"
+msgid "DV metadata"
+msgstr "DV元數據"
+
+msgctxt "#32014"
+msgid "Processor"
+msgstr "處理器"
+
+msgctxt "#32015"
+msgid "Version"
+msgstr "版本"
+
+msgctxt "#32016"
+msgid "Profile"
+msgstr "配置文件"
+
+msgctxt "#32017"
+msgid "Level"
+msgstr "層級"
+
+msgctxt "#32018"
+msgid "RPU"
+msgstr "RPU"
+
+msgctxt "#32019"
+msgid "Base Layer"
+msgstr "基本層"
+
+msgctxt "#32020"
+msgid "Enhancement Layer"
+msgstr "增強層"
+
+msgctxt "#32021"
+msgid "Enhancement Layer Type"
+msgstr "增強層類型"
+
+msgctxt "#32022"
+msgid "Metadata"
+msgstr "元數據"
+
+msgctxt "#32023"
+msgid "Pixel format"
+msgstr "像素格式"
+
+msgctxt "#32024"
+msgid "Aspect ratio"
+msgstr "長寬比"
+
+msgctxt "#32025"
+msgid "HDR10 MDL"
+msgstr "HDR10 MDL"
+
+msgctxt "#32026"
+msgid "HDR10 MaxCLL/FALL"
+msgstr "HDR10 MaxCLL/FALL"
+
+msgctxt "#32027"
+msgid "Media source"
+msgstr "媒體來源"
+
+msgctxt "#32028"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "#32029"
+msgid "On"
+msgstr "開"
+
+msgctxt "#32030"
+msgid "Off"
+msgstr "關"
+
+msgctxt "#32031"
+msgid "Deinterlacing"
+msgstr "去交錯"
+
+msgctxt "#32032"
+msgid "Player cache"
+msgstr "播放緩存"
+
+msgctxt "#32033"
+msgid "N/A"
+msgstr "不適用"
+
+msgctxt "#32034"
+msgid "Memory usage"
+msgstr "記憶體使用量"
+
+msgctxt "#32035"
+msgid "Bit depth"
+msgstr "色深"
+
+msgctxt "#32036"
+msgid "AML FPS"
+msgstr "AML FPS"
+
+msgctxt "#32037"
+msgid "DV Configuration"
+msgstr "DV 配置"
+
+msgctxt "#32038"
+msgid "DV Levels Metadata"
+msgstr "DV 層級元數據"
+
+msgctxt "#32039"
+msgid "HDR Static Metadata"
+msgstr "HDR 靜態元數據"
+
+msgctxt "#32040"
+msgid "cd/m²"
+msgstr "cd/m²"
+
+msgctxt "#32041"
+msgid "RPU MDL"
+msgstr "RPU MDL"
+
+msgctxt "#32042"
+msgid "RPU MaxCLL/FALL"
+msgstr "RPU MaxCLL/FALL"
+
+msgctxt "#32043"
+msgid "FLL MIN / MAX / Ø"
+msgstr "FLL MIN / MAX / Ø"
+
+msgctxt "#32044"
+msgid "PQ MIN / MAX / Ø"
+msgstr "PQ MIN / MAX / Ø"
+
+msgctxt "#32045"
+msgid "12-bit"
+msgstr "12-bit"
+
+msgctxt "#32046"
+msgid "Codec"
+msgstr "編解碼器"
+
+msgctxt "#32047"
+msgid "Bitrate"
+msgstr "碼率"
+
+msgctxt "#32048"
+msgid "VS10 status"
+msgstr "VS10 狀態"
+
+msgctxt "#32051"
+msgid "Sample rate"
+msgstr "採樣率"
+
+msgctxt "#32052"
+msgid "Audio language"
+msgstr "音訊語言"
+
+msgctxt "#32053"
+msgid "Subtitle language"
+msgstr "字幕語言"
+
+msgctxt "#32054"
+msgid "Video"
+msgstr "視頻"
+
+msgctxt "#32055"
+msgid "System"
+msgstr "系統"
+
+msgctxt "#32056"
+msgid "Audio"
+msgstr "音訊"
+
+msgctxt "#32057"
+msgid "Top left"
+msgstr "左上"
+
+msgctxt "#32058"
+msgid "Top center"
+msgstr "上中"
+
+msgctxt "#32059"
+msgid "Top right"
+msgstr "右上"
+
+msgctxt "#32060"
+msgid "Position of the codec logos in the OSD"
+msgstr "OSD 中編解碼器標誌的位置"
+
+msgctxt "#32061"
+msgid "Position of the codec logos in the PlayerProcessInfo"
+msgstr "PlayerProcessInfo 中編解碼器標誌的位置"
+
+msgctxt "#32062"
+msgid "Show codec logos when video starts"
+msgstr "視頻開始時顯示編解碼器標誌"
+
+msgctxt "#32063"
+msgid "Codec logos"
+msgstr "編解碼器標誌"
+
+msgctxt "#32064"
+msgid "Original"
 msgstr ""
 
-#~ msgctxt "#31722"
-#~ msgid "Extras"
-#~ msgstr "額外資訊"
+msgctxt "#32065"
+msgid "VS10 mode"
+msgstr ""

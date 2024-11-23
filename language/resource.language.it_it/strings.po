@@ -2688,3 +2688,259 @@ msgstr "Giallo sabbia"
 #~ msgctxt "#31382"
 #~ msgid "centre"
 #~ msgstr "Centrale"
+
+msgctxt "#32000"
+msgid "Display mode"
+msgstr "Modalità display"
+
+msgctxt "#32001"
+msgid "Video mode"
+msgstr "Modalità video"
+
+msgctxt "#32002"
+msgid "Color space"
+msgstr "Spazio Colore"
+
+msgctxt "#32003"
+msgid "Mb/s"
+msgstr "Mbit/s"
+
+msgctxt "#32004"
+msgid "Bit depth"
+msgstr "Profondità Bit"
+
+msgctxt "#32005"
+msgid "Decoder"
+msgstr "Decoder"
+
+msgctxt "#32006"
+msgid "VS10 engine"
+msgstr "Motore VS10"
+
+msgctxt "#32007"
+msgid "More"
+msgstr "Altro"
+
+msgctxt "#32008"
+msgid "Video queue"
+msgstr "Video Queue"
+
+msgctxt "#32009"
+msgid "Video queue data"
+msgstr "Video Queue-Data"
+
+msgctxt "#32010"
+msgid "Audio queue"
+msgstr "Audio Queue"
+
+msgctxt "#32011"
+msgid "Audio queue data"
+msgstr "Audio Queue-Data"
+
+msgctxt "#32012"
+msgid "Kb/s"
+msgstr "Kbit/s"
+
+msgctxt "#32013"
+msgid "DV metadata"
+msgstr "Metadata DV"
+
+msgctxt "#32014"
+msgid "Processor"
+msgstr "Processore"
+
+msgctxt "#32015"
+msgid "Version"
+msgstr "Versione"
+
+msgctxt "#32016"
+msgid "Profile"
+msgstr "Profilo"
+
+msgctxt "#32017"
+msgid "Level"
+msgstr "Livello"
+
+msgctxt "#32018"
+msgid "RPU"
+msgstr "RPU"
+
+msgctxt "#32019"
+msgid "Base Layer"
+msgstr "Strato Base"
+
+msgctxt "#32020"
+msgid "Enhancement Layer"
+msgstr "Livello Miglioramento"
+
+msgctxt "#32021"
+msgid "Enhancement Layer Type"
+msgstr "Tipo Livello Miglioramento"
+
+msgctxt "#32022"
+msgid "Metadata"
+msgstr "Metadata"
+
+msgctxt "#32023"
+msgid "Pixel format"
+msgstr "Formato Pixel"
+
+msgctxt "#32024"
+msgid "Aspect ratio"
+msgstr "Proporzioni"
+
+msgctxt "#32025"
+msgid "HDR10 MDL"
+msgstr "HDR10 MDL"
+
+msgctxt "#32026"
+msgid "HDR10 MaxCLL/FALL"
+msgstr "HDR10 MaxCLL/FALL"
+
+msgctxt "#32027"
+msgid "Media source"
+msgstr "Fonte Multimediale"
+
+msgctxt "#32028"
+msgid "Unknown"
+msgstr "Sconosciuto"
+
+msgctxt "#32029"
+msgid "On"
+msgstr "Acceso"
+
+msgctxt "#32030"
+msgid "Off"
+msgstr "Spento"
+
+msgctxt "#32031"
+msgid "Deinterlacing"
+msgstr "Deinterlacciamento"
+
+msgctxt "#32032"
+msgid "Player cache"
+msgstr "Player Cache"
+
+msgctxt "#32033"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "#32034"
+msgid "Memory usage"
+msgstr "Utilizzo Memoria"
+
+msgctxt "#32035"
+msgid "Bit depth"
+msgstr "Profondità Bit"
+
+msgctxt "#32036"
+msgid "AML FPS"
+msgstr "AML FPS"
+
+msgctxt "#32037"
+msgid "DV Configuration"
+msgstr "Configurazione DV"
+
+msgctxt "#32038"
+msgid "DV Levels Metadata"
+msgstr "Livelli Metadata DV"
+
+msgctxt "#32039"
+msgid "HDR Static Metadata"
+msgstr "Metadata Statici HDR"
+
+msgctxt "#32040"
+msgid "cd/m²"
+msgstr "cd/m²"
+
+msgctxt "#32041"
+msgid "RPU MDL"
+msgstr "RPU MDL"
+
+msgctxt "#32042"
+msgid "RPU MaxCLL/FALL"
+msgstr "RPU MaxCLL/FALL"
+
+msgctxt "#32043"
+msgid "FLL MIN / MAX / Ø"
+msgstr "FLL MIN / MAX / Ø"
+
+msgctxt "#32044"
+msgid "PQ  MIN / MAX / Ø"
+msgstr "PQ  MIN / MAX / Ø"
+
+msgctxt "#32045"
+msgid "12-bit"
+msgstr "12-bit"
+
+msgctxt "#32046"
+msgid "Codec"
+msgstr "Codec"
+
+msgctxt "#32047"
+msgid "Bitrate"
+msgstr "Bitrate"
+
+msgctxt "#32048"
+msgid "VS10 status"
+msgstr "VS10 Stato"
+
+msgctxt "#32051"
+msgid "Sample rate"
+msgstr "Frequenza Camp"
+
+msgctxt "#32052"
+msgid "Audio language"
+msgstr "Lingua Audio"
+
+msgctxt "#32053"
+msgid "Subtitle language"
+msgstr "Lingua Sottotitoli"
+
+msgctxt "#32054"
+msgid "Video"
+msgstr "Video"
+
+msgctxt "#32055"
+msgid "System"
+msgstr "Sistema"
+
+msgctxt "#32056"
+msgid "Audio"
+msgstr "Audio"
+
+msgctxt "#32057"
+msgid "Top left"
+msgstr ""
+
+msgctxt "#32058"
+msgid "Top center"
+msgstr ""
+
+msgctxt "#32059"
+msgid "Top right"
+msgstr ""
+
+msgctxt "#32060"
+msgid "Position of the codec logos in the OSD"
+msgstr ""
+
+msgctxt "#32061"
+msgid "Position of the codec logos in the PlayerProcessInfo"
+msgstr ""
+
+msgctxt "#32062"
+msgid "Show codec logos when video starts"
+msgstr ""
+
+msgctxt "#32063"
+msgid "Codec logos"
+msgstr ""
+
+msgctxt "#32064"
+msgid "Original"
+msgstr ""
+
+msgctxt "#32065"
+msgid "VS10 mode"
+msgstr ""

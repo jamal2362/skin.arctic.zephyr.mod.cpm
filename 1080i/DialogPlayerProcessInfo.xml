@@ -1,295 +1,921 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
+    <include>Animation.FadeIn</include>
+    <include>Animation.FadeOut</include>
     <controls>
+
+        <!-- Global background -->
         <control type="group">
-            <include>Animation.FadeIn</include>
-            <include>Animation.FadeOut</include>
-            <left>SidePad</left>
-            <top>75</top>
-            <width>1600</width>
+            <top>-1000</top>
+            <width>2000</width>
+            <height>2080</height>
+            <control type="image">
+                <texture colordiffuse="FF000000">common/gradient.png</texture>
+            </control>
+        </control>
+
+        <!-- Codec logos -->
+        <include condition="Skin.HasSetting(ppi.useleftCodecLogos)">CodecLogosLeftPPI</include>
+        <include condition="Skin.HasSetting(ppi.usecenterCodecLogos)">CodecLogosCenterPPI</include>
+        <include condition="Skin.HasSetting(ppi.userightCodecLogos)">CodecLogosRightPPI</include>
+
+        <!-- Group: Bottom screen -->
+        <control type="group">
+            <top>530</top>
+            <width>1920</width>
             <height>360</height>
 
-            <!-- PVR -->
+            <!-- Group: Video -->
             <control type="group">
-                <visible>VideoPlayer.Content(livetv)</visible>
-                <width>870</width>
-                <height>650</height>
-                <control type="image">
-                    <texture border="15" diffuse="diffuse/wall-fanart.png" colordiffuse="A6000000">common/rounded-shadow8.png</texture>
+                <left>30</left>
+				
+                <!-- Video -->
+                <control type="label">
+                    <label>[B][UPPERCASE]$LOCALIZE[32054][/UPPERCASE][/B]</label>
+                    <top>-15</top>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessHeaderTitle</textcolor>
                 </control>
-                <include content="Kodi_Logo">
-                    <param name="dimensions" value="30"/>
-                    <param name="top" value="44"/>
-                    <param name="left" value="45"/>
-                </include>
-                <control type="grouplist">
-                    <left>45</left>
-                    <top>23</top>
-                    <width>780</width>
-                    <itemgap>-21</itemgap>
-                    <control type="label">
-                        <label>      $LOCALIZE[19005]</label>
-                        <left>30</left>
-                        <font>Button</font>
-                        <textcolor>PanelWhite100</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[PVR.ActStreamServiceName,[COLOR Selected]$LOCALIZE[19099]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[PVR.ActStreamProviderName,[COLOR Selected]$LOCALIZE[19101]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[PVR.ActStreamClient,[COLOR Selected]$LOCALIZE[19012]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[PVR.ActStreamDevice,[COLOR Selected]$LOCALIZE[19006]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[PVR.ActStreamStatus,[COLOR Selected]$LOCALIZE[19007]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[PVR.ActStreamEncryptionName,[COLOR Selected]$LOCALIZE[19015]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[PVR.ActStreamBer,[COLOR Selected]$LOCALIZE[19010]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[PVR.ActStreamUnc,[COLOR Selected]$LOCALIZE[19011]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[PVR.ActStreamMux,[COLOR Selected]$LOCALIZE[19100]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[PVR.ActStreamSignal,[COLOR Selected]$LOCALIZE[19008]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="group">
-                        <height>40</height>
-                        <control type="progress">
-                            <centertop>50%</centertop>
-                            <height>10</height>
-                            <info>PVR.ActStreamProgrSignal</info>
-                        </control>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[PVR.ActStreamSNR,[COLOR Selected]$LOCALIZE[19009]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="group">
-                        <height>40</height>
-                        <control type="progress">
-                            <centertop>50%</centertop>
-                            <height>10</height>
-                            <info>PVR.ActStreamProgrSNR</info>
-                        </control>
-                    </control>
+				
+                <!-- Display mode -->
+                <control type="label">
+                    <top>20</top>
+                    <label>$LOCALIZE[32000]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>20</top>
+                    <label>$INFO[Player.Process(amlogic.displaymode)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Video mode -->
+                <control type="label">
+                    <top>50</top>
+                    <label>$LOCALIZE[32001]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>50</top>
+                    <label>$INFO[Player.Process(video.width.raw)]x$INFO[Player.Process(video.height.raw)]$INFO[Player.Process(videoscantype)] $INFO[Player.Process(VideoFPS)]FPS</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Pixel format -->
+                <control type="label">
+                    <top>80</top>
+                    <label>$LOCALIZE[32023]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>80</top>
+                    <label>[COLOR ProcessText]$INFO[Player.Process(amlogic.pixformat)][/COLOR]$VAR[DVTunnelVar, [COLOR ProcessTextAddition](,)[/COLOR]]</label>
+                    <font>OpenSansSemiCondensed</font>
+                </control>
+				
+                <!-- Bit depth -->
+                <control type="label">
+                    <top>110</top>
+                    <label>$LOCALIZE[32004]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>110</top>
+                    <label>$INFO[Player.Process(video.bit.depth)]-bit</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Aspect ratio -->
+                <control type="label">
+                    <top>140</top>
+                    <label>$LOCALIZE[32024]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>140</top>
+                    <label>$INFO[Player.Process(videodar)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Decoder -->
+                <control type="label">
+                    <top>170</top>
+                    <label>$LOCALIZE[32005]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>170</top>
+                    <label>[UPPERCASE]$INFO[Player.Process(videodecoder)][/UPPERCASE] $VAR[VideoDecoder,(,)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Codec -->
+                <control type="label">
+                    <top>200</top>
+                    <label>$LOCALIZE[32046]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>200</top>
+                    <label>[UPPERCASE]$INFO[VideoPlayer.VideoCodec][/UPPERCASE]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Deinterlacing -->
+                <control type="label">
+                    <top>230</top>
+                    <label>$LOCALIZE[32031]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>230</top>
+                    <label>[CAPITALIZE]$INFO[Player.Process(deintmethod)][/CAPITALIZE]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Bitrate -->
+                <control type="label">
+                    <top>260</top>
+                    <label>$LOCALIZE[32047]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>260</top>
+                    <label>$INFO[Player.Process(video.live.mibit.rate),, $LOCALIZE[32003]]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
                 </control>
             </control>
 
-            <!-- Video -->
+            <!-- Group: More -->
             <control type="group">
-                <animation effect="slide" start="0,0" end="890,0" time="0" condition="VideoPlayer.Content(livetv)">Conditional</animation>
-                <width>870</width>
-                <height>293</height>
-                <control type="image">
-                    <texture border="15" diffuse="diffuse/wall-fanart.png" colordiffuse="A6000000">common/rounded-shadow8.png</texture>
+                <top>330</top>
+                <left>30</left>
+				
+                <!-- More -->
+                <control type="label">
+                    <label>[B][UPPERCASE]$LOCALIZE[32007][/UPPERCASE][/B]</label>
+                    <top>-15</top>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessHeaderTitle</textcolor>
                 </control>
-                <include content="Kodi_Logo">
-                    <param name="dimensions" value="30"/>
-                    <param name="top" value="44"/>
-                    <param name="left" value="45"/>
-                </include>
-                <control type="grouplist">
-                    <left>45</left>
-                    <top>23</top>
-                    <width>780</width>
-                    <itemgap>-21</itemgap>
-                    <control type="label">
-                        <label>      $LOCALIZE[291]</label>
-                        <left>30</left>
-                        <font>Button</font>
-                        <textcolor>PanelWhite100</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[Player.Process(videodecoder),[COLOR Selected]$LOCALIZE[31279]:[/COLOR] ]$VAR[VideoDecoder, (,)]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[Player.Process(pixformat),[COLOR Selected]$LOCALIZE[31280]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>[COLOR Selected]$LOCALIZE[38031]:[/COLOR] $INFO[Player.Process(videowidth)]px, $INFO[Player.Process(videoheight)]px, $INFO[Player.Process(videodar)] AR,  $INFO[VideoPlayer.VideoCodec],  $INFO[Player.Process(VideoFPS)] FPS</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[Player.Process(deintmethod),[COLOR Selected]$LOCALIZE[16038]:[/COLOR] ]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
+				
+                <!-- VS10 engine -->
+                <control type="label">
+                    <top>20</top>
+                    <label>$LOCALIZE[32006]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>237</left>
+                    <top>20</top>
+                    <label>$VAR[VS10ModeVar]</label>
+                    <font>ArialUni</font>
+                </control>
+				
+                <!-- VS10 status -->
+                <control type="label">
+                    <top>50</top>
+                    <label>$LOCALIZE[32048]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>50</top>
+                    <label>$INFO[Player.Process(video.source.hdr.type)] $VAR[DVProfileVar]$VAR[DVELVar]$VAR[VideoConvVar]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Color space -->
+                <control type="label">
+                    <top>80</top>
+                    <label>$LOCALIZE[32002]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>80</top>
+                    <label>$INFO[Player.Process(amlogic.eoft_gamut)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Media source -->
+                <control type="label">
+                    <top>110</top>
+                    <label>$LOCALIZE[32027]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>110</top>
+                    <label>$INFO[Player.Process(video.source.hdr.type)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- DV metadata -->
+                <control type="label">
+                    <top>140</top>
+                    <label>$LOCALIZE[32013]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                    <visible>String.Contains(Player.Process(video.hdr.type),dolby vision)</visible>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>140</top>
+                    <label>$INFO[Player.Process(video.dovi.meta.version)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                    <visible>String.Contains(Player.Process(video.hdr.type),dolby vision)</visible>
                 </control>
             </control>
 
-            <!-- Audio -->
+            <!-- Group: HDR Static Metadata -->
             <control type="group">
-                <animation effect="slide" start="0,0" end="0,350" time="0" condition="VideoPlayer.Content(livetv)">Conditional</animation>
-                <top>320</top>
-                <width>870</width>
-                <height>293</height>
-                <control type="image">
-                    <texture border="15" diffuse="diffuse/wall-fanart.png" colordiffuse="A6000000">common/rounded-shadow8.png</texture>
+                <visible>String.Contains(Player.Process(video.hdr.type),hdr)</visible>
+                <left>1430</left>
+                <top>220</top>
+				
+                <!-- HDR Static Metadata -->
+                <control type="label">
+                    <label>[B][UPPERCASE]$LOCALIZE[32039][/UPPERCASE][/B]</label>
+                    <top>-15</top>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessHeaderTitle</textcolor>
                 </control>
-                <include content="Kodi_Logo">
-                    <param name="dimensions" value="30"/>
-                    <param name="top" value="44"/>
-                    <param name="left" value="45"/>
-                </include>
-                <control type="grouplist">
-                    <left>45</left>
-                    <top>23</top>
-                    <width>780</width>
-                    <itemgap>-21</itemgap>
-                    <control type="label">
-                        <label>      $LOCALIZE[292]</label>
-                        <font>Button</font>
-                        <textcolor>PanelWhite100</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>[COLOR Selected]$LOCALIZE[21444]:[/COLOR] $INFO[Player.Process(audiochannels)]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>[COLOR Selected]$LOCALIZE[201]:[/COLOR] $INFO[Player.Process(audiodecoder)]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>[COLOR Selected]$LOCALIZE[612]:[/COLOR] $INFO[Player.Process(audiobitspersample),, bits]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>[COLOR Selected]$LOCALIZE[613]:[/COLOR] $INFO[Player.Process(audiosamplerate),, Hz]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
+				
+                <!-- HDR10 MDL -->
+                <control type="label">
+                    <top>20</top>
+                    <label>$LOCALIZE[32025]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>190</left>
+                    <top>20</top>
+                    <width>200</width>
+                    <align>right</align>
+                    <label>$INFO[Player.Process(video.hdr.min.lum)] [COLOR ProcessHeaderTitle]|[/COLOR] $INFO[Player.Process(video.hdr.max.lum)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+                <!-- cd/m² -->
+                <control type="label">
+                    <left>400</left>
+                    <top>20</top>
+                    <label>$LOCALIZE[32040]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- HDR10 MaxCLL/FALL -->
+                <control type="label">
+                    <top>50</top>
+                    <label>$LOCALIZE[32026]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>190</left>
+                    <top>50</top>
+                    <width>200</width>
+                    <align>right</align>
+                    <label>$INFO[Player.Process(video.hdr.max.cll)] [COLOR ProcessHeaderTitle]|[/COLOR] $INFO[Player.Process(video.hdr.max.fall)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+                <!-- cd/m² -->
+                <control type="label">
+                    <left>400</left>
+                    <top>50</top>
+                    <label>$LOCALIZE[32040]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
                 </control>
             </control>
 
-            <!-- System -->
+            <!-- Group: System -->
             <control type="group">
-                <animation effect="slide" start="0,0" end="0,320" time="0" condition="VideoPlayer.Content(livetv)">Conditional</animation>
-                <left>890</left>
-                <width>870</width>
-                <height>490</height>
-                <control type="image">
-                    <texture border="15" diffuse="diffuse/wall-fanart.png" colordiffuse="A6000000">common/rounded-shadow8.png</texture>
+                <left>710</left>
+				
+                <!-- System -->
+                <control type="label">
+                    <label>[B][UPPERCASE]$LOCALIZE[32055][/UPPERCASE][/B]</label>
+                    <top>-15</top>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessHeaderTitle</textcolor>
                 </control>
-                <include content="Kodi_Logo">
-                    <param name="dimensions" value="30"/>
-                    <param name="top" value="44"/>
-                    <param name="left" value="45"/>
-                </include>
-                <control type="grouplist">
-                    <left>45</left>
-                    <top>23</top>
-                    <width>780</width>
-                    <itemgap>-21</itemgap>
-                    <control type="label">
-                        <label>      $LOCALIZE[13000]</label>
-                        <font>Button</font>
-                        <textcolor>PanelWhite100</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>[COLOR Selected]$LOCALIZE[144][/COLOR] $INFO[System.BuildVersion]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>[COLOR Selected]$LOCALIZE[12390]:[/COLOR] $INFO[System.Uptime]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>[COLOR Selected]$LOCALIZE[14220]:[/COLOR] $INFO[System.FPS] FPS</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>[COLOR Selected]$LOCALIZE[13284][/COLOR] $INFO[System.CpuFrequency]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="label">
-                        <label>[COLOR Selected]$LOCALIZE[13271][/COLOR] $INFO[System.CpuUsage]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="group">
-                        <height>40</height>
-                        <control type="progress">
-                            <description>CPU BAR</description>
-                            <centertop>50%</centertop>
-                            <height>10</height>
-                            <info>System.CPUUsage</info>
-                            <include>DefSettingsButton</include>
-                        </control>
-                    </control>
-                    <control type="label">
-                        <label>[COLOR Selected]$LOCALIZE[31104]:[/COLOR] $INFO[system.memory(used.percent)]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="group">
-                        <height>40</height>
-                        <control type="progress">
-                            <description>Memory BAR</description>
-                            <centertop>50%</centertop>
-                            <height>10</height>
-                            <info>system.memory(used)</info>
-                            <include>DefSettingsButton</include>
-                        </control>
-                    </control>
-                    <control type="label">
-                        <label>[COLOR Selected]$LOCALIZE[31291]:[/COLOR] $INFO[Player.CacheLevel,,%]</label>
-                        <font>Small333</font>
-                        <textcolor>PanelWhite70</textcolor>
-                    </control>
-                    <control type="group">
-                        <height>40</height>
-                        <control type="progress">
-                            <description>Memory BAR</description>
-                            <centertop>50%</centertop>
-                            <height>10</height>
-                            <info>Player.CacheLevel</info>
-                            <include>DefSettingsButton</include>
-                        </control>
-                    </control>
+				
+                <!-- Memory usage -->
+                <control type="label">
+                    <top>20</top>
+                    <label>$LOCALIZE[32034]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>20</top>
+                    <label>$INFO[system.memory(used.percent)] ($INFO[system.memory(used)] [COLOR ProcessHeaderTitle]|[/COLOR] $INFO[system.memory(total)])</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Processor -->
+                <control type="label">
+                    <top>50</top>
+                    <label>$LOCALIZE[32014]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <top>50</top>
+                    <left>240</left>
+                    <label>$INFO[System.CPUTemperature] [COLOR FF404040]|[/COLOR] $INFO[System.CpuAltUsage]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- AML FPS -->
+                <control type="label">
+                    <top>80</top>
+                    <label>$LOCALIZE[32036]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>80</top>
+                    <label>$INFO[Player.Process(amlogic.video.fps.info)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+                <control type="label">
+                    <left>410</left>
+                    <top>80</top>
+                    <label>-&gt; $INFO[Player.Process(amlogic.video.fps.drop)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTextAddition</textcolor>
+                </control>
+				
+                <!-- System -->
+                <control type="label">
+                    <top>110</top>
+                    <label>$LOCALIZE[32055]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>110</top>
+                    <label>$INFO[System.FPS] FPS</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Player cache -->
+                <control type="label">
+                    <top>140</top>
+                    <label>$LOCALIZE[32032]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>140</top>
+                    <label>$INFO[Player.CacheLevel,,%]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Video queue -->
+                <control type="label">
+                    <top>170</top>
+                    <label>$LOCALIZE[32008]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <top>170</top>
+                    <left>240</left>
+                    <label>$INFO[Player.Process(video.queue.level)]%</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Video queue data -->
+                <control type="label">
+                    <top>200</top>
+                    <label>$LOCALIZE[32009]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <top>200</top>
+                    <left>240</left>
+                    <label>$INFO[Player.Process(video.queue.data.level)]%</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Audio queue -->
+                <control type="label">
+                    <top>230</top>
+                    <label>$LOCALIZE[32010]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <top>230</top>
+                    <left>240</left>
+                    <label>$INFO[Player.Process(audio.queue.level)]%</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Audio queue data -->
+                <control type="label">
+                    <top>260</top>
+                    <label>$LOCALIZE[32011]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <top>260</top>
+                    <left>240</left>
+                    <label>$INFO[Player.Process(audio.queue.data.level)]%</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+            </control>
+
+            <!-- Group: Audio -->
+            <control type="group">
+                <left>710</left>
+                <top>330</top>
+				
+                <!-- Audio -->
+                <control type="label">
+                    <label>[B][UPPERCASE]$LOCALIZE[32056][/UPPERCASE][/B]</label>
+                    <top>-15</top>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessHeaderTitle</textcolor>
+                </control>
+				
+                <!-- Codec -->
+                <control type="label">
+                    <top>20</top>
+                    <label>$LOCALIZE[32046]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>20</top>
+                    <label>[COLOR ProcessText]$VAR[AudioCodecVar] $VAR[AudioChannelsVar][/COLOR] [COLOR ProcessTextAddition]$INFO[Player.Process(audio.is.dolby.atmos),(,)]$INFO[Player.Process(audio.dts.x.type),(,)][/COLOR]</label>
+                    <font>OpenSansSemiCondensed</font>
+                </control>
+				
+                <!-- Sample rate -->
+                <control type="label">
+                    <top>50</top>
+                    <label>$LOCALIZE[32051]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>50</top>
+                    <label>$INFO[Player.Process(audiobitspersample),,bit] $INFO[Player.Process(audio.sample.rate),[COLOR ProcessHeaderTitle]|[/COLOR] ,kHz]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Bitrate -->
+                <control type="label">
+                    <top>80</top>
+                    <label>$LOCALIZE[32047]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>80</top>
+                    <label>$INFO[Player.Process(audio.live.kibit.rate),, $LOCALIZE[32012]]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Audio language -->
+                <control type="label">
+                    <top>110</top>
+                    <label>$LOCALIZE[32052]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>110</top>
+                    <label>$INFO[VideoPlayer.AudioLanguageEx]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                    <visible>!String.IsEmpty(VideoPlayer.AudioLanguage)</visible>
+                </control>
+                <!-- N/A -->
+                <control type="label">
+                    <left>240</left>
+                    <top>110</top>
+                    <label>$LOCALIZE[32033]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                    <visible>String.IsEmpty(VideoPlayer.AudioLanguage)</visible>
+                </control>
+				
+                <!-- Subtitle language -->
+                <control type="label">
+                    <top>140</top>
+                    <label>$LOCALIZE[32053]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>240</left>
+                    <top>140</top>
+                    <label>$INFO[VideoPlayer.SubtitlesName]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                    <visible>VideoPlayer.SubtitlesEnabled</visible>
+                </control>
+                <!-- Disabled -->
+                <control type="label">
+                    <left>240</left>
+                    <top>140</top>
+                    <label>$LOCALIZE[1223]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                    <visible>VideoPlayer.HasSubtitles + !VideoPlayer.SubtitlesEnabled</visible>
+                </control>
+                <!-- N/A -->
+                <control type="label">
+                    <left>240</left>
+                    <top>140</top>
+                    <label>$LOCALIZE[32033]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                    <visible>!VideoPlayer.HasSubtitles</visible>
+                </control>
+            </control>
+
+            <!-- Group: DV Configuration -->
+            <control type="group">
+                <visible>String.Contains(Player.Process(video.hdr.type),dolby vision)</visible>
+                <left>1355</left>
+				
+                <!-- DV Configuration -->
+                <control type="label">
+                    <label>[B][UPPERCASE]$LOCALIZE[32037][/UPPERCASE][/B]</label>
+                    <top>-15</top>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessHeaderTitle</textcolor>
+                </control>
+				
+                <!-- Version -->
+                <control type="label">
+                    <top>20</top>
+                    <label>$LOCALIZE[32015]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>340</left>
+                    <top>20</top>
+                    <label>$INFO[Player.Process(video.dovi.version.major)]$INFO[Player.Process(video.dovi.version.minor),.]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Profile -->
+                <control type="label">
+                    <top>50</top>
+                    <label>$LOCALIZE[32016]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>340</left>
+                    <top>50</top>
+                    <label>$INFO[Player.Process(video.dovi.profile)]$INFO[Player.Process(video.dovi.bl.signal.compatibility),.]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Level -->
+                <control type="label">
+                    <top>80</top>
+                    <label>$LOCALIZE[32017]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>340</left>
+                    <top>80</top>
+                    <label>$INFO[Player.Process(video.dovi.level)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                    <visible>!String.Contains(Player.Process(video.dovi.level),0)</visible>
+                </control>
+                <!-- N/A -->
+                <control type="label">
+                    <left>340</left>
+                    <top>80</top>
+                    <label>$LOCALIZE[32033]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                    <visible>String.Contains(Player.Process(video.dovi.level),0)</visible>
+                </control>
+				
+                <!-- RPU -->
+                <control type="label">
+                    <top>110</top>
+                    <label>$LOCALIZE[32018]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>337</left>
+                    <top>110</top>
+                    <label>$VAR[RPUPresentVar]</label>
+                    <font>ArialUni</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Base Layer -->
+                <control type="label">
+                    <top>140</top>
+                    <label>$LOCALIZE[32019]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>337</left>
+                    <top>140</top>
+                    <label>$VAR[BLPresentVar]</label>
+                    <font>ArialUni</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- Enhancement Layer -->
+                <control type="label">
+                    <top>170</top>
+                    <label>$LOCALIZE[32020]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>337</left>
+                    <top>170</top>
+                    <label>$VAR[ELPresentVar]</label>
+                    <font>ArialUni</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+                <control type="label">
+                    <left>420</left>
+                    <top>170</top>
+                    <label>$VAR[ELSourcePresentVar]</label>
+                    <font>ArialUni</font>
+                    <textcolor>ProcessText</textcolor>
+                    <visible>!String.IsEqual(Player.Process(video.source.dovi.el.present),Player.Process(video.dovi.el.present))</visible>
+                    <visible>!String.IsEqual(Player.Process(video.source.dovi.profile),0)</visible>
+                </control>
+				
+                <!-- Enhancement Layer Type -->
+                <control type="label">
+                    <top>200</top>
+                    <label>$LOCALIZE[32021]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>335</left>
+                    <top>200</top>
+                    <label>$VAR[DVELVar]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+                <control type="label">
+                    <left>337</left>
+                    <top>200</top>
+                    <label>$VAR[DVELVar1]</label>
+                    <font>ArialUni</font>
+                    <textcolor>ProcessText</textcolor>
+                    <visible>!String.Contains(Player.Process(video.dovi.el.type),minimum)</visible>
+                    <visible>!String.Contains(Player.Process(video.dovi.el.type),full)</visible>
+                </control>
+                <control type="label">
+                    <left>420</left>
+                    <top>200</top>
+                    <label>$VAR[ELSourcePresentVar]</label>
+                    <font>ArialUni</font>
+                    <visible>!String.IsEqual(Player.Process(video.source.dovi.el.type),Player.Process(video.dovi.el.type))</visible>
+                    <visible>!String.IsEqual(Player.Process(video.source.dovi.profile),0)</visible>
+                </control>
+            </control>
+
+            <!-- Group: DV Levels Metadata -->
+            <control type="group">
+                <visible>String.Contains(Player.Process(video.hdr.type),dolby vision)</visible>
+                <top>270</top>
+                <left>1355</left>
+				
+                <!-- DV Levels Metadata -->
+                <control type="label">
+                    <label>[B][UPPERCASE]$LOCALIZE[32038][/UPPERCASE][/B]</label>
+                    <top>-15</top>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessHeaderTitle</textcolor>
+                </control>
+				
+                <!-- HDR10 MDL -->
+                <control type="label">
+                    <top>20</top>
+                    <label>$LOCALIZE[32025]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>270</left>
+                    <top>20</top>
+                    <width>200</width>
+                    <align>right</align>
+                    <label>$INFO[Player.Process(video.hdr.min.lum)] [COLOR ProcessHeaderTitle]|[/COLOR] $INFO[Player.Process(video.hdr.max.lum)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+                <!-- cd/m² -->
+                <control type="label">
+                    <left>480</left>
+                    <top>20</top>
+                    <label>$LOCALIZE[32040]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- HDR10 MaxCLL/FALL -->
+                <control type="label">
+                    <top>50</top>
+                    <label>$LOCALIZE[32026]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>270</left>
+                    <top>50</top>
+                    <width>200</width>
+                    <align>right</align>
+                    <label>$INFO[Player.Process(video.hdr.max.cll)] [COLOR ProcessHeaderTitle]|[/COLOR] $INFO[Player.Process(video.hdr.max.fall)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+                <!-- cd/m² -->
+                <control type="label">
+                    <left>480</left>
+                    <top>50</top>
+                    <label>$LOCALIZE[32040]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- RPU MDL -->
+                <control type="label">
+                    <top>95</top>
+                    <label>$LOCALIZE[32041]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>270</left>
+                    <top>95</top>
+                    <width>200</width>
+                    <align>right</align>
+                    <label>$INFO[Player.Process(video.dovi.source.min.nits)] [COLOR ProcessHeaderTitle]|[/COLOR] $INFO[Player.Process(video.dovi.source.max.nits)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+                <!-- cd/m² -->
+                <control type="label">
+                    <left>480</left>
+                    <top>95</top>
+                    <label>$LOCALIZE[32040]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- RPU MaxCLL/FALL -->
+                <control type="label">
+                    <top>130</top>
+                    <label>$LOCALIZE[32042]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>270</left>
+                    <top>125</top>
+                    <width>200</width>
+                    <align>right</align>
+                    <label>$INFO[Player.Process(video.dovi.l6.max.cll)] [COLOR ProcessHeaderTitle]|[/COLOR] $INFO[Player.Process(video.dovi.l6.max.fall)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+                <!-- cd/m² -->
+                <control type="label">
+                    <left>480</left>
+                    <top>125</top>
+                    <label>$LOCALIZE[32040]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- FLL MIN / MAX / Ø -->
+                <control type="label">
+                    <top>170</top>
+                    <label>$LOCALIZE[32043]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>170</left>
+                    <top>170</top>
+                    <width>300</width>
+                    <align>right</align>
+                    <label>$INFO[Player.Process(video.dovi.l1.min.nits)] [COLOR ProcessHeaderTitle]|[/COLOR] $INFO[Player.Process(video.dovi.l1.max.nits)] [COLOR ProcessHeaderTitle]|[/COLOR] $INFO[Player.Process(video.dovi.l1.avg.nits)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+                <!-- cd/m² -->
+                <control type="label">
+                    <left>480</left>
+                    <top>170</top>
+                    <label>$LOCALIZE[32040]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+				
+                <!-- PQ  MIN / MAX / Ø -->
+                <control type="label">
+                    <top>200</top>
+                    <label>$LOCALIZE[32044]:</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessTitle</textcolor>
+                </control>
+                <control type="label">
+                    <left>170</left>
+                    <top>200</top>
+                    <width>300</width>
+                    <align>right</align>
+                    <label>$INFO[Player.Process(video.dovi.l1.min.pq)] [COLOR ProcessHeaderTitle]|[/COLOR] $INFO[Player.Process(video.dovi.l1.max.pq)] [COLOR ProcessHeaderTitle]|[/COLOR] $INFO[Player.Process(video.dovi.l1.avg.pq)]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
+                </control>
+                <!-- 12-bit -->
+                <control type="label">
+                    <left>480</left>
+                    <top>200</top>
+                    <label>$LOCALIZE[32045]</label>
+                    <font>OpenSansSemiCondensed</font>
+                    <textcolor>ProcessText</textcolor>
                 </control>
             </control>
         </control>
