@@ -1714,7 +1714,7 @@
                     <control type="label">
                         <align>center</align>
                         <aligny>top</aligny>
-                        <width>180</width>
+                        <width>240</width>
                         <top>30</top>
                         <centerleft>45.7%</centerleft>
                         <textcolor>Dark3</textcolor>
@@ -1722,7 +1722,7 @@
                         <label>$INFO[ListItem.Label]</label>
                     </control>
                 </itemlayout>
-                <focusedlayout width="222" height="64">
+                <focusedlayout width="265" height="64">
                     <control type="group">
                         <visible>!Skin.HasSetting(homemenu.items.underlined)</visible>
                         <control type="label">
@@ -2362,19 +2362,19 @@
             <effect type="fade" start="100" end="0" time="100" tween="sine" easing="out" />
             <effect type="slide" start="0,0" end="0,30" time="150" tween="sine" easing="out" />
         </animation>
-        <itemlayout width="222" height="64">
+        <itemlayout width="265" height="64">
             <control type="label">
                 <align>center</align>
                 <aligny>top</aligny>
-                <width>180</width>
+                <width>240</width>
                 <top>0</top>
                 <centerleft>45.7%</centerleft>
                 <textcolor>Dark3</textcolor>
-                <font>Home</font>
+                <font>Home1</font>
                 <label>$INFO[ListItem.Label]</label>
             </control>
         </itemlayout>
-        <focusedlayout width="222" height="64">
+        <focusedlayout width="265" height="64">
             <control type="group">
                 <visible>!Skin.HasSetting(homemenu.items.underlined)</visible>
                 <control type="label">
@@ -2384,7 +2384,7 @@
                     <top>0</top>
                     <centerleft>45.7%</centerleft>
                     <textcolor>$VAR[ColorHighlight]</textcolor>
-                    <font>Home</font>
+                    <font>Home1</font>
                     <label>$INFO[ListItem.Label]</label>
                     <animation effect="fade" start="100" end="50" delay="0" time="150" condition="!Control.HasFocus(300) + !Control.HasFocus(302) + !Skin.HasSetting(home.vertical)">Conditional</animation>
                 </control>
@@ -2407,7 +2407,7 @@
                     <top>0</top>
                     <centerleft>45.7%</centerleft>
                     <textcolor>Dark1</textcolor>
-                    <font>Home</font>
+                    <font>Home1</font>
                     <label>$INFO[ListItem.Label]</label>
                     <animation effect="fade" start="100" end="50" delay="0" time="150" condition="!Control.HasFocus(300) + !Control.HasFocus(302) + !Skin.HasSetting(home.vertical)">Conditional</animation>
                 </control>
@@ -2450,7 +2450,7 @@
 
     <include name="HomeContentIcon">
         <top>848</top>
-        <itemlayout width="222" height="220">
+        <itemlayout width="265" height="220">
             <control type="image">
                 <include content="def_width" condition="Skin.HasSetting(homemenu.only.icons)">
                     <param name="width" value="100"/>
@@ -2481,7 +2481,7 @@
             <control type="label">
                 <align>center</align>
                 <aligny>top</aligny>
-                <width>180</width>
+                <width>240</width>
                 <bottom>20</bottom>
                 <centerleft>45.7%</centerleft>
                 <textcolor>Dark3</textcolor>
@@ -2490,7 +2490,7 @@
                 <visible>!Skin.HasSetting(homemenu.only.icons)</visible>
             </control>
         </itemlayout>
-        <focusedlayout width="222" height="220">
+        <focusedlayout width="265" height="220">
             <control type="group">
                 <animation effect="fade" start="100" end="50" delay="0" time="150" condition="!Control.HasFocus(300) + !Control.HasFocus(302) + !Skin.HasSetting(home.vertical)">Conditional</animation>
                 <control type="image">
@@ -2514,7 +2514,7 @@
                 <control type="label">
                     <align>center</align>
                     <aligny>top</aligny>
-                    <width>180</width>
+                    <width>240</width>
                     <bottom>20</bottom>
                     <centerleft>45.7%</centerleft>
                     <textcolor>$VAR[ColorHighlight]</textcolor>
@@ -2611,7 +2611,7 @@
                             <aligny>center</aligny>
                             <height>100%</height>
                             <textcolor>Dark3</textcolor>
-                            <font>Home</font>
+                            <font>Home1</font>
                             <label>$INFO[ListItem.Label]</label>
                             <visible>!Skin.HasSetting(home.showicons)</visible>
                         </control>
@@ -2622,7 +2622,7 @@
                             <aligny>center</aligny>
                             <height>100%</height>
                             <textcolor>Dark3</textcolor>
-                            <font>Home</font>
+                            <font>Home1</font>
                             <label>$INFO[ListItem.Label]</label>
                             <visible>Skin.HasSetting(home.showicons)</visible>
                         </control>
@@ -2699,7 +2699,7 @@
                             <aligny>center</aligny>
                             <height>100%</height>
                             <textcolor>Dark3</textcolor>
-                            <font>Home</font>
+                            <font>Home1</font>
                             <label>$INFO[ListItem.Label]</label>
                         </control>
                     </itemlayout>
@@ -2711,7 +2711,7 @@
                             <aligny>center</aligny>
                             <height>100%</height>
                             <textcolor>$VAR[ColorHighlight]</textcolor>
-                            <font>Home</font>
+                            <font>Home1</font>
                             <label>$INFO[ListItem.Label]</label>
                         </control>
                     </focusedlayout>
@@ -3416,7 +3416,7 @@
                             <aligny>center</aligny>
                             <height>100%</height>
                             <textcolor>Dark3</textcolor>
-                            <font>Home</font>
+                            <font>Home1</font>
                             <label>$INFO[ListItem.Label]</label>
                             <visible>!Skin.HasSetting(home.showicons)</visible>
                         </control>
@@ -3427,7 +3427,7 @@
                             <aligny>center</aligny>
                             <height>100%</height>
                             <textcolor>Dark3</textcolor>
-                            <font>Home</font>
+                            <font>Home1</font>
                             <label>$INFO[ListItem.Label]</label>
                             <visible>Skin.HasSetting(home.showicons)</visible>
                             <visible>!Skin.HasSetting(homemenu.only.icons)</visible>
@@ -3537,7 +3537,7 @@
                                 <height>100%</height>
                                 <control type="button">
                                     <textcolor>Dark1</textcolor>
-                                    <font>Home</font>
+                                    <font>Home1</font>
                                     <textoffsetx>0</textoffsetx>
                                     <width>auto</width>
                                     <texturenofocus border="8" colordiffuse="$VAR[ColorHighlight]">common/underline2.png</texturenofocus>
@@ -3590,7 +3590,7 @@
                             <aligny>center</aligny>
                             <height>100%</height>
                             <textcolor>Dark3</textcolor>
-                            <font>Home</font>
+                            <font>Home1</font>
                             <label>$INFO[ListItem.Label]</label>
                             <visible>![Skin.HasSetting(homemenu.only.icons) + Skin.HasSetting(home.showicons)]</visible>
                         </control>
@@ -3614,7 +3614,7 @@
                             <height>100%</height>
                             <control type="button">
                                 <textcolor>Dark1</textcolor>
-                                <font>Home</font>
+                                <font>Home1</font>
                                 <textoffsetx>0</textoffsetx>
                                 <width>auto</width>
                                 <texturenofocus border="8" colordiffuse="$VAR[ColorHighlight]">common/underline2.png</texturenofocus>
@@ -3629,7 +3629,7 @@
                             <aligny>center</aligny>
                             <height>100%</height>
                             <textcolor>$VAR[ColorHighlight]</textcolor>
-                            <font>Home</font>
+                            <font>Home1</font>
                             <label>$INFO[ListItem.Label]</label>
                             <visible>![Skin.HasSetting(homemenu.only.icons) + Skin.HasSetting(home.showicons)] + !Skin.HasSetting(homemenu.items.underlined)</visible>
                         </control>

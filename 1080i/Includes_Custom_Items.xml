@@ -87,6 +87,42 @@
             <onclick>Close</onclick>
             <include condition="String.IsEqual(Skin.String(BackgroundBrightness),70)">Item_Selected</include>
         </item>
+        <item>
+            <label>$NUMBER[75]%</label>
+            <onclick>Skin.SetString(BackgroundBrightness,75)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightness),75)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[80]%</label>
+            <onclick>Skin.SetString(BackgroundBrightness,80)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightness),80)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[85]%</label>
+            <onclick>Skin.SetString(BackgroundBrightness,85)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightness),85)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[90]%</label>
+            <onclick>Skin.SetString(BackgroundBrightness,90)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightness),90)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[95]%</label>
+            <onclick>Skin.SetString(BackgroundBrightness,95)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightness),95)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[100]%</label>
+            <onclick>Skin.SetString(BackgroundBrightness,100)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightness),100)">Item_Selected</include>
+        </item>
     </include>
 
     <include name="CustomSettings_Items.BackgroundBrightnessBlur">
@@ -181,9 +217,66 @@
             <onclick>Close</onclick>
             <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),70)">Item_Selected</include>
         </item>
+        <item>
+            <label>$NUMBER[75]%</label>
+            <onclick>Skin.SetString(BackgroundBrightnessBlur,75)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),75)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[80]%</label>
+            <onclick>Skin.SetString(BackgroundBrightnessBlur,80)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),80)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[85]%</label>
+            <onclick>Skin.SetString(BackgroundBrightnessBlur,85)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),85)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[90]%</label>
+            <onclick>Skin.SetString(BackgroundBrightnessBlur,90)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),90)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[95]%</label>
+            <onclick>Skin.SetString(BackgroundBrightnessBlur,95)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),95)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[100]%</label>
+            <onclick>Skin.SetString(BackgroundBrightnessBlur,100)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(BackgroundBrightnessBlur),100)">Item_Selected</include>
+        </item>
     </include>
 
     <include name="CustomSettings_Items.FadeNetflixPreview">
+        <item>
+            <label>$NUMBER[0]%</label>
+            <property name="SettingsName">$LOCALIZE[464]</property>
+            <onclick>Skin.SetString(FadeNetflixPreview,0)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(FadeNetflixPreview),0)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[10]%</label>
+            <property name="SettingsName">$LOCALIZE[464]</property>
+            <onclick>Skin.SetString(FadeNetflixPreview,10)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(FadeNetflixPreview),10)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[20]%</label>
+            <property name="SettingsName">$LOCALIZE[464]</property>
+            <onclick>Skin.SetString(FadeNetflixPreview,20)</onclick>
+            <onclick>Close</onclick>
+            <include condition="String.IsEqual(Skin.String(FadeNetflixPreview),20)">Item_Selected</include>
+        </item>
         <item>
             <label>$NUMBER[30]%</label>
             <property name="SettingsName">$LOCALIZE[464]</property>
@@ -682,10 +775,28 @@
             <include condition="String.IsEmpty(Skin.String(OSD_Timeout))">Item_Selected</include>
         </item>
         <item>
+            <label>$NUMBER[1]</label>
+            <onclick>Skin.SetString(OSD_Timeout,1)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),1)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[2]</label>
+            <onclick>Skin.SetString(OSD_Timeout,2)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),2)">Item_Selected</include>
+        </item>
+        <item>
             <label>$NUMBER[3]</label>
             <onclick>Skin.SetString(OSD_Timeout,3)</onclick>
             <onclick>Close</onclick>
             <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),3)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[4]</label>
+            <onclick>Skin.SetString(OSD_Timeout,4)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),4)">Item_Selected</include>
         </item>
         <item>
             <label>$NUMBER[5]</label>
@@ -694,10 +805,58 @@
             <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),5)">Item_Selected</include>
         </item>
         <item>
+            <label>$NUMBER[6]</label>
+            <onclick>Skin.SetString(OSD_Timeout,6)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),6)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[7]</label>
+            <onclick>Skin.SetString(OSD_Timeout,7)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),7)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[8]</label>
+            <onclick>Skin.SetString(OSD_Timeout,8)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),8)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[9]</label>
+            <onclick>Skin.SetString(OSD_Timeout,9)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),9)">Item_Selected</include>
+        </item>
+        <item>
             <label>$NUMBER[10]</label>
             <onclick>Skin.SetString(OSD_Timeout,10)</onclick>
             <onclick>Close</onclick>
             <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),10)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[11]</label>
+            <onclick>Skin.SetString(OSD_Timeout,11)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),11)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[12]</label>
+            <onclick>Skin.SetString(OSD_Timeout,12)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),12)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[13]</label>
+            <onclick>Skin.SetString(OSD_Timeout,13)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),13)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[14]</label>
+            <onclick>Skin.SetString(OSD_Timeout,14)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),14)">Item_Selected</include>
         </item>
         <item>
             <label>$NUMBER[15]</label>
@@ -706,16 +865,88 @@
             <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),15)">Item_Selected</include>
         </item>
         <item>
+            <label>$NUMBER[16]</label>
+            <onclick>Skin.SetString(OSD_Timeout,16)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),16)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[17]</label>
+            <onclick>Skin.SetString(OSD_Timeout,17)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),17)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[18]</label>
+            <onclick>Skin.SetString(OSD_Timeout,18)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),18)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[19]</label>
+            <onclick>Skin.SetString(OSD_Timeout,19)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),19)">Item_Selected</include>
+        </item>
+        <item>
             <label>$NUMBER[20]</label>
             <onclick>Skin.SetString(OSD_Timeout,20)</onclick>
             <onclick>Close</onclick>
             <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),20)">Item_Selected</include>
         </item>
         <item>
+            <label>$NUMBER[21]</label>
+            <onclick>Skin.SetString(OSD_Timeout,21)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),21)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[22]</label>
+            <onclick>Skin.SetString(OSD_Timeout,22)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),22)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[23]</label>
+            <onclick>Skin.SetString(OSD_Timeout,23)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),23)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[24]</label>
+            <onclick>Skin.SetString(OSD_Timeout,24)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),24)">Item_Selected</include>
+        </item>
+        <item>
             <label>$NUMBER[25]</label>
             <onclick>Skin.SetString(OSD_Timeout,25)</onclick>
             <onclick>Close</onclick>
             <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),25)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[26]</label>
+            <onclick>Skin.SetString(OSD_Timeout,26)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),26)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[27]</label>
+            <onclick>Skin.SetString(OSD_Timeout,27)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),27)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[28]</label>
+            <onclick>Skin.SetString(OSD_Timeout,28)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),28)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[29]</label>
+            <onclick>Skin.SetString(OSD_Timeout,29)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Timeout),29)">Item_Selected</include>
         </item>
         <item>
             <label>$NUMBER[30]</label>
@@ -735,11 +966,32 @@
             <include condition="String.IsEmpty(Skin.String(OSD_Info))">Item_Selected</include>
         </item>
         <item>
+            <label>$NUMBER[1]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,1)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),1)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[2]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,2)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),2)">Item_Selected</include>
+        </item>
+        <item>
             <label>$NUMBER[3]</label>
             <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
             <onclick>Skin.SetString(OSD_Info,3)</onclick>
             <onclick>Close</onclick>
             <include condition="Integer.IsEqual(Skin.String(OSD_Info),3)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[4]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,4)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),4)">Item_Selected</include>
         </item>
         <item>
             <label>$NUMBER[5]</label>
@@ -749,6 +1001,13 @@
             <include condition="Integer.IsEqual(Skin.String(OSD_Info),5)">Item_Selected</include>
         </item>
         <item>
+            <label>$NUMBER[6]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,6)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),6)">Item_Selected</include>
+        </item>
+        <item>
             <label>$NUMBER[7]</label>
             <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
             <onclick>Skin.SetString(OSD_Info,7)</onclick>
@@ -756,11 +1015,165 @@
             <include condition="Integer.IsEqual(Skin.String(OSD_Info),7)">Item_Selected</include>
         </item>
         <item>
+            <label>$NUMBER[8]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,8)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),8)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[9]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,9)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),9)">Item_Selected</include>
+        </item>
+        <item>
             <label>$NUMBER[10]</label>
             <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
             <onclick>Skin.SetString(OSD_Info,10)</onclick>
             <onclick>Close</onclick>
             <include condition="Integer.IsEqual(Skin.String(OSD_Info),10)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[11]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,11)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),11)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[12]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,12)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),12)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[13]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,13)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),13)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[14]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,14)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),14)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[15]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,15)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),15)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[16]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,16)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),16)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[17]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,17)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),17)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[18]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,18)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),18)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[19]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,19)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),19)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[20]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,20)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),20)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[21]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,21)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),21)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[22]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,22)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),22)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[23]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,23)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),23)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[24]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,24)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),24)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[25]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,25)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),25)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[26]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,26)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),26)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[27]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,27)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),27)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[28]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,28)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),28)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[29]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,29)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),29)">Item_Selected</include>
+        </item>
+        <item>
+            <label>$NUMBER[30]</label>
+            <onclick>Skin.SetBool(osd.info.fullscreen)</onclick>
+            <onclick>Skin.SetString(OSD_Info,30)</onclick>
+            <onclick>Close</onclick>
+            <include condition="Integer.IsEqual(Skin.String(OSD_Info),30)">Item_Selected</include>
         </item>
     </include>
 
