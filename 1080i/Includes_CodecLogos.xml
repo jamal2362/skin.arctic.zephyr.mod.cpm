@@ -266,7 +266,7 @@
                 <left>30</left>
                 <control type="image">
                     <width>150</width>
-                    <height>52</height>
+                    <height>48</height>
                     <texture colordiffuse="FFD3E3EF">codecs/IMAX.png</texture>
                 </control>
             </control>
@@ -562,7 +562,7 @@
                 <left>30</left>
                 <control type="image">
                     <width>150</width>
-                    <height>52</height>
+                    <height>48</height>
                     <texture colordiffuse="FFD3E3EF">codecs/IMAX.png</texture>
                 </control>
             </control>
@@ -855,7 +855,7 @@
                 <left>30</left>
                 <control type="image">
                     <width>150</width>
-                    <height>52</height>
+                    <height>48</height>
                     <texture colordiffuse="FFD3E3EF">codecs/IMAX.png</texture>
                 </control>
             </control>
@@ -1151,7 +1151,7 @@
                 <left>30</left>
                 <control type="image">
                     <width>150</width>
-                    <height>52</height>
+                    <height>48</height>
                     <texture colordiffuse="FFD3E3EF">codecs/IMAX.png</texture>
                 </control>
             </control>
@@ -1444,7 +1444,7 @@
                 <left>30</left>
                 <control type="image">
                     <width>150</width>
-                    <height>52</height>
+                    <height>48</height>
                     <texture colordiffuse="FFD3E3EF">codecs/IMAX.png</texture>
                 </control>
             </control>
@@ -1740,7 +1740,7 @@
                 <left>30</left>
                 <control type="image">
                     <width>150</width>
-                    <height>52</height>
+                    <height>48</height>
                     <texture colordiffuse="FFD3E3EF">codecs/IMAX.png</texture>
                 </control>
             </control>
@@ -2322,7 +2322,7 @@
                     <top>140</top>
                     <left>30</left>
                     <width>150</width>
-                    <height>52</height>
+                    <height>48</height>
                     <visible>$PARAM[visible]</visible>
                     <texture>$PARAM[texture]</texture>
                     <colordiffuse>$PARAM[colordiffuse]</colordiffuse>
