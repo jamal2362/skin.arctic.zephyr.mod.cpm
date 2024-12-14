@@ -605,8 +605,8 @@
                 <textcolor>FFFFFFFF</textcolor>
                 <font>Tiny</font>
                 <align>left</align>
-                <label>VideoOSDBookmarks.xml</label>
-                <visible>Window.IsVisible(VideoOSDBookmarks.xml)</visible>
+                <label>Custom_VS10.xml</label>
+                <visible>Window.IsVisible(Custom_VS10.xml)</visible>
             </control>
             <control type="label">
                 <width>780</width>

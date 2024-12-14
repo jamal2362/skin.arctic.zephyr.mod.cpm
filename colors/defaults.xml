@@ -61,4 +61,9 @@
     <color name="Fallback">FF181818</color>
     
     <color name="OSDProgressBarColor">0Dffffff</color>
+    
+    <color name="ProcessHeaderTitle">FF7495AB</color>
+    <color name="ProcessTitle">FFBDD6E6</color>
+    <color name="ProcessTextAddition">FFA7C8DE</color>
+    <color name="ProcessText">FFD3E3EF</color>
 </colors>
