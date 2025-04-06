@@ -466,6 +466,22 @@
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
+                <control type="group">
+                    <top>171</top>
+                    <left>305</left>
+                    <control type="progress">
+                        <width>180</width>
+                        <height>8</height>
+                        <description>BAR</description>
+                        <centertop>50%</centertop>
+                        <info>Player.CacheLevel</info>
+                        <include>DefSettingsButton</include>
+                        <texturebg colordiffuse="panel_fg_12" border="6">progress/progress-bg.png</texturebg>
+                        <lefttexture colordiffuse="00ffffff">osd/progress-end.png</lefttexture>
+                        <midtexture colordiffuse="dialog_fg_90" border="6">progress/progress-bg.png</midtexture>
+                        <righttexture colordiffuse="00ffffff">osd/progress-end.png</righttexture>
+                    </control>
+                </control>
 				
                 <!-- Video queue -->
                 <control type="label">
@@ -480,6 +496,22 @@
                     <label>$INFO[Player.Process(video.queue.level)]%</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
+                </control>
+                <control type="group">
+                    <top>201</top>
+                    <left>305</left>
+                    <control type="progress">
+                        <width>180</width>
+                        <height>8</height>
+                        <description>BAR</description>
+                        <centertop>50%</centertop>
+                        <info>Player.Process(video.queue.level)</info>
+                        <include>DefSettingsButton</include>
+                        <texturebg colordiffuse="panel_fg_12" border="6">progress/progress-bg.png</texturebg>
+                        <lefttexture colordiffuse="00ffffff">osd/progress-end.png</lefttexture>
+                        <midtexture colordiffuse="dialog_fg_90" border="6">progress/progress-bg.png</midtexture>
+                        <righttexture colordiffuse="00ffffff">osd/progress-end.png</righttexture>
+                    </control>
                 </control>
 				
                 <!-- Video queue data -->
@@ -496,6 +528,22 @@
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
+                <control type="group">
+                    <top>231</top>
+                    <left>305</left>
+                    <control type="progress">
+                        <width>180</width>
+                        <height>8</height>
+                        <description>BAR</description>
+                        <centertop>50%</centertop>
+                        <info>Player.Process(video.queue.data.level)</info>
+                        <include>DefSettingsButton</include>
+                        <texturebg colordiffuse="panel_fg_12" border="6">progress/progress-bg.png</texturebg>
+                        <lefttexture colordiffuse="00ffffff">osd/progress-end.png</lefttexture>
+                        <midtexture colordiffuse="dialog_fg_90" border="6">progress/progress-bg.png</midtexture>
+                        <righttexture colordiffuse="00ffffff">osd/progress-end.png</righttexture>
+                    </control>
+                </control>
 				
                 <!-- Audio queue -->
                 <control type="label">
@@ -511,6 +559,22 @@
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
+                <control type="group">
+                    <top>261</top>
+                    <left>305</left>
+                    <control type="progress">
+                        <width>180</width>
+                        <height>8</height>
+                        <description>BAR</description>
+                        <centertop>50%</centertop>
+                        <info>Player.Process(audio.queue.level)</info>
+                        <include>DefSettingsButton</include>
+                        <texturebg colordiffuse="panel_fg_12" border="6">progress/progress-bg.png</texturebg>
+                        <lefttexture colordiffuse="00ffffff">osd/progress-end.png</lefttexture>
+                        <midtexture colordiffuse="dialog_fg_90" border="6">progress/progress-bg.png</midtexture>
+                        <righttexture colordiffuse="00ffffff">osd/progress-end.png</righttexture>
+                    </control>
+                </control>
 				
                 <!-- Audio queue data -->
                 <control type="label">
@@ -525,6 +589,22 @@
                     <label>$INFO[Player.Process(audio.queue.data.level)]%</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
+                </control>
+                <control type="group">
+                    <top>291</top>
+                    <left>305</left>
+                    <control type="progress">
+                        <width>180</width>
+                        <height>8</height>
+                        <description>BAR</description>
+                        <centertop>50%</centertop>
+                        <info>Player.Process(audio.queue.data.level)</info>
+                        <include>DefSettingsButton</include>
+                        <texturebg colordiffuse="panel_fg_12" border="6">progress/progress-bg.png</texturebg>
+                        <lefttexture colordiffuse="00ffffff">osd/progress-end.png</lefttexture>
+                        <midtexture colordiffuse="dialog_fg_90" border="6">progress/progress-bg.png</midtexture>
+                        <righttexture colordiffuse="00ffffff">osd/progress-end.png</righttexture>
+                    </control>
                 </control>
             </control>
 
