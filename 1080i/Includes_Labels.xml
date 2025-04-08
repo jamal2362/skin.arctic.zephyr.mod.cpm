@@ -1985,6 +1985,16 @@
         <value condition="Player.Process(videohwdecoder)">HW</value>
         <value>SW</value>
     </variable>
+	
+    <variable name="SubtitleVar">
+        <value condition="String.IsEmpty(VideoPlayer.SubtitlesLanguage)">$INFO[VideoPlayer.SubtitlesLangEx]</value>
+        <value condition="!String.IsEmpty(VideoPlayer.SubtitlesLanguage)">[UPPERCASE]$INFO[VideoPlayer.SubtitlesLanguage][/UPPERCASE]</value>
+    </variable>
+	
+    <variable name="SubtitleNameVar">
+        <value condition="String.IsEmpty(VideoPlayer.SubtitlesName)"></value>
+        <value condition="!String.IsEmpty(VideoPlayer.SubtitlesName)">$INFO[VideoPlayer.SubtitlesName,| ,, (,)]</value>
+    </variable>
     
     <variable name="DVProfileVar">
         <value condition="String.Contains(Player.Process(video.source.hdr.type),HDR10) + String.Contains(Player.Process(video.dovi.profile),8)">-&gt; Dolby Vision Profile $INFO[Player.Process(video.dovi.profile)]$VAR[DVProfileExtVar]</value>
