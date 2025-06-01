@@ -2857,22 +2857,6 @@ msgctxt "#32061"
 msgid "Position of the codec logos in the PlayerProcessInfo"
 msgstr "PlayerProcessInfo 中編解碼器標誌的位置"
 
-msgctxt "#32062"
-msgid "Show codec logos when video starts"
-msgstr "視頻開始時顯示編解碼器標誌"
-
 msgctxt "#32063"
 msgid "Codec logos"
 msgstr "編解碼器標誌"
-
-msgctxt "#32064"
-msgid "Original"
-msgstr ""
-
-msgctxt "#32065"
-msgid "VS10 mode"
-msgstr ""
-
-msgctxt "#32066"
-msgid "Coloured title lines in PlayerProcessInfo"
-msgstr ""

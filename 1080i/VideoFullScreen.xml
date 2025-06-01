@@ -51,8 +51,69 @@
             <visible>Skin.HasSetting(osd.useleftCodecStartupLogos)</visible>
             <visible>String.IsEqual(Player.Process(av.change),1)</visible>
             <left>35</left>
-            <animation type="Hidden">
+            <animation type="WindowOpen" condition="!Skin.HasSetting(osd.useOneSecondCodecLogos) + !Skin.HasSetting(osd.useTwoSecondsCodecLogos) + !Skin.HasSetting(osd.useThreeSecondsCodecLogos) + !Skin.HasSetting(osd.useFourSecondsCodecLogos) + !Skin.HasSetting(osd.useFiveSecondsCodecLogos) + !Skin.HasSetting(osd.useSixSecondsCodecLogos) + !Skin.HasSetting(osd.useSevenSecondsCodecLogos) + !Skin.HasSetting(osd.useEightSecondsCodecLogos) + !Skin.HasSetting(osd.useNineSecondsCodecLogos) + !Skin.HasSetting(osd.useTenSecondsCodecLogos) + !Skin.HasSetting(osd.useElevenSecondsCodecLogos) + !Skin.HasSetting(osd.useTwelveSecondsCodecLogos) + !Skin.HasSetting(osd.useThirteenSecondsCodecLogos) + !Skin.HasSetting(osd.useFourteenSecondsCodecLogos) + !Skin.HasSetting(osd.useFifteenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="7000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useOneSecondCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
                 <effect type="fade" start="100" end="0" delay="3000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useTwoSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="4000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useThreeSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="5000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useFourSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="6000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useFiveSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="7000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useSixSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="8000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useSevenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="9000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useEightSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="10000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useNineSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="11000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useTenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="12000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useElevenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="13000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useTwelveSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="14000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useThirteenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="15000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useFourteenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="16000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useFifteenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="17000" time="500" tween="sine" />
             </animation>
 			
             <include content="Video_Audio_Background_Flag">
@@ -301,8 +362,69 @@
             <visible>Skin.HasSetting(osd.usecenterCodecStartupLogos)</visible>
             <visible>String.IsEqual(Player.Process(av.change),1)</visible>
             <left>855</left>
-            <animation type="Hidden">
+            <animation type="WindowOpen" condition="!Skin.HasSetting(osd.useOneSecondCodecLogos) + !Skin.HasSetting(osd.useTwoSecondsCodecLogos) + !Skin.HasSetting(osd.useThreeSecondsCodecLogos) + !Skin.HasSetting(osd.useFourSecondsCodecLogos) + !Skin.HasSetting(osd.useFiveSecondsCodecLogos) + !Skin.HasSetting(osd.useSixSecondsCodecLogos) + !Skin.HasSetting(osd.useSevenSecondsCodecLogos) + !Skin.HasSetting(osd.useEightSecondsCodecLogos) + !Skin.HasSetting(osd.useNineSecondsCodecLogos) + !Skin.HasSetting(osd.useTenSecondsCodecLogos) + !Skin.HasSetting(osd.useElevenSecondsCodecLogos) + !Skin.HasSetting(osd.useTwelveSecondsCodecLogos) + !Skin.HasSetting(osd.useThirteenSecondsCodecLogos) + !Skin.HasSetting(osd.useFourteenSecondsCodecLogos) + !Skin.HasSetting(osd.useFifteenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="7000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useOneSecondCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
                 <effect type="fade" start="100" end="0" delay="3000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useTwoSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="4000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useThreeSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="5000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useFourSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="6000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useFiveSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="7000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useSixSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="8000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useSevenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="9000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useEightSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="10000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useNineSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="11000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useTenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="12000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useElevenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="13000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useTwelveSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="14000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useThirteenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="15000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useFourteenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="16000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useFifteenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="17000" time="500" tween="sine" />
             </animation>
 			
             <include content="Video_Audio_Background_Flag">
@@ -551,8 +673,69 @@
             <visible>Skin.HasSetting(osd.userightCodecStartupLogos)</visible>
             <visible>String.IsEqual(Player.Process(av.change),1)</visible>
             <left>1675</left>
-            <animation type="Hidden">
+            <animation type="WindowOpen" condition="!Skin.HasSetting(osd.useOneSecondCodecLogos) + !Skin.HasSetting(osd.useTwoSecondsCodecLogos) + !Skin.HasSetting(osd.useThreeSecondsCodecLogos) + !Skin.HasSetting(osd.useFourSecondsCodecLogos) + !Skin.HasSetting(osd.useFiveSecondsCodecLogos) + !Skin.HasSetting(osd.useSixSecondsCodecLogos) + !Skin.HasSetting(osd.useSevenSecondsCodecLogos) + !Skin.HasSetting(osd.useEightSecondsCodecLogos) + !Skin.HasSetting(osd.useNineSecondsCodecLogos) + !Skin.HasSetting(osd.useTenSecondsCodecLogos) + !Skin.HasSetting(osd.useElevenSecondsCodecLogos) + !Skin.HasSetting(osd.useTwelveSecondsCodecLogos) + !Skin.HasSetting(osd.useThirteenSecondsCodecLogos) + !Skin.HasSetting(osd.useFourteenSecondsCodecLogos) + !Skin.HasSetting(osd.useFifteenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="7000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useOneSecondCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
                 <effect type="fade" start="100" end="0" delay="3000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useTwoSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="4000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useThreeSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="5000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useFourSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="6000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useFiveSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="7000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useSixSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="8000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useSevenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="9000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useEightSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="10000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useNineSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="11000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useTenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="12000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useElevenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="13000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useTwelveSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="14000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useThirteenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="15000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useFourteenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="16000" time="500" tween="sine" />
+            </animation>
+            <animation type="WindowOpen" condition="Skin.HasSetting(osd.useFifteenSecondsCodecLogos)">
+                <effect type="fade" start="0" end="100" time="300" />
+                <effect type="fade" start="100" end="0" delay="17000" time="500" tween="sine" />
             </animation>
 			
             <include content="Video_Audio_Background_Flag">

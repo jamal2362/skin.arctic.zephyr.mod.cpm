@@ -2881,10 +2881,6 @@ msgctxt "#32061"
 msgid "Position of the codec logos in the PlayerProcessInfo"
 msgstr "Pozycja logo kodeków w pliku PlayerProcessInfo"
 
-msgctxt "#32062"
-msgid "Show codec logos when video starts"
-msgstr "Wyświetlanie logo kodeków na początku wideo"
-
 msgctxt "#32063"
 msgid "Codec logos"
 msgstr "Logo kodeków"
@@ -2896,7 +2892,3 @@ msgstr "Oryginalny"
 msgctxt "#32065"
 msgid "VS10 mode"
 msgstr "Tryb VS10"
-
-msgctxt "#32066"
-msgid "Coloured title lines in PlayerProcessInfo"
-msgstr "Kolorowe linie tytułowe w PlayerProcessInfo"

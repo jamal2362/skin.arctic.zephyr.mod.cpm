@@ -2906,8 +2906,8 @@ msgid "Position of the codec logos in the PlayerProcessInfo"
 msgstr "Position der Codec-Logos im PlayerProcessInfo"
 
 msgctxt "#32062"
-msgid "Show codec logos when video starts"
-msgstr "Codec-Logos beim Start des Videos anzeigen"
+msgid "Position of the codec logos when video starts"
+msgstr "Position der Codec-Logos beim Start des Videos"
 
 msgctxt "#32063"
 msgid "Codec logos"
@@ -2924,3 +2924,31 @@ msgstr "VS10-Modus"
 msgctxt "#32067"
 msgid "L5 Active Offsets"
 msgstr "L5 Aktive Offsets"
+
+msgctxt "#32068"
+msgid "Version"
+msgstr "Version"
+
+msgctxt "#32069"
+msgid "Bit depth"
+msgstr "Bittiefe"
+
+msgctxt "#32070"
+msgid "EOTF & Gamut"
+msgstr "EOTF & Gamut"
+
+msgctxt "#32071"
+msgid "Duration of the codec logos when video starts"
+msgstr "Dauer der Codec-Logos beim Start des Videos"
+
+msgctxt "#32072"
+msgid "Standard"
+msgstr "Standard"
+
+msgctxt "#32075"
+msgid "second"
+msgstr "Sekunde"
+
+msgctxt "#32076"
+msgid "seconds"
+msgstr "Sekunden"

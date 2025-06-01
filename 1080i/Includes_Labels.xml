@@ -1604,6 +1604,25 @@
         <value>$LOCALIZE[10037]</value>
     </variable>
 	
+    <variable name="OSDCodecLogosStartupTimerLabel">
+        <value condition="Skin.HasSetting(osd.useOneSecondCodecLogos)">1 $LOCALIZE[32075]</value>
+        <value condition="Skin.HasSetting(osd.useTwoSecondsCodecLogos)">2 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useThreeSecondsCodecLogos)">3 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useFourSecondsCodecLogos)">4 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useFiveSecondsCodecLogos)">5 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useSixSecondsCodecLogos)">6 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useSevenSecondsCodecLogos)">7 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useEightSecondsCodecLogos)">8 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useNineSecondsCodecLogos)">9 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useTenSecondsCodecLogos)">10 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useElevenSecondsCodecLogos)">11 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useTwelveSecondsCodecLogos)">12 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useThirteenSecondsCodecLogos)">13 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useFourteenSecondsCodecLogos)">14 $LOCALIZE[32076]</value>
+        <value condition="Skin.HasSetting(osd.useFifteenSecondsCodecLogos)">15 $LOCALIZE[32076]</value>
+        <value>5 $LOCALIZE[32076] ($LOCALIZE[32072])</value>
+    </variable>
+
     <variable name="OSDCodecLogosStartupLabel">
         <value condition="Skin.HasSetting(osd.useleftCodecStartupLogos)">$LOCALIZE[32057]</value>
         <value condition="Skin.HasSetting(osd.usecenterCodecStartupLogos)">$LOCALIZE[32058]</value>
