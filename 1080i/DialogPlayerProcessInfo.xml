@@ -264,7 +264,6 @@
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
-				
                 <!-- N/A -->
                 <control type="label">
                     <left>210</left>
@@ -352,7 +351,7 @@
                     <top>20</top>
                     <width>200</width>
                     <align>right</align>
-                    <label>$INFO[Player.Process(video.hdr.min.lum)] [COLOR dialog_fg_70]l[/COLOR] $INFO[Player.Process(video.hdr.max.lum)]</label>
+                    <label>$INFO[Player.Process(video.hdr.min.lum)] l $INFO[Player.Process(video.hdr.max.lum)]</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
@@ -377,7 +376,7 @@
                     <top>50</top>
                     <width>200</width>
                     <align>right</align>
-                    <label>$INFO[Player.Process(video.hdr.max.cll)] [COLOR dialog_fg_70]l[/COLOR] $INFO[Player.Process(video.hdr.max.fall)]</label>
+                    <label>$INFO[Player.Process(video.hdr.max.cll)] l $INFO[Player.Process(video.hdr.max.fall)]</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
