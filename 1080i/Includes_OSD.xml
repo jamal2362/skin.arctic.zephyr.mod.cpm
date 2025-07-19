@@ -174,12 +174,12 @@
                 <itemgap>12</itemgap>
                 <usecontrolcoords>true</usecontrolcoords>
                 <control type="label" description="Video Info">
-                    <width min="20" max="650">auto</width>
+                    <width min="20" max="690">auto</width>
                     <height>40</height>
                     <top>10</top>
                     <font>Flag</font>
                     <textcolor>$VAR[OSDPanelWhite30]</textcolor>
-                    <label>$INFO[VideoPlayer.VideoCodec,,  •  ]$INFO[VideoPlayer.VideoResolution,,  •  ]$INFO[VideoPlayer.VideoAspect,,  •  ]$VAR[ListItemAudioCodec,,]$VAR[LabelOSDAudioChannels,  •  ,]$VAR[ListItemHDR,  •  ,]</label>
+                    <label>$INFO[VideoPlayer.VideoCodec,,  •  ]$INFO[VideoPlayer.VideoResolution,,  •  ]$INFO[VideoPlayer.VideoAspect,,  •  ]$VAR[AudioCodecOSDVar]$VAR[LabelOSDAudioChannels,  •  ,]$VAR[ListItemHDROSD,  •  ,]</label>
                     <visible>!Skin.HasSetting(furniture.flagiconsosdnoicons) + Skin.HasSetting(furniture.flagiconsosd)</visible>
                 </control>
                 <control type="image">
@@ -270,12 +270,12 @@
                 <itemgap>12</itemgap>
                 <usecontrolcoords>true</usecontrolcoords>
                 <control type="label" description="Video Info">
-                    <width min="20" max="650">auto</width>
+                    <width min="20" max="690">auto</width>
                     <height>40</height>
                     <top>10</top>
                     <font>Flag</font>
                     <textcolor>$VAR[OSDPanelWhite30]</textcolor>
-                    <label>$INFO[VideoPlayer.VideoCodec,,  •  ]$INFO[VideoPlayer.VideoResolution,,  •  ]$INFO[VideoPlayer.VideoAspect,,  •  ]$VAR[ListItemAudioCodec,,]$VAR[LabelOSDAudioChannels,  •  ,]$VAR[ListItemHDR,  •  ,]</label>
+                    <label>$INFO[VideoPlayer.VideoCodec,,  •  ]$INFO[VideoPlayer.VideoResolution,,  •  ]$INFO[VideoPlayer.VideoAspect,,  •  ]$VAR[AudioCodecOSDVar]$VAR[LabelOSDAudioChannels,  •  ,]$VAR[ListItemHDROSD,  •  ,]</label>
                     <visible>!Skin.HasSetting(furniture.flagiconsosdnoicons) + Skin.HasSetting(furniture.flagiconsosd)</visible>
                 </control>
                 <control type="image">
@@ -491,12 +491,12 @@
             <itemgap>12</itemgap>
             <usecontrolcoords>true</usecontrolcoords>
             <control type="label" description="Video Info">
-                <width min="20" max="650">auto</width>
+                <width min="20" max="690">auto</width>
                 <height>40</height>
                 <top>10</top>
                 <font>Flag</font>
                 <textcolor>$VAR[OSDPanelWhite70]</textcolor>
-                <label>$INFO[VideoPlayer.VideoCodec,,  •  ]$INFO[VideoPlayer.VideoResolution,,  •  ]$INFO[VideoPlayer.VideoAspect,,  •  ]$VAR[ListItemAudioCodec,,]$VAR[LabelOSDAudioChannels,  •  ,]$VAR[ListItemHDR,  •  ,]</label>
+                <label>$INFO[VideoPlayer.VideoCodec,,  •  ]$INFO[VideoPlayer.VideoResolution,,  •  ]$INFO[VideoPlayer.VideoAspect,,  •  ]$VAR[AudioCodecOSDVar]$VAR[LabelOSDAudioChannels,  •  ,]$VAR[ListItemHDROSD,  •  ,]</label>
                 <visible>!Skin.HasSetting(furniture.flagiconsosdnoicons) + Skin.HasSetting(furniture.flagiconsosd)</visible>
             </control>
             <control type="image">
@@ -628,12 +628,12 @@
             <itemgap>12</itemgap>
             <usecontrolcoords>true</usecontrolcoords>
             <control type="label" description="Video Info">
-                <width min="20" max="650">auto</width>
+                <width min="20" max="690">auto</width>
                 <height>40</height>
                 <top>10</top>
                 <font>Flag</font>
                 <textcolor>$VAR[OSDPanelWhite70]</textcolor>
-                <label>$INFO[VideoPlayer.VideoCodec,,  •  ]$INFO[VideoPlayer.VideoResolution,,  •  ]$INFO[VideoPlayer.VideoAspect,,  •  ]$VAR[ListItemAudioCodec,,]$VAR[LabelOSDAudioChannels,  •  ,]$VAR[ListItemHDR,  •  ,]</label>
+                <label>$INFO[VideoPlayer.VideoCodec,,  •  ]$INFO[VideoPlayer.VideoResolution,,  •  ]$INFO[VideoPlayer.VideoAspect,,  •  ]$VAR[AudioCodecOSDVar]$VAR[LabelOSDAudioChannels,  •  ,]$VAR[ListItemHDROSD,  •  ,]</label>
                 <visible>!Skin.HasSetting(furniture.flagiconsosdnoicons) + Skin.HasSetting(furniture.flagiconsosd)</visible>
             </control>
             <control type="image">
@@ -1104,11 +1104,11 @@
             <disabledcolor>PanelWhite12</disabledcolor>
         </control>
         <control type="button" id="6">
-            <description>BookMarks</description>
+            <description>VS10 mode</description>
             <align>right</align>
             <include>DefOSDButtons</include>
-            <label>298</label>
-            <onclick>ActivateWindow(125)</onclick>
+            <label>32065</label>
+            <onclick>ActivateWindow(1140)</onclick>
         </control>
     </include>
 
@@ -1186,11 +1186,11 @@
             <include>Animation.OSD.Wide.Short</include>
         </control>
         <control type="button" id="6">
-            <description>BookMarks</description>
+            <description>VS10 mode</description>
             <align>right</align>
             <include>DefOSDButtonsNewOSD</include>
-            <label>298</label>
-            <onclick>ActivateWindow(125)</onclick>
+            <label>32065</label>
+            <onclick>ActivateWindow(1140)</onclick>
             <visible>$EXP[VideoOSDShort]</visible>
             <include>Animation.OSD.Wide.Short</include>
         </control>
@@ -1207,12 +1207,12 @@
             <include>Animation.OSD.Wide.Short</include>
         </control>
         <control type="button" id="260">
-            <description>BookMarks</description>
+            <description>VS10 mode</description>
             <align>right</align>
             <width>OSDLabelsWidthWide</width>
             <include>DefOSDButtonsNewOSD</include>
-            <label>298</label>
-            <onclick>ActivateWindow(125)</onclick>
+            <label>32065</label>
+            <onclick>ActivateWindow(1140)</onclick>
             <visible>$EXP[VideoOSDWide]</visible>
             <include>Animation.OSD.Wide.Short</include>
         </control>
@@ -1372,15 +1372,15 @@
             <visible>VideoPlayer.IsStereoscopic</visible>
         </control>
         <control type="button" id="51">
-            <description>BookMarks</description>
+            <description>VS10 mode</description>
             <width>48</width>
             <height>48</height>
             <label/>
             <font />
             <include>DefOSDUpDown</include>
-            <texturefocus colordiffuse="$VAR[ColorHighlight]" flipx="true">osd/bookmarks.png</texturefocus>
-            <texturenofocus colordiffuse="Dark1" flipx="true">osd/bookmarks.png</texturenofocus>
-            <onclick>ActivateWindow(125)</onclick>
+            <texturefocus colordiffuse="$VAR[ColorHighlight]">osd/vs10.png</texturefocus>
+            <texturenofocus colordiffuse="Dark1">osd/vs10.png</texturenofocus>
+            <onclick>ActivateWindow(1140)</onclick>
         </control>
     </include>
 
@@ -1866,6 +1866,18 @@
             <onclick>SetRating</onclick>
             <visible>!String.IsEmpty(MusicPlayer.DBID)</visible>
         </control>
+        <control type="button" id="999">
+            <description>PlayerProcessInfo</description>
+            <width>48</width>
+            <height>48</height>
+            <label/>
+            <font />
+            <include>DefOSDUpDown</include>
+            <texturefocus colordiffuse="$VAR[ColorHighlight]" flipx="true">osd/info.png</texturefocus>
+            <texturenofocus colordiffuse="Dark1" flipx="true">osd/info.png</texturenofocus>
+            <onclick>ActivateWindow(playerprocessinfo)</onclick>
+            <onclick>SetFocus(9000)</onclick>
+        </control>
         <control type="button" id="24">
             <description>Settings</description>
             <width>48</width>
@@ -2034,6 +2046,18 @@
             <onclick>ActivateWindow(videoplaylist)</onclick>
             <visible>Integer.IsGreater(Playlist.Length(video),1) + !Pvr.IsPlayingTv</visible>
         </control>
+        <control type="button" id="999">
+            <description>PlayerProcessInfo</description>
+            <width>48</width>
+            <height>48</height>
+            <label/>
+            <font />
+            <include>DefOSDUpDown</include>
+            <texturefocus colordiffuse="$VAR[ColorHighlight]" flipx="true">osd/info.png</texturefocus>
+            <texturenofocus colordiffuse="Dark1" flipx="true">osd/info.png</texturenofocus>
+            <onclick>ActivateWindow(playerprocessinfo)</onclick>
+            <onclick>SetFocus(9000)</onclick>
+        </control>
         <control type="button" id="19">
             <description>Settings</description>
             <width>48</width>
@@ -2201,6 +2225,18 @@
             <onclick>ActivateWindow(videoplaylist)</onclick>
             <visible>Integer.IsGreater(Playlist.Length(video),1) + !Pvr.IsPlayingTv</visible>
         </control>
+        <control type="button" id="999">
+            <description>PlayerProcessInfo</description>
+            <width>48</width>
+            <height>48</height>
+            <label/>
+            <font />
+            <include>DefOSDUpDown</include>
+            <texturefocus colordiffuse="$VAR[ColorHighlight]" flipx="true">osd/info.png</texturefocus>
+            <texturenofocus colordiffuse="Dark1" flipx="true">osd/info.png</texturenofocus>
+            <onclick>ActivateWindow(playerprocessinfo)</onclick>
+            <onclick>SetFocus(9000)</onclick>
+        </control>
         <control type="button" id="19">
             <description>Settings</description>
             <width>48</width>
@@ -2272,6 +2308,8 @@
             <control type="group">
                 <visible>Skin.HasSetting(ClockOSD)</visible>
                 <include>Animation.ViHi</include>
+                <left>-210</left>
+                <right>210</right>
                 <control type="image">
                     <description>background image</description>
                     <posx>0</posx>
@@ -2841,7 +2879,11 @@
     </include>
     
     <include name="Seekbar1">
-    
+	
+        <include condition="Skin.HasSetting(osd.useleftCodecLogos)">CodecLogosLeftOSD</include>
+        <include condition="Skin.HasSetting(osd.usecenterCodecLogos)">CodecLogosCenterOSD</include>
+        <include condition="Skin.HasSetting(osd.userightCodecLogos)">CodecLogosRightOSD</include>
+		
         <!-- Normal -->
         <control type="group">
             <animation effect="fade" start="100" end="0" time="150" condition="Window.IsVisible(DialogPlayerProcessInfo.xml)">Conditional</animation>
@@ -3151,6 +3193,10 @@
     </include>
      
     <include name="Seekbar2">
+	
+        <include condition="Skin.HasSetting(osd.useleftCodecLogos)">CodecLogosLeftOSD</include>
+        <include condition="Skin.HasSetting(osd.usecenterCodecLogos)">CodecLogosCenterOSD</include>
+        <include condition="Skin.HasSetting(osd.userightCodecLogos)">CodecLogosRightOSD</include>
         
         <!-- New OSD -->
         <control type="group"> 
@@ -3457,6 +3503,10 @@
     </include>
     
     <include name="Seekbar3">
+	
+        <include condition="Skin.HasSetting(osd.useleftCodecLogos)">CodecLogosLeftOSD</include>
+        <include condition="Skin.HasSetting(osd.usecenterCodecLogos)">CodecLogosCenterOSD</include>
+        <include condition="Skin.HasSetting(osd.userightCodecLogos)">CodecLogosRightOSD</include>
         
         <!-- Side OSD -->
         <control type="group">
