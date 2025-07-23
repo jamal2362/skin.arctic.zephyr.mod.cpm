@@ -2694,16 +2694,16 @@ msgid "Kb/s"
 msgstr "Kb/s"
 
 msgctxt "#32013"
-msgid "DV metadata"
-msgstr "Metadane DV"
+msgid "Playback time"
+msgstr "Czas odtwarzania"
 
 msgctxt "#32014"
 msgid "Processor"
 msgstr "Procesor"
 
 msgctxt "#32015"
-msgid "Version"
-msgstr "Wersja"
+msgid "Metadata"
+msgstr "Metadane"
 
 msgctxt "#32016"
 msgid "Profile"
@@ -2881,6 +2881,10 @@ msgctxt "#32061"
 msgid "Position of the codec logos in the PlayerProcessInfo"
 msgstr "Pozycja logo kodeków w pliku PlayerProcessInfo"
 
+msgctxt "#32062"
+msgid "Position of the codec logos when video starts"
+msgstr "Pozycja logo kodeków, gdy zaczyna się wideo"
+
 msgctxt "#32063"
 msgid "Codec logos"
 msgstr "Logo kodeków"
@@ -2892,3 +2896,43 @@ msgstr "Oryginalny"
 msgctxt "#32065"
 msgid "VS10 mode"
 msgstr "Tryb VS10"
+
+msgctxt "#32067"
+msgid "L5 Active Offsets"
+msgstr "L5 Aktywne marginesy"
+
+msgctxt "#32068"
+msgid "Version"
+msgstr "Wersja"
+
+msgctxt "#32069"
+msgid "Bit depth"
+msgstr "Głębia bitu"
+
+msgctxt "#32070"
+msgid "EOTF & Gamut"
+msgstr "EOTF & Gamut"
+
+msgctxt "#32071"
+msgid "Duration of the codec logos when video starts"
+msgstr "Czas trwania logo kodeków, gdy zaczyna się wideo"
+
+msgctxt "#32072"
+msgid "Standard"
+msgstr "Standard"
+
+msgctxt "#32073"
+msgid "PlayerProcessInfo"
+msgstr "PlayerProcessInfo"
+
+msgctxt "#32074"
+msgid "Show file name in PlayerProcessInfo"
+msgstr "Pokaż nazwę pliku w PlayerProcessinfo"
+
+msgctxt "#32075"
+msgid "second"
+msgstr "sekunda"
+
+msgctxt "#32076"
+msgid "seconds"
+msgstr "sekundy"
