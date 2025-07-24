@@ -2899,7 +2899,7 @@ msgstr "Tryb VS10"
 
 msgctxt "#32067"
 msgid "L5 Active Offsets"
-msgstr "L5 Aktywne marginesy"
+msgstr "L5 Aktywne Korekty"
 
 msgctxt "#32068"
 msgid "Version"
