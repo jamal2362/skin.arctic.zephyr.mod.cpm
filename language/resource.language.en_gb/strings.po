@@ -2912,3 +2912,7 @@ msgstr ""
 msgctxt "#32076"
 msgid "seconds"
 msgstr ""
+
+msgctxt "#32077"
+msgid "seconds"
+msgstr ""
