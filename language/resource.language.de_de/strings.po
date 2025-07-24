@@ -2960,3 +2960,7 @@ msgstr "Sekunde"
 msgctxt "#32076"
 msgid "seconds"
 msgstr "Sekunden"
+
+msgctxt "#32077"
+msgid "seconds"
+msgstr "Sekunden"
