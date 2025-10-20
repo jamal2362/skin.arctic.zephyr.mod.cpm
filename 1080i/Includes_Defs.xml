@@ -1188,7 +1188,7 @@
                 <control type="label">
                     <description>Header Label</description>
                     <left>70</left>
-                    <width>1000</width>
+                    <width>950</width>
                     <posy>0</posy>
                     <include>FontTop</include>
                     <textcolor>Dark2</textcolor>
@@ -2219,7 +2219,7 @@
 
     <include name="DefOSDPlayerTitle">
         <control type="label" description="Show">
-            <width>$PARAM[width]</width>
+            <width>730</width>
             <top>40</top>
             <height>40</height>
             <font>MediumBold</font>
@@ -2232,7 +2232,7 @@
 
     <include name="DefOSDPlayerTVShowTitle">
         <control type="label" description="Show">
-            <width>$PARAM[width]</width>
+            <width>730</width>
             <top>40</top>
             <height>40</height>
             <font>MediumBold</font>

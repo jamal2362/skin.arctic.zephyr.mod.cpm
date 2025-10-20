@@ -643,11 +643,11 @@ msgstr "Zwiastun z"
 
 msgctxt "#31159"
 msgid "Movies by"
-msgstr "Filmy z"
+msgstr "Filmy autorstwa"
 
 msgctxt "#31160"
 msgid "Tv Shows by"
-msgstr "Seriale z"
+msgstr "Seriale autorstwa"
 
 msgctxt "#31161"
 msgid "[B]Configure System Settings[/B][CR][CR] •     Setup and calibrate displays[CR] •     Configure audio output[CR] •     Setup remote controls[CR] •     Set power saving options[CR] •     Enable debugging[CR] •     Setup master lock"
@@ -691,7 +691,7 @@ msgstr "Dodatek Cinema Experience"
 
 msgctxt "#31171"
 msgid "Movies by"
-msgstr "Filmy z"
+msgstr "Filmy autorstwa"
 
 msgctxt "#31172"
 msgid "Show music visualisation in background"
@@ -987,7 +987,7 @@ msgstr "Obraz startowy"
 
 msgctxt "#31246"
 msgid "Show icon media flags"
-msgstr "Pokazuj etykiety mediów"
+msgstr "Pokazuj etykiety mediów z ikonami"
 
 msgctxt "#31247"
 msgid "Home menu style"
@@ -1235,7 +1235,7 @@ msgstr "Rozmycie - Ustawienia"
 
 msgctxt "#31309"
 msgid "Media-Flags"
-msgstr "Flagi medialne"
+msgstr "Flagi multimediów"
 
 msgctxt "#31310"
 msgid "Enable grid"
@@ -1359,7 +1359,7 @@ msgstr "Automatyczne przewijanie"
 
 msgctxt "#31341"
 msgid "Widget-listtype"
-msgstr ""
+msgstr "Typ listy widgetów"
 
 msgctxt "#31342"
 msgid "List"
@@ -1451,7 +1451,7 @@ msgstr "Pokaż nazwy plików"
 
 msgctxt "#31367"
 msgid "Focus Bars (List Views)"
-msgstr ""
+msgstr "Paski fokusu (widoki listy)"
 
 msgctxt "#31368"
 msgid "Show unwatched episodes count"
@@ -1747,7 +1747,7 @@ msgstr "RottenTomatoes i Metacritic"
 
 msgctxt "#31442"
 msgid "Select media flags"
-msgstr "Wybierz flagi mediów"
+msgstr "Wybierz flagi multimediów"
 
 msgctxt "#31443"
 msgid "Subtitle icon"
@@ -1879,7 +1879,7 @@ msgstr "Skonfiguruj niestandardowy widget"
 
 msgctxt "#31475"
 msgid "Netflix fanart window"
-msgstr ""
+msgstr "Okno fanartów Netflixa"
 
 msgctxt "#31476"
 msgid "Boxed Set"
@@ -2231,7 +2231,7 @@ msgstr "Ikony flag medialnych"
 
 msgctxt "#31571"
 msgid "Media flags"
-msgstr "Flagi medialne"
+msgstr "Flagi multimediów"
 
 msgctxt "#31572"
 msgid "Play/pause info"
@@ -2640,3 +2640,303 @@ msgstr "Piaskowy żółty"
 #~ msgctxt "#31149"
 #~ msgid "Replace widget fanart with home background slideshow"
 #~ msgstr "Zastępuj fototapetę gadżetu pokazem slajdów"
+
+msgctxt "#32000"
+msgid "Display mode"
+msgstr "Tryb wyświetlania"
+
+msgctxt "#32001"
+msgid "Video mode"
+msgstr "Tryb wideo"
+
+msgctxt "#32002"
+msgid "Color space"
+msgstr "Przestrzeń kolorów"
+
+msgctxt "#32003"
+msgid "Mb/s"
+msgstr "Mb/s"
+
+msgctxt "#32004"
+msgid "Bit depth"
+msgstr "Głębia bitowa"
+
+msgctxt "#32005"
+msgid "Decoder"
+msgstr "Dekoder"
+
+msgctxt "#32006"
+msgid "VS10 engine"
+msgstr "Silnik VS10"
+
+msgctxt "#32007"
+msgid "More"
+msgstr "Więcej"
+
+msgctxt "#32008"
+msgid "Video queue"
+msgstr "Kolejka wideo"
+
+msgctxt "#32009"
+msgid "Video queue data"
+msgstr "Dane kolejki wideo"
+
+msgctxt "#32010"
+msgid "Audio queue"
+msgstr "Kolejka audio"
+
+msgctxt "#32011"
+msgid "Audio queue data"
+msgstr "Dane kolejki audio"
+
+msgctxt "#32012"
+msgid "Kb/s"
+msgstr "Kb/s"
+
+msgctxt "#32013"
+msgid "Playback time"
+msgstr "Czas odtwarzania"
+
+msgctxt "#32014"
+msgid "Processor"
+msgstr "Procesor"
+
+msgctxt "#32015"
+msgid "Metadata"
+msgstr "Metadane"
+
+msgctxt "#32016"
+msgid "Profile"
+msgstr "Profil"
+
+msgctxt "#32017"
+msgid "Level"
+msgstr "Poziom"
+
+msgctxt "#32018"
+msgid "RPU"
+msgstr "RPU"
+
+msgctxt "#32019"
+msgid "Base Layer"
+msgstr "Warstwa podstawowa"
+
+msgctxt "#32020"
+msgid "Enhancement Layer"
+msgstr "Warstwa ulepszeń"
+
+msgctxt "#32021"
+msgid "Enhancement Layer Type"
+msgstr "Typ warstwy ulepszeń"
+
+msgctxt "#32022"
+msgid "Metadata"
+msgstr "Metadane"
+
+msgctxt "#32023"
+msgid "Pixel format"
+msgstr "Format pikseli"
+
+msgctxt "#32024"
+msgid "Aspect ratio"
+msgstr "Proporcje obrazu"
+
+msgctxt "#32025"
+msgid "HDR10 MDL"
+msgstr "HDR10 MDL"
+
+msgctxt "#32026"
+msgid "HDR10 MaxCLL/FALL"
+msgstr "HDR10 MaxCLL/FALL"
+
+msgctxt "#32027"
+msgid "Media source"
+msgstr "Źródło mediów"
+
+msgctxt "#32028"
+msgid "Unknown"
+msgstr "Nieznany"
+
+msgctxt "#32029"
+msgid "On"
+msgstr "Włączone"
+
+msgctxt "#32030"
+msgid "Off"
+msgstr "Wyłączone"
+
+msgctxt "#32031"
+msgid "Deinterlacing"
+msgstr "Usuwanie przeplotu"
+
+msgctxt "#32032"
+msgid "Player cache"
+msgstr "Pamięć podręczna"
+
+msgctxt "#32033"
+msgid "N/A"
+msgstr "N/A"
+
+msgctxt "#32034"
+msgid "Memory usage"
+msgstr "Użycie pamięci"
+
+msgctxt "#32035"
+msgid "Bit depth"
+msgstr "Głębia bitowa"
+
+msgctxt "#32036"
+msgid "AML FPS"
+msgstr "AML FPS"
+
+msgctxt "#32037"
+msgid "DV Configuration"
+msgstr "Konfiguracja DV"
+
+msgctxt "#32038"
+msgid "DV Levels Metadata"
+msgstr "Metadane poziomów DV"
+
+msgctxt "#32039"
+msgid "HDR Static Metadata"
+msgstr "Metadane statyczne HDR"
+
+msgctxt "#32040"
+msgid "cd/m²"
+msgstr "cd/m²"
+
+msgctxt "#32041"
+msgid "RPU MDL"
+msgstr "RPU MDL"
+
+msgctxt "#32042"
+msgid "RPU MaxCLL/FALL"
+msgstr "PU MaxCLL/FALL"
+
+msgctxt "#32043"
+msgid "FLL MIN / MAX / Ø"
+msgstr "FLL MIN / MAX / Ø"
+
+msgctxt "#32044"
+msgid "PQ  MIN / MAX / Ø"
+msgstr "PQ  MIN / MAX / Ø"
+
+msgctxt "#32045"
+msgid "12-bit"
+msgstr "12-bit"
+
+msgctxt "#32046"
+msgid "Codec"
+msgstr "Kodek"
+
+msgctxt "#32047"
+msgid "Bitrate"
+msgstr "Szybkość transmisji"
+
+msgctxt "#32048"
+msgid "VS10 status"
+msgstr "Stan VS10"
+
+msgctxt "#32051"
+msgid "Sample rate"
+msgstr "Próbkowanie"
+
+msgctxt "#32052"
+msgid "Audio language"
+msgstr "Język audio"
+
+msgctxt "#32053"
+msgid "Subtitle language"
+msgstr "Język napisów"
+
+msgctxt "#32054"
+msgid "Video"
+msgstr "Obraz"
+
+msgctxt "#32055"
+msgid "System"
+msgstr "System"
+
+msgctxt "#32056"
+msgid "Audio"
+msgstr "Dźwięk"
+
+msgctxt "#32057"
+msgid "Top left"
+msgstr "U góry po lewej"
+
+msgctxt "#32058"
+msgid "Top center"
+msgstr "Na górze po środku"
+
+msgctxt "#32059"
+msgid "Top right"
+msgstr "U góry po prawej"
+
+msgctxt "#32060"
+msgid "Position of the codec logos in the OSD"
+msgstr "Pozycja logo kodeków w OSD"
+
+msgctxt "#32061"
+msgid "Position of the codec logos in the PlayerProcessInfo"
+msgstr "Pozycja logo kodeków w pliku PlayerProcessInfo"
+
+msgctxt "#32062"
+msgid "Position of the codec logos when video starts"
+msgstr "Pozycja logo kodeków, gdy zaczyna się wideo"
+
+msgctxt "#32063"
+msgid "Codec logos"
+msgstr "Logo kodeków"
+
+msgctxt "#32064"
+msgid "Original"
+msgstr "Oryginalny"
+
+msgctxt "#32065"
+msgid "VS10 mode"
+msgstr "Tryb VS10"
+
+msgctxt "#32067"
+msgid "L5 Active Offsets"
+msgstr "L5 Aktywne Korekty"
+
+msgctxt "#32068"
+msgid "Version"
+msgstr "Wersja"
+
+msgctxt "#32069"
+msgid "Bit depth"
+msgstr "Głębia bitu"
+
+msgctxt "#32070"
+msgid "EOTF & Gamut"
+msgstr "EOTF & Gamut"
+
+msgctxt "#32071"
+msgid "Duration of the codec logos when video starts"
+msgstr "Czas trwania logo kodeków, gdy zaczyna się wideo"
+
+msgctxt "#32072"
+msgid "Standard"
+msgstr "Standard"
+
+msgctxt "#32073"
+msgid "PlayerProcessInfo"
+msgstr "PlayerProcessInfo"
+
+msgctxt "#32074"
+msgid "Show file name in PlayerProcessInfo"
+msgstr "Pokaż nazwę pliku w PlayerProcessinfo"
+
+msgctxt "#32075"
+msgid "second"
+msgstr "sekunda"
+
+msgctxt "#32076"
+msgid "seconds"
+msgstr "sekundy"
+
+msgctxt "#32077"
+msgid "seconds"
+msgstr "sekund"
