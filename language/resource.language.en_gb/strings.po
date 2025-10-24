@@ -2758,7 +2758,7 @@ msgid "Memory usage"
 msgstr ""
 
 msgctxt "#32035"
-msgid "Bit depth"
+msgid "Passthrough"
 msgstr ""
 
 msgctxt "#32036"
@@ -2814,7 +2814,7 @@ msgid "VS10 status"
 msgstr ""
 
 msgctxt "#32051"
-msgid "Sample rate"
+msgid "Input"
 msgstr ""
 
 msgctxt "#32052"
@@ -2830,7 +2830,7 @@ msgid "Video"
 msgstr ""
 
 msgctxt "#32055"
-msgid "System"
+msgid "Output"
 msgstr ""
 
 msgctxt "#32056"
@@ -2915,4 +2915,8 @@ msgstr ""
 
 msgctxt "#32077"
 msgid "seconds"
+msgstr ""
+
+msgctxt "#32078"
+msgid "Decoding"
 msgstr ""
