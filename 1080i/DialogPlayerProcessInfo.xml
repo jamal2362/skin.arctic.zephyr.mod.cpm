@@ -405,7 +405,7 @@
 				
                 <!-- System -->
                 <control type="label">
-                    <label>[B][UPPERCASE]$LOCALIZE[32055][/UPPERCASE][/B]</label>
+                    <label>[B][UPPERCASE]$LOCALIZE[32079][/UPPERCASE][/B]</label>
                     <top>-15</top>
                     <left>30</left>
                     <font>font_tiny</font>
@@ -703,7 +703,7 @@
                 <control type="label">
                     <left>240</left>
                     <top>110</top>
-                    <width>325</width>
+                    <width>310</width>
                     <label>$INFO[Player.Process(audiochannels),]</label>
                     <font>font_tiny</font>
                     <scroll>true</scroll>
@@ -728,7 +728,7 @@
                 <control type="label">
                     <left>240</left>
                     <top>140</top>
-                    <width>325</width>
+                    <width>310</width>
                     <label>$INFO[Player.Process(audiochannelssink),]</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
