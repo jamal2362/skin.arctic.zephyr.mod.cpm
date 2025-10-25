@@ -2920,3 +2920,7 @@ msgstr ""
 msgctxt "#32078"
 msgid "Decoding"
 msgstr ""
+
+msgctxt "#32079"
+msgid "System"
+msgstr ""

@@ -2968,3 +2968,7 @@ msgstr "Sekunden"
 msgctxt "#32078"
 msgid "Decoding"
 msgstr "Dekodierung"
+
+msgctxt "#32079"
+msgid "System"
+msgstr "System"
