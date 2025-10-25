@@ -673,7 +673,7 @@
                 <control type="label">
                     <left>240</left>
                     <top>50</top>
-                    <label>$INFO[Player.Process(audiobitspersample),,-bit]</label>
+                    <label>$INFO[Player.Process(audiobitspersample),,-bit] | $INFO[Player.Process(audio.sample.rate),, kHz]</label>
                     <font>font_tiny</font>
                     <textcolor>dialog_fg_90</textcolor>
                 </control>
