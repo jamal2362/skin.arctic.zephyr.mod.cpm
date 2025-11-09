@@ -61,4 +61,9 @@
     <color name="Fallback">FF181818</color>
     
     <color name="OSDProgressBarColor">0Dffffff</color>
+    
+    <color name="dialog_fg_100">ffededed</color>
+    <color name="dialog_fg_90">e7ededed</color>
+    <color name="dialog_fg_70">b3ededed</color>
+    <color name="panel_fg_12">1fededed</color>
 </colors>

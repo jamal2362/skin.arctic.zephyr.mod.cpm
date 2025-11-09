@@ -739,14 +739,15 @@
                 <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.aspectratio) + !String.IsEmpty(ListItem.VideoAspect) + !Skin.HasSetting(furniture.coloredicons)</visible>
             </control>
             <control type="image" description="Audio Codec">
-                <width min="20" max="108">auto</width>
-                <height>64</height>
+                <left>30</left>
+                <width>85</width>
                 <centertop>50%</centertop>
                 <texture colordiffuse="Dark1" fallback="flags/fallback.png">$VAR[ListItemAudioCodec,flags3/audio/,.png]</texture>
                 <aspectratio align="center">keep</aspectratio>
                 <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.audiocodec) + !String.IsEmpty(ListItem.AudioCodec) + !Skin.HasSetting(furniture.coloredicons)</visible>
             </control>
             <control type="image" description="Audio Channels">
+                <left>25</left>
                 <width min="20" max="80">auto</width>
                 <height>45</height>
                 <centertop>50%</centertop>
@@ -1668,8 +1669,8 @@
                 <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(Container(9500).ListItem.VideoAspect) + !Skin.HasSetting(furniture.coloredicons)</visible>
             </control>
             <control type="image">
-                <width min="20" max="108">auto</width>
-                <height>64</height>
+                <left>30</left>
+                <width>85</width>
                 <centertop>50%</centertop>
                 <texture colordiffuse="Dark1" fallback="flags/fallback.png">$INFO[Container(9500).ListItem.AudioCodec,flags3/audio/,.png]</texture>
                 <aspectratio align="center">keep</aspectratio>
@@ -3093,6 +3094,7 @@
                 <visible>!Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(ListItem.BPM) + Skin.HasSetting(furniture.show.bpm)</visible>
             </control>
             <control type="image">
+                <left>15</left>
                 <width min="20" max="100">auto</width>
                 <height>54</height>
                 <centertop>50%</centertop>
@@ -3897,8 +3899,8 @@
                 <visible>Skin.HasSetting(furniture.numericrating) + !Skin.HasSetting(furniture.flags.rating)</visible>
             </control>
             <control type="image" description="Game Audio Codec">
-                <width min="20" max="108">auto</width>
-                <height>64</height>
+                <left>30</left>
+                <width>85</width>
                 <centertop>50%</centertop>
                 <texture colordiffuse="Dark1" fallback="flags/fallback.png">$VAR[GameAudioFlag,flags3/audio/,.png]</texture>
                 <aspectratio align="center">keep</aspectratio>
