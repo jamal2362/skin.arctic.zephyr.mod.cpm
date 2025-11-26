@@ -2199,6 +2199,20 @@
         <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,10)">9.1</value>
     </variable>
 	
+    <variable name="AudioChannelsInputVar">
+        <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,1)">Mono</value>
+        <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,2)">FL, FR</value>
+        <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,3)">FL, FR, LFE</value>
+        <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,4)">FL, FR, BL, BR</value>
+        <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,5)">FL, FR, LFE, BL, BR</value>
+        <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,6)">FL, FR, FC, LFE, SL, SR</value>
+        <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,7)">FL, FR, FC, LFE, BC, SL, SR</value>
+        <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,8)">FL, FR, FC, LFE, BL, BR, SL, SR</value>
+        <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,9)">FL, FR, FC, LFE, BL, BR, SL, SR, FWL</value>
+        <value condition="Integer.IsEqual(VideoPlayer.AudioChannels,10)">FL, FR, FC, LFE, BL, BR, SL, SR, FWL, FWR</value>
+        <value>$LOCALIZE[13205]</value>
+    </variable>
+	
     <variable name="RatingLabel">
         <value condition="!String.IsEmpty(ListItem.UserRating) + Skin.HasSetting(userrating.override.rating)">$INFO[ListItem.UserRating,,.0]</value>
         <value>$INFO[ListItem.Rating]</value>

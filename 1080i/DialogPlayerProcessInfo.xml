@@ -704,7 +704,7 @@
                     <left>240</left>
                     <top>110</top>
                     <width>310</width>
-                    <label>$INFO[Player.Process(audiochannels),]</label>
+                    <label>$VAR[AudioChannelsInputVar]</label>
                     <font>font_tiny</font>
                     <scroll>true</scroll>
                     <textcolor>dialog_fg_90</textcolor>
@@ -2077,7 +2077,7 @@
                     <left>240</left>
                     <top>110</top>
                     <width>310</width>
-                    <label>$INFO[Player.Process(audiochannels),]</label>
+                    <label>$VAR[AudioChannelsInputVar]</label>
                     <font>font_tiny</font>
                     <scroll>true</scroll>
                     <textcolor>dialog_fg_90</textcolor>
