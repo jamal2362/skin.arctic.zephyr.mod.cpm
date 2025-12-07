@@ -91,7 +91,7 @@ msgstr "彩色圖標媒體標誌"
 
 msgctxt "#31018"
 msgid "Arctic: Zephyr - Reloaded"
-msgstr "Arctic: Zephyr - CPMVS10"
+msgstr "Arctic: Zephyr - Reloaded"
 
 msgctxt "#31019"
 msgid "Supported Addons"
