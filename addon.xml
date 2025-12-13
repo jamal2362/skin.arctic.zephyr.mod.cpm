@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="skin.arctic.zephyr.mod" version="30.3.0.3" name="Arctic: Zephyr - Reloaded (Hybrid)" provider-name="jurialmunkey, beatmasterrs, jamal2362">
+<addon id="skin.arctic.zephyr.mod" version="31.3.0.3" name="Arctic: Zephyr - Reloaded (Hybrid)" provider-name="jurialmunkey, beatmasterrs, jamal2362">
     <requires>
         <import addon="xbmc.gui" version="5.17.0"/>
         <import addon="script.skinshortcuts" version="0.4.0"/>
