@@ -530,6 +530,11 @@
     <variable name="LabelAudioCodecs">
         <value condition="String.IsEqual(ListItem.AudioCodec,aac)">AAC</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,aac_latm)">AAC</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,aac_lc)">AAC</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,he_aac)">AAC</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,he_aac_v2)">AAC</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,aac_ssr)">AAC</value>
+        <value condition="String.IsEqual(ListItem.AudioCodec,aac_ltp)">AAC</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,ac3)">Dolby Digital</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,aif)">AIFF</value>
         <value condition="String.IsEqual(ListItem.AudioCodec,aifc)">AIFF</value>
@@ -2109,6 +2114,11 @@
     <variable name="AudioCodecVar">
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,aac)">AAC</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,aac_latm)">AAC</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioCodec,aac_lc)">AAC</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioCodec,he_aac)">AAC</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioCodec,he_aac_v2)">AAC</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioCodec,aac_ssr)">AAC</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioCodec,aac_ltp)">AAC</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,ac3)">Dolby Digital</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,aif)">AIFF</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,aifc)">AIFF</value>
@@ -2150,6 +2160,11 @@
     <variable name="AudioCodecOSDVar">
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,aac)">AAC</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,aac_latm)">AAC</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioCodec,aac_lc)">AAC</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioCodec,he_aac)">AAC</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioCodec,he_aac_v2)">AAC</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioCodec,aac_ssr)">AAC</value>
+        <value condition="String.IsEqual(VideoPlayer.AudioCodec,aac_ltp)">AAC</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,ac3)">Dolby Digital</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,aif)">AIFF</value>
         <value condition="String.IsEqual(VideoPlayer.AudioCodec,aifc)">AIFF</value>
