@@ -270,7 +270,7 @@
             <content>plugin://script.embuary.helper/?info=jumptoletter&amp;showall=true&amp;reload=$INFO[Container.NumItems]</content>
         </control>
     </include>
-    
+
     <include name="NewJumpbar">
         <control type="grouplist">
             <width>42</width>
@@ -329,7 +329,7 @@
             <onup>SetFocus(290001)</onup>
         </control>
     </include>
-    
+
     <include name="JumpbarHelper">
         <control type="button" id="390000">
             <include>HiddenButton</include>
@@ -610,7 +610,7 @@
             </include>
         </control>
     </include>
-    
+
     <include name="Furniture_Flags">
         <control type="group">
             <include>Animation.FurnitureVisible</include>
@@ -619,7 +619,7 @@
             </include>
         </control>
     </include>
-    
+
     <include name="Furniture_Flags_Include">
         <control type="grouplist">
             <visible>!Skin.HasSetting(furniture.coloredicons)</visible>
@@ -726,7 +726,7 @@
                 <width min="20" max="120">auto</width>
                 <height>48</height>
                 <centertop>50%</centertop>
-                <texture colordiffuse="Dark1" fallback="flags/fallback.png">$INFO[ListItem.VideoCodec,flags/white/source/,.png]</texture>
+                <texture colordiffuse="Dark1" fallback="flags/fallback.png">$VAR[ListItemVideoCodec,flags/white/source/,.png]</texture>
                 <aspectratio align="center">keep</aspectratio>
                 <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.videocodec) + !String.IsEmpty(ListItem.VideoCodec) + !Skin.HasSetting(furniture.coloredicons)</visible>
             </control>
@@ -875,7 +875,7 @@
                 <left>10</left>
                 <texture colordiffuse="Dark1">flags/$VAR[ImageBluray].png</texture>
                 <aspectratio aligny="center" align="center">keep</aspectratio>
-                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.bluray) + !String.Contains(ListItem.Filenameandpath,.3D) + [String.Contains(ListItem.FilenameAndPath,bluray) | String.Contains(ListItem.FilenameAndPath,bdrip) | String.Contains(ListItem.FilenameAndPath,bd25) | String.Contains(ListItem.FilenameAndPath,bd50) | String.Contains(ListItem.FilenameAndPath,blu-ray)]</visible>
+                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.bluray) + !String.Contains(ListItem.Filenameandpath,.3D) + [String.Contains(ListItem.FilenameAndPath,bluray) | String.Contains(ListItem.FilenameAndPath,bdrip) | String.Contains(ListItem.FilenameAndPath,bd25) | String.Contains(ListItem.FilenameAndPath,bd50) | String.Contains(ListItem.FilenameAndPath,blu-ray) | String.Contains(ListItem.FilenameAndPath,remux)]</visible>
             </control>
             <control type="image" description="WEB-DL">
                 <width>84</width>
@@ -942,7 +942,7 @@
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[ListItem.UserRating].0</label>
             </control>
-           
+
             <control type="image" description="Rotten Tomatoes">
                 <visible>!String.IsEmpty(Window(Home).Property(TMDbHelper.ListItem.Metacritic_Rating)) + Skin.HasSetting(furniture.showtomatoesandmetacritics) + !Skin.HasSetting(furniture.flagicons)</visible>
                 <include>Animation.FadeIn</include>
@@ -1180,7 +1180,7 @@
                 <width min="20" max="100">auto</width>
                 <height>60</height>
                 <centertop>50%</centertop>
-                <texture fallback="flags/fallback.png">$INFO[ListItem.VideoCodec,flags/color/source/,.png]</texture>
+                <texture fallback="flags/fallback.png">$VAR[ListItemVideoCodec,flags/color/source/,.png]</texture>
                 <aspectratio align="center">keep</aspectratio>
                 <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.videocodec) + !String.IsEmpty(ListItem.VideoCodec)</visible>
             </control>
@@ -1341,7 +1341,7 @@
                 <left>10</left>
                 <texture>flags/color/other/$VAR[ImageBluray].png</texture>
                 <aspectratio aligny="center" align="center">keep</aspectratio>
-                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.bluray) + !String.Contains(ListItem.Filenameandpath,.3D) + [String.Contains(ListItem.FilenameAndPath,bluray) | String.Contains(ListItem.FilenameAndPath,bdrip) | String.Contains(ListItem.FilenameAndPath,bd25) | String.Contains(ListItem.FilenameAndPath,bd50) | String.Contains(ListItem.FilenameAndPath,blu-ray)]</visible>
+                <visible>Skin.HasSetting(furniture.flagicons) + !Skin.HasSetting(furniture.flags.bluray) + !String.Contains(ListItem.Filenameandpath,.3D) + [String.Contains(ListItem.FilenameAndPath,bluray) | String.Contains(ListItem.FilenameAndPath,bdrip) | String.Contains(ListItem.FilenameAndPath,bd25) | String.Contains(ListItem.FilenameAndPath,bd50) | String.Contains(ListItem.FilenameAndPath,blu-ray) | String.Contains(ListItem.FilenameAndPath,remux)]</visible>
             </control>
             <control type="image" description="WEB-DL">
                 <width>84</width>
@@ -2446,7 +2446,7 @@
         <value condition="Window.IsVisible(DialogColorPicker.xml)">$LOCALIZE[31238] $VAR[ColorPickerHeaderLabel,$LOCALIZE[31520] ,]</value>
         <value condition="Window.IsVisible(script-globalsearch.xml)">$LOCALIZE[31324] $INFO[Window.Property(GlobalSearch.SearchString),","]</value>
         <value condition="Window.IsVisible(service-CoreELEC-Settings-mainWindow.xml)">$LOCALIZE[31472]</value>
-        <value condition="Window.IsVisible(service-LibreELEC-Settings-mainWindow.xml)">$LOCALIZE[31643]</value>        
+        <value condition="Window.IsVisible(service-LibreELEC-Settings-mainWindow.xml)">$LOCALIZE[31643]</value>
         <value condition="Window.IsVisible(MyMusicPlaylistEditor.xml)">$LOCALIZE[20011]</value>
         <value condition="Window.IsVisible(DialogButtonMenu.xml)">$LOCALIZE[33060]</value>
         <value condition="Window.IsVisible(DialogFavourites.xml)">$LOCALIZE[1036]</value>
@@ -2973,8 +2973,8 @@
             </control>
         </control>
     </include>
-    
-    
+
+
 
     <include name="Furniture_Flags_AudioDialogInfo">
         <control type="group">
@@ -2983,7 +2983,7 @@
             </include>
         </control>
     </include>
-    
+
     <include name="Furniture_Flags_Audio">
         <!-- Fakelist Container for Album Count -->
         <control type="list" id="5014">
@@ -3117,7 +3117,7 @@
                 <centertop>57%</centertop>
                 <itemgap>-17</itemgap>
                 <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(ListItem.BitRate) + !Skin.HasSetting(furniture.hide.bitrate)</visible>
-                <control type="label">                
+                <control type="label">
                     <height>28</height>
                     <align>center</align>
                     <aligny>bottom</aligny>
@@ -3126,7 +3126,7 @@
                     <textcolor>Dark1</textcolor>
                 </control>
                 <control type="image">
-                    <height>44</height> 
+                    <height>44</height>
                     <aspectratio>keep</aspectratio>
                     <texture colordiffuse="Dark1">flags/other/bit.png</texture>
                     <aspectratio>keep</aspectratio>
@@ -3161,7 +3161,7 @@
                 <centertop>57%</centertop>
                 <itemgap>-17</itemgap>
                 <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(ListItem.BPM) + Skin.HasSetting(furniture.show.bpm)</visible>
-                <control type="label">                
+                <control type="label">
                     <height>28</height>
                     <align>center</align>
                     <aligny>bottom</aligny>
@@ -3170,7 +3170,7 @@
                     <textcolor>Dark1</textcolor>
                 </control>
                 <control type="image">
-                    <height>44</height> 
+                    <height>44</height>
                     <aspectratio>keep</aspectratio>
                     <texture>flags/other/bpm.png</texture>
                     <aspectratio>keep</aspectratio>
@@ -3355,7 +3355,7 @@
                     <textcolor>Dark1</textcolor>
                 </control>
                 <control type="image">
-                    <height>44</height> 
+                    <height>44</height>
                     <aspectratio>keep</aspectratio>
                     <texture colordiffuse="Dark1">flags/other/bit.png</texture>
                     <aspectratio>keep</aspectratio>
@@ -3390,7 +3390,7 @@
                 <centertop>57%</centertop>
                 <itemgap>-17</itemgap>
                 <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(ListItem.BPM) + Skin.HasSetting(furniture.show.bpm)</visible>
-                <control type="label">                
+                <control type="label">
                     <height>28</height>
                     <align>center</align>
                     <aligny>bottom</aligny>
@@ -3399,7 +3399,7 @@
                     <textcolor>Dark1</textcolor>
                 </control>
                 <control type="image">
-                    <height>44</height> 
+                    <height>44</height>
                     <aspectratio>keep</aspectratio>
                     <texture>flags/other/bpm.png</texture>
                     <aspectratio>keep</aspectratio>
@@ -3422,7 +3422,7 @@
                 <left>5</left>
                 <textcolor>Dark2</textcolor>
                 <label>$INFO[ListItem.UserRating].0</label>
-            </control>            
+            </control>
             <control type="image">
                 <width>48</width>
                 <height>64</height>
@@ -3565,7 +3565,7 @@
                 <centertop>57%</centertop>
                 <itemgap>-17</itemgap>
                 <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(ListItem.BitRate)</visible>
-                <control type="label">                
+                <control type="label">
                     <height>28</height>
                     <align>center</align>
                     <aligny>bottom</aligny>
@@ -3574,7 +3574,7 @@
                     <textcolor>Dark1</textcolor>
                 </control>
                 <control type="image">
-                    <height>44</height> 
+                    <height>44</height>
                     <aspectratio>keep</aspectratio>
                     <texture colordiffuse="Dark1">flags/other/bit.png</texture>
                     <aspectratio>keep</aspectratio>
@@ -3596,8 +3596,8 @@
                     <textcolor>Dark1</textcolor>
                 </control>
                 <control type="image">
-                    <height>44</height> 
-                    <aspectratio>keep</aspectratio>                   
+                    <height>44</height>
+                    <aspectratio>keep</aspectratio>
                     <texture colordiffuse="Dark1">flags/other/khz.png</texture>
                     <aspectratio>keep</aspectratio>
                 </control>
@@ -3609,7 +3609,7 @@
                 <centertop>57%</centertop>
                 <itemgap>-17</itemgap>
                 <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(ListItem.BPM)</visible>
-                <control type="label">                
+                <control type="label">
                     <height>28</height>
                     <align>center</align>
                     <aligny>bottom</aligny>
@@ -3618,7 +3618,7 @@
                     <textcolor>Dark1</textcolor>
                 </control>
                 <control type="image">
-                    <height>44</height> 
+                    <height>44</height>
                     <aspectratio>keep</aspectratio>
                     <texture>flags/other/bpm.png</texture>
                     <aspectratio>keep</aspectratio>
@@ -3796,7 +3796,7 @@
                 <centertop>57%</centertop>
                 <itemgap>-17</itemgap>
                 <visible>Skin.HasSetting(furniture.flagicons) + !String.IsEmpty(ListItem.BPM)</visible>
-                <control type="label">                
+                <control type="label">
                     <height>28</height>
                     <align>center</align>
                     <aligny>bottom</aligny>
@@ -3805,7 +3805,7 @@
                     <textcolor>Dark1</textcolor>
                 </control>
                 <control type="image">
-                    <height>44</height> 
+                    <height>44</height>
                     <aspectratio>keep</aspectratio>
                     <texture>flags/other/bpm.png</texture>
                     <aspectratio>keep</aspectratio>
